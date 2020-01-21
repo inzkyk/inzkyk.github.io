@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/</link>
+    <description>Recent content on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>§1 有理数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_1/</guid>
+      <description>正または負の整数 \(p\) と \(q\) について、その比 \(r = p/q\) を有理数 (rational number) と呼ぶ。このとき \(p\) と \(q\) に公約数が存在するなら両方を公約数で割ることで、\(p\) と \(q\) が公約数を持たないと仮定できる。さらに次の式が成り立つので、\(q\) が正だとも仮定できる: \[ \begin{aligned} p/(-q) &amp;= (-p)/q, \\ (-p)/(-q) &amp;= p/q \end{aligned} \] こうして定義される有理数に、\(p = 0\) とした「有理数 \(0\)」を追加する。以降はこの有理数について考える。 読者は有理数に関する基本的な算術規則を</description>
+    </item>
+    
+    <item>
+      <title>§2 数直線上の点を使った有理数の表現</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_2/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_2/</guid>
+      <description>数学的な解析の様々な場面において、幾何学的な図を使うと議論が分かりやすくなる。 ただし幾何学的な図を使ったとしても、解析にその図が必要なわけでは決してない。図は図に過ぎず、説明を分かりやすくするためだけに使われる。そのため、初等幾何学の概念を使った論理的な議論は必ずしも必要とならない。図が真実からどれほど離れていたとしても、図の意味することをお互いに理解できれば、それで問題ない。 直線 (straight line)、直</description>
+    </item>
+    
+    <item>
+      <title>§3 無理数 (その 1)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_3/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_3/</guid>
+      <description>分母が \(1,2,3, \ldots\) である有理数に対応する数直線上の点全てに印を付けるところを想像すれば、有理点を使って数直線上に好きなだけ細かく印を付けられることを納得できるだろう。これを正確に表現すれば「\(\Lambda\) 上に任意の線分 \(BC\) を取ると、\(BC\) 上に好きなだけ多くの有理点を見つけられる」となる。 例えば \(BC\) が線分 \(A_{1}A_{2}\) の中に含まれるとする。正の整数 \(k\) を \[ k · BC \gt 1 \qquad \text{(1)} \] が成り立つように選び1、それから \(A_{1}A_{2}\) を \(k\) 分</description>
+    </item>
+    
+    <item>
+      <title>§4 無理数 (その 2)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_4/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_4/</guid>
+      <description>有理数の幾何学的な表現を使ったここまでの議論から、新しい種類の数を追加して「数」の概念を拡張するのが望ましいことが分かった。 幾何学の言葉を使わずとも同じ結論はおそらく得られる。代数における中心的な問題の一つは方程式の求解であり、例えば \[ x^{2} = 1,\quad x^{2} = 2 \] などの方程式を扱う。最初の方程式は二つの有理根 \(1\) と \(-1\) を持つが、私たちの数の概念が有理数に制限されるとすれば、二つ目の方程式には根が存在しないとしか言え</description>
+    </item>
+    
+    <item>
+      <title>§5 無理数 (その 3)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_5/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_5/</guid>
+      <description>前節では正の有理数を二つのクラス \(L\) と \(R\) に分割した。このとき (i) \(R\) の全ての要素は \(L\) のどんな要素よりもより大きく、(ii) \(L\) の要素と \(R\) の要素の組であって差が好きなだけ小さいものを取ることができ、(iii) \(L\) は最大要素を持たず、\(R\) は最小要素を持たない。直線の常識的な性質や初等幾何と初等代数からの要請といったものを考えると、\(L\) の全ての要素よりも大きく \(R\) の全ての要素よりも小さい数 \(x\)、お</description>
+    </item>
+    
+    <item>
+      <title>§6 無理数 (その 4)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_6/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_6/</guid>
+      <description>§ 4 では正の有理数 \(x\) を二つのクラスに分割する具体的な方法を説明し、\(x^{2} \lt 2\) を満たすクラスと \(x^{2} \gt 2\) を満たすクラスを考えた。この分割方法を、考えている数の切断 (section) と呼ぶ。二つのクラスの要素を特徴付ける不等式が \(x^{3} \lt 2\) と \(x^{3} \gt 2\)、あるいは \(x^{4} \lt 7\) と \(x^{4} \gt 7\) である場合にも切断を同じように構成できる。こういった正の有理数の「切断」の構築に関するごく自然な法則を示そう。 \(P\) と \(Q\) をとある性質とし、ある正の有理</description>
+    </item>
+    
+    <item>
+      <title>§7 無理数 (その 5)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_7/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_7/</guid>
+      <description>前節の最後で示した最初の二つのケースでは、切断が正の有理数 \(a\) に対応する。最初のケースでは \(a = l\) で、もう一つでは \(a = r\) となる。逆に正の有理数 \(a\) がある切断に対応するのも明らかなので、その切断を \(\alpha\) と表記する1。例えば \(P\) と \(Q\) がそれぞれ \[ x \leq a,\quad x \gt a \] という不等式、あるいは \(x \lt a\) と \(x \geq a\) という不等式で表されるケースがこれにあたる。最初のケースでは \(a\) が \(L\) の最大要素となり、二つ目のケースでは \(a\) が \(R\) の最小要素とな</description>
+    </item>
+    
+    <item>
+      <title>§8 実数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_8/</guid>
+      <description>前節では正の有理数の切断に話を限定し、この切断を仮に「正の実数」と呼んだ。最終的な定義を述べるには、これまでの定義を少し変える必要がある。ここからは切断、すなわち二つのクラスへの分割を、正の有理数だけではなく \(0\) を含めた全ての有理数に対して考えることにする。このとき § 6-§ 7 で正の有理数の切断について行った議論は、「正の」という言葉を適切に省略すればもう一度行える。そして次のように実数を定義する: 有</description>
+    </item>
+    
+    <item>
+      <title>§9 実数の大きさの関係</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_9/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_9/</guid>
+      <description>数の概念を拡張して次に当然行うべきは、対応する等号、不等号、加算、乗算といった概念の拡張である。こういった概念を新しい数に適用する方法、そして拡張された概念が通常の代数法則を満たすことを示す必要がある。この証明がなくては、一般的な実数を § 1 の有理数と同じように扱えない。しかし全てを詳細に示すには多くの紙面が必要になるので、ここでは詳細な議論の進め方を大まかに示すに留める。 実数は \(\alpha,\ \beta,\ \gamma,\ \ldots\) といったギリ</description>
+    </item>
+    
+    <item>
+      <title>§10 実数に対する代数演算 (その 1)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_10/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_10/</guid>
+      <description>続いて、加算などの初等的な代数演算を実数に対して一般的に定義する。 加算: 二つの数 \(\alpha\) と \(\beta\) の和の定義では、次の二つのクラスを考える: (i) 全ての和 \(c = a + b\) から得られる \((c)\) (ii) 全ての和 \(C = A + B\) から得られるクラス \((C)\)。明らかに \(c \lt C\) が常に成り立つ。 ここでも、\(c\) にも \(C\) にも属さない有理数は最大でも一つである。もしそのような二つの有理数 \(r,\ s\) が存在して \(s\) の方が大きかったとすると、\(r\) と \(s\) の両方</description>
+    </item>
+    
+    <item>
+      <title>§11 実数に対する代数演算 (その 2)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_11/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_11/</guid>
+      <description>乗算: 乗算ではまず最初に (\(0\) を含んだ) 正の数だけを考え、§ 4―§ 7 で扱った正の有理数からなる切断に戻ると簡単になる。\((c)\) を \((ab)\)、\((C)\) を \((AB)\) とすれば加算と本質的に同じ道をたどれる。議論が唯一異なるのが、最大でも一つの例外を除いた全ての有理数が \(c\) または \(C\) に属することを示す部分である。\(a,\ A,\ b,\ B\) を \(C - c\) が好きなだけ小さくなるように選べることを示すこの部分では、次の等式を</description>
+    </item>
+    
+    <item>
+      <title>§12 実数 \(\sqrt{2}\)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_12/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_12/</guid>
+      <description>前に § 4―§ 5 で個別に考えた無理数に戻ろう。そこでは不等式 \(x^{2} \lt 2\) と \(x^{2} \gt 2\) を使って切断を構築した。この切断はもともと正の有理数だけからなっていたが、後に (§ 8 で) 全ての有理数からなる切断に置き換えた。こうして定義される切断あるいは実数は \(\sqrt{2}\) と表される。 \(\sqrt{2}\) とそれ自身の積として構築されるクラスは、(i) 二乗が \(2\) より小さい正の有理数 \(a,\ a&#39;\) に対する \((aa&#39;)\)、および (ii) 二乗が \(2\) より大きい正の有理数 \(A,\ A&#39;\) に対</description>
+    </item>
+    
+    <item>
+      <title>§13 二次の不尽根数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_13/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_13/</guid>
+      <description>有理数の二乗でない正の有理数 \(a\) に対して、\(±\sqrt{a}\) の形をした実数を純粋な二次の不尽根数 (pure quadratic surd) と呼ぶ。有理数 \(a\) と純粋な二次の不尽根数 \(\sqrt{b}\) に対して、\(a ± \sqrt{b}\) の形をした数を混ざった二次の不尽根数 (mixed quadratic surd) と呼ぶことがある。 二つの実数 \(a ± \sqrt{b}\) は次の二次方程式の根である: \[ x^{2} - 2ax + a^{2} - b = 0 \] 逆に \(p, q\) が有理数で \(p^{2} - q \gt 0\) なら、二次方程式 \(x^{2} + 2px + q = 0\) は二つの二次の不尽根数 \(-p ± \sqrt{p^{2} - q}\) を根に持つ。 § 3</description>
+    </item>
+    
+    <item>
+      <title>§14 二次の不尽根数に関する諸定理</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_14/</guid>
+      <description>二つの純粋な二次の不尽根数が同じ不尽根数の有理数倍として表せるなら、二つは相似 (similar) であると言う。そうでないなら非相似 (dissimiar) と言う。例えば \[ \sqrt{8} = 2\sqrt{2},\quad \sqrt{\frac{25}{2}} = \frac{5}{2}\sqrt{2} \] だから、二つの純粋な不尽根数 \(\sqrt{8}\) と \(\sqrt{\frac{25}{2}}\) は相似だと分かる。一方 \(M\) と \(N\) が共通約数を持たない整数であって両方とも完全平方数でないなら、\(\sqrt{M}\) と \(\sqrt{N}\) は非相似である。なぜなら、もし相似だとしたら \[ \sqrt{M} = \frac{p}{q}\sqrt{\frac{t}{u}},\quad \sqrt{N} = \frac{r}{s}\sqrt{\frac{t}{u}} \] となる。ここで \(p,q,r,s,t,u\) は全て整数である。 このとき</description>
+    </item>
+    
+    <item>
+      <title>§15 連続体</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_15/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_15/</guid>
+      <description>全ての実数 (有理数と無理数) の集まりを、算術的連続体 (arithmetical continuum) と呼ぶ。 § 2 の直線 \(\Lambda\) が算術的連続体に含まれる数に対応する点のみからなる1と考えると理解しやすい。線形連続体 (linear continuum) と呼ばれるこの直線上の点の集合は、算術的連続体の分かりやすいイメージとなる。 ここまではいくらかの時間をかけて、いくつかの実数のクラス、例えば有理数や二次の不尽根数が持つ重要な特徴を見てきた。ここでさらに例を示して、そういった非常に特別</description>
+    </item>
+    
+    <item>
+      <title>§16 連続な実数変数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_16/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_16/</guid>
+      <description>「実数」を捉える二つの視点がある。一つは実数を前節で定義した「算術的連続体」という集まりだと考えるもので、もう一つは実数を個別に考えるものである。実数を個別に考えるときは特定の指定された数 (例えば \(1,\ -\frac{1}{2},\ \sqrt{2},\ \pi\)) を念頭に置く場合もあれば、任意の数、不詳の数、とある数 \(x\) を念頭に置く場合もある。後者の考え方をするのは、私たちが「\(x\) は数だ」「\(x\) は長さの単位だ」「\(x\) は有理数でも無理数でもあ</description>
+    </item>
+    
+    <item>
+      <title>§17 実数の切断 (デデキントの定理)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_17/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_17/</guid>
+      <description>§ 4―§ 7 で有理数の「切断」、すなわち (正の) 有理数を二つのクラス \(L\) と \(R\) に分割する方法について考えた。\(L\) と \(R\) には次の性質がある: 考えている数全てが、二つのクラスのどちらか一方に属する。 両方のクラスが要素を持つ。 \(L\) に属する任意の数は \(R\) に属する任意の数より小さい。 もちろん、全ての実数の集まりにもこの考えを適用できる。この考え方が非常に重要なことが後の章で分かる。 \(P\) と \(Q\) を互いに矛盾する実数に関す</description>
+    </item>
+    
+    <item>
+      <title>§18 集積点</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_18/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_18/</guid>
+      <description>実数あるいは実数に対応する直線上の点を集めたもの (定義は問わない) を、数や点の集まり (aggregate) あるいは 集合 (set) と呼ぶ。例えば正の整数の集合や全ての有理点の集合が考えられる。 ここでは幾何学の言葉を使うのが都合が良い1。点集合 \(S\) が与えられたとして、任意の点 \(\xi\) 取る。\(\xi\) は \(S\) に属するかもしれないし属さないかもしれない。このとき二つの可能性がある。つまり (i) \([\xi - \delta, \xi + \delta]\) に \(S\) に属する点が \(\xi\) 以外にない2ように正数</description>
+    </item>
+    
+    <item>
+      <title>§19 ワイエルシュトラスの定理</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_19/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_19/</guid>
+      <description>点集合の一般理論は解析学のより高度な分野で非常に興味深く重要になるが、その多くは本書のような本に含めるには難しすぎる。しかしデデキントの定理から導かれる基礎的な定理が一つあり、これは後で必要になる: 集合 \(S\) が無限に多くの点からなり、\(S\) の全ての点が区間 \([\alpha, \beta]\) に含まれるなら、その区間の少なくとも一つの点は \(S\) の集積点である。 証明を示す。直線 \(\Lambda\) を次のようにして二つのクラス \(L\) と \(R\) に分ける: 点 \(P\) が \(L\) に属す</description>
+    </item>
+    
+    <item>
+      <title>第一章に関するその他の例</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/misc_examples_1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/misc_examples_1/</guid>
+      <description>\(ax + by + cz = 0\) が (1) 全ての \(x,\ y,\ z\) について、(2) \(\alpha x + \beta y + \gamma z=0\) を満たす全ての \(x,\ y,\ z\) について、(3) \(\alpha x + \beta y + \gamma z=0\) と \(Ax + By + Cz = 0\) の両方を満たす任意の \(x,\ y,\ z\) について、満たされるための条件は何か？ 任意の正の有理数は次の形をした表現をただ一つ持つ: \[ a_{1} + \frac{a_{2}}{1·2} + \dots + \frac{a_{k}}{1·2·3\dots k} \] ここで \(a_{1},\ a_{2},\ \dots,\ a_{k}\) は整数であり、次が成り立つ: \[ \begin{aligned} 0 &amp;\leq a_{1},\\ 0 &amp;\leq a_{2} \lt</description>
+    </item>
+    
+    <item>
+      <title>§20 関数という考え方</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_20/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_20/</guid>
+      <description>連続実変数 \(x\) と \(y\)が \(A_{0}P = x\) および \(B_{0}Q = y\) として幾何学的に表されるとする。\(A_{0},\ B_{0}\) は固定されており、それぞれ直線 \(\Lambda,\ \Mu\) 上にある。ここで \(P\) と \(Q\) が好き勝手に動けるわけではなく、二つの点の間に何らかの関係性があって、それが \(x\) と \(y\) の間の関係として表せるとする。つまり \(P\) と \(x\) が分かっていれば \(Q\) と \(y\) も分かる関係、例えば \(y = x\) や \(y = 2x\)、あるいは \(y = \frac{1}{2}x\) や \(y = x^{2} + 1\) があるとする。このとき \(x\) の値が \(y\) の</description>
+    </item>
+    
+    <item>
+      <title>§21 関数の図示</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_21/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_21/</guid>
+      <description>変数 \(y\) が変数 \(x\) の関数だとする。この関数が表す \(x\) と \(y\) の関係を \(y\) の関数 \(x\) とみなすこともできるが、ここでは最初の視点に立って \(y\) を \(x\) の関数とみなして話を進める。このとき \(x\) を独立変数 (independent variable) と呼び、\(y\) を従属変数 (dependent variable) と呼ぶ。関数が表す関係が持つ形式が明らかでないときには、この事実を次のように表す: \[ y = f(x) \] \(f(x)\) ではなく \(F(x),\ \phi(x),\ \psi(x), \dots\) を使うこともある。 多くの場合で、関数の性質は次のように図示すると非常に分かりやすく</description>
+    </item>
+    
+    <item>
+      <title>§22 極座標</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_22/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_22/</guid>
+      <description>前節では \(P\) の位置をその座標の大きさ \(OM = x\) と \(MP = y\) で特定した。\(OP = r\) および \(\angle MOP = \theta\) として、\(\theta\) が (正の方向に測って) \(0\) から \(2\pi\) だとする。このとき \[ \begin{aligned} x &amp;= r\cos\theta, \\ y &amp;= r\sin\theta, \\ r &amp;= \sqrt{x^{2} + y^{2}}, \\ \cos\theta : \sin\theta : 1 &amp;= x : y : r \end{aligned} \] が成り立ち、\(r\) と \(\theta\) からも \(P\) の位置を決定できると分かる。加えて\(r\) は必ず \(0\) 以上となる1。 図 7 \(P\) がとある軌跡上を動くなら、\(r\) と \(\theta\) の間には関係が生まれる。これを \(r =</description>
+    </item>
+    
+    <item>
+      <title>§23 関数とその図示の例</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_23/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_23/</guid>
+      <description>これからの例を見れば、無限に存在する様々な種類の関数をよりよく理解できるだろう。 多項式: 次の形をした関数を \(x\) の多項式 (polynomial) と呼ぶ: \[ a_{0}x^{m} + a_{1}x^{m-1} + \dots + a_{m} \] ここで \(a_{0},\ a_{1},\ \dots,\ a_{m}\) は定数とする。もっとも単純な多項式は \(x\) のべき乗 \(y = x,\ x^{2},\ x^{3},\ \dots,\ x^{m}, \dots\) であり、\(x^{m}\) のグラフは \(m\) の偶奇によって二つに分かれる。 まず \(m = 2\) の場合を考える。このとき三つの点 \((0, 0),\ \) \((1, 1),\ \) \((-1, 1)\) はグラフ上にある。グラフ上のその他の点は \(x\) に特定の値を</description>
+    </item>
+    
+    <item>
+      <title>§24 有理関数 (その 1)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_24/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_24/</guid>
+      <description>単純で重要な関数のクラスとして多項式に続くのは有理関数 (rational function) である。有理関数は二つの多項式の商であり、一般的には多項式 \(P(x),\ Q(x)\) を使って次のように表せる: \[ R(x) = \frac{P(x)}{Q(x)} \] \(Q(x)\) が \(1\) あるいは定数 (\(x\) が関係しない式) となる特別なケースでは、\(R(x)\) が多項式となる。つまり有理関数は部分クラスとして多項式を含む。定義に関して注意すべき点をあげる: \(P(x)\) と \(Q(x)\) に共通因数 \(x + a\) あるいは \(x^{p} + ax^{p-1} + bx^{p-2} + \dots + k\) がないことを通常は仮定す</description>
+    </item>
+    
+    <item>
+      <title>§25 有理関数 (その 2)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_25/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_25/</guid>
+      <description>有理関数のグラフを描くときには、多項式の場合よりもさらに増して微積分の方法が便利となる。そのためここでは例を少しだけ示す。 例 12 \(y = \dfrac{1}{x},\ \) \(y = \dfrac{1}{x^{2}},\ \) \(y = \dfrac{1}{x^{3}},\ \) \(\dots\) のグラフを描け。 [最初の二つの関数のグラフを次の図に示す。\(1/0,\ \) \(1/0^{2},\ \) \(\dots\) といった表現は意味をなさないので、これらの関数は \(x = 0\) で定義されないことに注意してほしい] 図 11 図 12 \(y = x + (1/x),\ \) \(x - (1/x),\ \) \(x^{2} + (1/x^{2}),\ \) \(x^{2} - (1/x^{2}),\ \) \(ax + (b/x)\) が通る点を調べよ。正の値、負</description>
+    </item>
+    
+    <item>
+      <title>§26 陽な代数関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_26/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_26/</guid>
+      <description>次に考える重要な関数のクラスは陽な代数関数 (explicit algebraical function) のクラスである。このクラスは、有理関数を作るのに使った操作に加えて根号を取る操作を \(x\) に対して有限回行って得られる関数から構成される。例えば \[ %[** TN: On two lines in the original] \frac{\sqrt{1 + x} - \sqrt[3]{1 - x}} {\sqrt{1 + x} + \sqrt[3]{1 - x}},\quad \sqrt{x} + \sqrt{x +\sqrt{x}},\quad \left(\frac{x^{2} + x + \sqrt{3}}{x\sqrt[3]{2} - \pi}\right)^{\frac{2}{3}} \] および整数 \(m,\ n\) に対する \(x^{m/n}\) (\(= \sqrt[n]{x^{m}}\)) はどれも陽な代数関数である。 \(y = \sqrt{x}\) といった関数の意味に曖昧さがあることを注意しておく。ここまでは \(\sqrt{2}\) で \(2\) の正の平方根を</description>
+    </item>
+    
+    <item>
+      <title>§27 陰な代数関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_27/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_27/</guid>
+      <description>もし \[ y = \frac{\sqrt{1 + x} - \sqrt[3]{1 - x}} {\sqrt{1 + x} + \sqrt[3]{1 - x}} \] なら、次の式が容易に分かる: \[ y = \sqrt{x} + \sqrt{x + \sqrt{x}} \] あるいはもし \[ y = \sqrt{x} + \sqrt{x + \sqrt{x}} \] なら、次が成り立つ: \[ y^{4} - (4y^{2} + 4y + 1)x = 0 \] この二つの方程式は、どれも次の形をしている; \[ y^{m} + R_{1}y^{m-1} + \dots + R_{m} = 0 \qquad \text{(1)} \] ここで \(R_{1},\ R_{2},\ \dots,\ R_{m}\) は \(x\) の有理関数である。\(y\) をこれまでの例で考えた関数とすれば、\(y\) がこの形の方程式を満たすことは簡単に分かる。さらに任意の陽な代数関数についても同</description>
+    </item>
+    
+    <item>
+      <title>§28 超越関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_28/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_28/</guid>
+      <description>有理関数でなく代数関数でさえない関数は全て超越関数 (transcendental function) と呼ばれる。否定的に定義されるこの関数のクラスには無限の種類の様々な関数が当然含まれ、その中には単純な関数もあれば重要な関数もある。そういった中で今の私たちが理解できる特に興味深い関数が二種類ある。 三角関数とその逆関数: これは初等三角法で使われるサイン関数とコサイン関数およびそれらの逆関数のことである。読者はこういった関数の基本的な性質を知って</description>
+    </item>
+    
+    <item>
+      <title>§29 その他の超越関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_29/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_29/</guid>
+      <description>三角関数に次いで重要なのが、指数関数と対数関数である。これらの関数は第九章と第十章で取り上げるが、今の私たちには手に余る。また性質が調べられているその他の超越関数、例えば楕円関数・ベッセル関数・ラグランジュ関数・ガンマ関数はどれもこの本の範囲を超える。しかし初等的な関数の中には、理論的な重要性が有理関数・代数関数・三角関数よりも劣るものの、グラフを描くことで関数的な関係の可能性をよりよく理解できる</description>
+    </item>
+    
+    <item>
+      <title>§30 一変数方程式の図を使った解法</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_30/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_30/</guid>
+      <description>多くの方程式は次の形で表せる: \[ f(x) = \phi(x) \qquad \text{(1)} \] ここで \(f(x)\) と \(\phi(x)\) はグラフを簡単に描ける関数する。そして \[ y = f(x),\quad y = \phi(x) \] という二つの曲線が点 \(P\) で交わりその横座標が \(\xi\) なら、\(\xi\) は方程式 \((1)\) の根となる。 例 17 二次方程式 \(\bm{ax^{2} + 2bx + c = 0}\): この方程式を視覚的に解く方法はいくつかある。例えばグラフ \[ y = ax + 2b,\quad y = -\frac{c}{x} \] に交点があれば、そこから根が分かる。あるいは次の曲線でも構わない: \[ y = x^{2},\quad y = -\frac{2bx + c}{a} \] しかし最も初等</description>
+    </item>
+    
+    <item>
+      <title>§31 二変数関数とその図示</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_31/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_31/</guid>
+      <description>§ 20 ではある関係で結ばれる二つの変数を考えた。同様に、ある関係で結ばれた三つの変数 (\(x, y, z\)) を考えることもできる。つまり \(x\) と \(y\) が両方分かれば \(z\) も分かるという関係である。このとき \(z\) を \(x\) と \(y\) の二変数関数と呼ぶ。\(x\) と \(y\) は独立変数 (independent variable) と呼ばれ、\(z\) は 従属変数 (dependent variable) と呼ばれる。そして \(z\) の値が \(x\) と \(y\) の値から決定することを次の式で表す: \[ z = f(x, y) \] § 20 の内容は必要な変更を加えればこの複雑なケースにも適用</description>
+    </item>
+    
+    <item>
+      <title>§32 平面内の曲線</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_32/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_32/</guid>
+      <description>ここまでは \[ y = f(x) \qquad \text{(1)} \] という表記で \(y\) の値が \(x\) から定まることを表現した。この表現が一番自然なのは、\(y\) が \(x\) の数式として明示的に書ける次のような場合である: \[ y = x^{2},\quad \sin x,\quad a\cos^{2}x + b\sin^{2}x \] しかしこの形で表せない関係、あるいは表せたとしても複雑すぎて手に負えない関係を表す関数を扱わなければならない状況が本当によくある。例えば \(y^{5} - y - x = 0\) や \(x^{5} + y^{5} - ay = 0\) では、\(y\) を \(x\) の陽な代数関数として表現できない。</description>
+    </item>
+    
+    <item>
+      <title>§33 空間内の軌跡</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_33/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_33/</guid>
+      <description>三つの次元を持つ空間では、本質的に異なる二つの軌跡が存在する。最も単純な例はそれぞれ直線と平面である。 直線上を移動する点は一次の自由度しか持たない。点の移動方向は固定され、その位置は固定点からの距離として一度の計測で完全に決定される。例えば直線として第一章で考えた基準直線 \(\Lambda\) を取れば、直線上の任意の点の位置は一つの座標 \(x\) で決定される。一方で平面上を動く点には二次の自由度があり、その位置の決定には二つ</description>
+    </item>
+    
+    <item>
+      <title>第二章に関するその他の例</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/misc_examples/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/misc_examples/</guid>
+      <description>\(y = f(x) = \dfrac{ax + b}{cx - a}\) なら \(x = f(y)\) だと示せ。 全ての \(x\) に対して \(f(x) = f(-x)\) なら、\(f(x)\) を偶関数 (even function) と呼ぶ。全ての \(x\) について \(f(x) = -f(x)\) なら、\(f(x)\) を奇関数 (odd function) と呼ぶ。全ての \(x\) に対して定義された任意の関数は \(x\) の奇関数と偶関数の和であることを示せ。 [等式 \(f(x) = \frac{1}{2}\{f(x) + f(-x)\} + \frac{1}{2}\{f(x) - f(-x)\}\) を使う] 次の関数のグラフを描け: \[ 3\sin x + 4\cos x,\quad \sin\left(\frac{\pi}{\sqrt{2}} \sin x\right) \] (Math. Trip. 1896.) 次の関数のグラフを描け: \[ \sin x(a\cos^{2} x + b\sin^{2} x), \] \[ \frac{\sin x}{x}(a\cos^{2} x + b\sin^{2} x), \] \[ \left(\frac{\sin x}{x}\right)^{2} \] 関数 \(x\left[\dfrac{1}{x}\right],\ \ \dfrac{[x]}{x}\)</description>
+    </item>
+    
+    <item>
+      <title>この本について</title>
+      <link>https://inzkyk.xyz/aosa/about/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/about/</guid>
+      <description>大工仕事には高い技術が必要であり、その技術の向上に生涯をかけることもできます。しかし大工仕事は建築 (architecture) ではありません。ピッチボードとマイタージョイントから目を離せば、誰かが建物全体を設計しなければなりません。その設計には手先の器用さや知識が必要なだけではなく、職人技が必要になります。 プログラミングにも高い技術が必要であり、その技術の向上に生涯をかけることもできます。しかし、プログラミングはソフトウェ</description>
+    </item>
+    
+    <item>
+      <title>Go コードの書き方 (翻訳)</title>
+      <link>https://inzkyk.xyz/go_doc/how_to_write_go_code/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/go_doc/how_to_write_go_code/</guid>
+      <description>イントロダクション このドキュメントではシンプルな Go パッケージの開発を通して go ツールを紹介します。go ツールは Go パッケージやコマンドをフェッチ・ビルド・インストールするための標準的な方法です。 go ツールを使うには、コードを決められた方法で整理する必要があります。そのためこのドキュメントは注意深く読むようにしてください。Go インストールを使いこなすための一番単純な方法を説明しています。 このドキュメントと</description>
+    </item>
+    
+    <item>
+      <title>LLVM の WebAssembly バックエンドと Emscripten (翻訳)</title>
+      <link>https://inzkyk.xyz/v8/llvm_wasm_backend_emscripten/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/v8/llvm_wasm_backend_emscripten/</guid>
+      <description>WebAssembly は通常ソース言語からコンパイルされて作られるので、開発者が WebAssembly を利用するときにはコンパイルのためのツールが必要になります。このため V8 チームは関連するオープンソースプロジェクト (LLVM, Emscripten, Binaryen, WABT) に取り組んできました。この記事では Emscripten と LLVM に関して私たちが行ってきたことを説明します。これによって、Emscripten がデフォルトで使うバックエンドは LLVM の WebAssembly バックエンドに変更されます ――ぜひ試して、問題があれば教えてく</description>
+    </item>
+    
+    <item>
+      <title>WASI の標準化: WebAssembly をウェブの外で使うためのシステムインターフェース (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/wasi/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/wasi/</guid>
+      <description>今日、私たちが新たな標準化の取り組みを開始したことをお伝えします。その名も WebAssembly system interface、略して WASI です。 Why: 開発者たちはブラウザという枠を超えた WebAssembly の利用を探り始めています。WebAssembly を使えば同じコードを全てのマシンで高速、スケーラブル、安全に実行できるからです。 しかし私たちにはこれを実現するための強固な地盤がありません。ブラウザの外で動くコードにはシステムと対話する仕組み、つまり</description>
+    </item>
+    
+    <item>
+      <title>Asterisk</title>
+      <link>https://inzkyk.xyz/aosa/asterisk/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/asterisk/</guid>
+      <description>Asterisk1 はオープンソースの電話通信アプリケーションであり、GPLv2 で配布されています。短くまとめてしまえば、Asterisk とは通話の発信、受信、およびその他のカスタムされた処理を行うためのアプリケーションです。 Asterisk プロジェクトは Mark Spencer によって 1999 年に開始されました。Mark は当時 Linux Support Services という会社を経営しており、ビジネスを管理するための電話システムが必要だったのです。他の会社からシステムを買うだけの大金を持</description>
+    </item>
+    
+    <item>
+      <title>ウェブの外: Emscripten を使ったスタンドアローンの WebAssembly (翻訳)</title>
+      <link>https://inzkyk.xyz/v8/emscripten_standalone_wasm/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/v8/emscripten_standalone_wasm/</guid>
+      <description>Emscripten はウェブや Node といった JavaScript 環境へのコンパイルを何よりも一番に考えてきました。しかし WebAssembly は JavaScript を使わずに利用されはじめ、新たなユースケースが登場しています。そこで私たちは、Emscripten の JS ランタイムに依存しないスタンドアローンの Wasm ファイルを Emscripten から生成するための作業を行ってきました！ 本記事ではこれが面白い理由を説明します。 Emscripten をスタンドアローンモードで使う まず、この新しい機能で何ができるかを見ましょう</description>
+    </item>
+    
+    <item>
+      <title>Firefox のアドオンが利用不可能になった先日の事件の技術的詳細 (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/firefox_addon_outrage/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/firefox_addon_outrage/</guid>
+      <description>Firefox のほとんどのアドオンが動かなくなるという事件が先日起こりました。原因はアドオンの署名に使っていた証明書の有効期限切れであり、私たちのミスです。現在ではほとんどの人のアドオンが復活し問題が解決されたので、この記事では何が起こったのか、なぜ起こったのか、私たちがどのように修正したかについて詳細に説明します。 背景: アドオンと署名 Firefox をそのまま使っている人も大勢いますが、Firefox には &#34;アドオン&#34; と呼</description>
+    </item>
+    
+    <item>
+      <title>Audacity</title>
+      <link>https://inzkyk.xyz/aosa/audacity/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/audacity/</guid>
+      <description>Audacity は多くのユーザーを持つサウンドレコーダ・エディタであり、機能は豊富でありながらも操作は簡単です。ユーザーの多くは Windows ですが、ソースコードは Linux と Mac でもコンパイル・実行できます。 Audacity のオリジナルのバージョンは当時カーネギーメロン大学の研究生だった Dominic Mazzoni によって 1999 年に書かれました。もともとは音声処理アルゴリズムを開発・デバッグするためのプラットフォームとして開発されましたが、現在の Audacity はそれ以外の様々な用途に</description>
+    </item>
+    
+    <item>
+      <title>WebAssembly Interface Types で全てが連携する！ (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/webassembly_interface_types/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/webassembly_interface_types/</guid>
+      <description>ブラウザ外での WebAssembly の利用が盛り上がっています。 盛り上がりはスタンドアローンのランタイムを使った WebAssembly の実行だけではありません。Python, Ruby, Rust といった言語からの WebAssembly の実行にも注目が集まっています。 なぜそんなことが望まれるのでしょうか？ 理由はいくつかあります: 「ネイティブ」をもっと簡単に Node あるいは Python の CPython のようなランタイムでは、C++ などの低レベル言語でもモジュールを書ける場合があります。低レベル言語を使っ</description>
+    </item>
+    
+    <item>
+      <title>The Bourne-Again Shell (bash)</title>
+      <link>https://inzkyk.xyz/aosa/bash/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/bash/</guid>
+      <description>導入 Unix シェルは、ユーザーとオペレーティングシステムとの間でコマンドによる対話を行うためのインターフェースを提供します。シェル自体も豊富な機能を持ったプログラミング言語であり、実行制御、変数の書き換え、ループ、条件文、基本的な数学演算、名前付き関数、文字列変数、シェルと起動したコマンドの間の双方向通信といった処理のための構文が用意されています。 シェルはターミナルや xterm のようなターミナルエミュレータを通</description>
+    </item>
+    
+    <item>
+      <title>Bytecode Alliance のアナウンス: デフォルトでセキュア、合成可能な WebAssembly の未来を作る (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/bytecode_alliance/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/bytecode_alliance/</guid>
+      <description>本日、Bytecode Alliance が発足されたことをお伝えします。Bytecode Alliance は WebAssembly のブラウザ外における利用を推し進めるための産業パートナーシップであり、規格の実装や新しい規格の提案を行います。設立メンバーは Mozilla, Fastly, Intel, Red Hat で、さらなるメンバーを迎え入れるのを楽しみにしています。 私たちが思い描く WebAssembly エコシステムのビジョンは、デフォルトでセキュア (secure by default) なエコシステムが現在のソフトウェア基盤が持つ欠点を修正するとい</description>
+    </item>
+    
+    <item>
+      <title>主要サイトの文字の大きさの調査</title>
+      <link>https://inzkyk.xyz/post/char_size/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/post/char_size/</guid>
+      <description>気になったので調べた。 計測環境 計測日時は項目ごとに異なる。 Windows 10、Chrome 最新版で計測。 Windows のディスプレイ拡大機能は使用しない (100% に設定)。 Chrome のフォント設定は「中」で、拡大機能は使用しない。 フル HD のデスクトップでブラウザを最大化した状態で計測。 計測したもの 本文の要素の font-size, line-height, width の値を計測し、さらにその指定方法 (絶対/相対) も調べた。 計測する値が javascript で動的に決まる場合もあるが、考えだすときりがないので気に</description>
+    </item>
+    
+    <item>
+      <title>Berkeley DB</title>
+      <link>https://inzkyk.xyz/aosa/berkeley_db/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/berkeley_db/</guid>
+      <description>Conway の法則によると、システムの設計には作った組織の構造が表れるといいます。この考えを敷衍すれば、二人の人間によって設計・作成されたソフトウェアには、組織の構造だけではなくて、二人が持つバイアスと哲学が表れるのかもしれません。 私たちの一人 (Seltzer) はファイルシステムとデータベース管理システムの研究にキャリアを費やしてきました。彼女に言わせればこの二つは本質的に同じものであり、さらに言えばオペレーティングシステ</description>
+    </item>
+    
+    <item>
+      <title>CMake</title>
+      <link>https://inzkyk.xyz/aosa/cmake/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/cmake/</guid>
+      <description>1999 年、アメリカ国立医学図書館が Kitware という小さな会社と契約し、異なるプラットフォームにおいて複雑なソフトウェアを構成、ビルド、デプロイするためシステムの刷新を決定しました。これは Insight Segmentation and Registration Toolkit (ITK1) の一部であり、Kitware はこのプロジェクトにおいてエンジニアリングを指揮してました。Kitware に課されたのは ITK の研究者と開発者が使うためのビルドシステムの作成であり、簡単に使うことができて利用者がプログラミ</description>
+    </item>
+    
+    <item>
+      <title>このサイトについて</title>
+      <link>https://inzkyk.xyz/post/about/</link>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/post/about/</guid>
+      <description>作者: inzkyk プライバシーポリシー このサイトではアクセス解析に Google Analytics を、広告に Google Adsense を利用しています。あなたの行動は Cookie を使ってトラッキングされ、匿名化された情報が収集されます。無効化する方法など、詳しくは Google のプライバシーポリシー および GOOGLE のサービスを使用するサイトやアプリから収集した情報の GOOGLE による使用 を参照してください。 免責事項 このサイトの内容が正しいことを作者は保証しません。 このサイトの情報に基づいて行われ</description>
+    </item>
+    
+    <item>
+      <title>Eclipse</title>
+      <link>https://inzkyk.xyz/aosa/eclipse/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/eclipse/</guid>
+      <description>ソフトウェアを上手くモジュール化して実装することの難しさは誰もが知っています。多様なコミュニティによって書かれた巨大なコードベースの相互運用の管理もまた困難です。Eclipse において、私たちはこの両方を成し遂げました。2010 年 6 月には Helios という名前のリリースが Eclipse Foundation によって公開されましたが、このリリースには 39 のプロジェクトが含まれ、40 以上の会社から 490 人のコミッターが同じアーキテクチャ基盤の上にプ</description>
+    </item>
+    
+    <item>
+      <title>Graphite</title>
+      <link>https://inzkyk.xyz/aosa/graphite/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/graphite/</guid>
+      <description>Graphite1 が行う処理は二つだけで、ごく単純です: 時間とともに変化する値を保存し、それをグラフにします。この処理を行うためのソフトウェアはこれまでにいくつも作成されてきましたが、その中でも Graphite が特別なのは、この処理をネットワークサービスとして使うことができ、しかもそれが簡単かつスケーラブルな点です。Graphite にデータを与えるのに使われるプロトコルは単純であり、数分もあれば自分で処理を書くことができるでし</description>
+    </item>
+    
+    <item>
+      <title>The Hadoop Distributed File System (HDFS)</title>
+      <link>https://inzkyk.xyz/aosa/hdfs/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/hdfs/</guid>
+      <description>Hadoop 分散ファイルシステム (Hadoop Distributed File System, HDFS) は非常に大規模なデータを高い信頼性で保存し、そのデータセットをユーザーアプリケーションに広帯域でストリームできるように設計されています。数千台のサーバーが存在する大きなクラスターであっても、ダイレクトアタッチストレージの管理とユーザーアプリケーションのタスクの実行を同時に行うことが可能です。ストレージと計算を多数のサーバーに分散させることで、リソースを必要に応じて追</description>
+    </item>
+    
+    <item>
+      <title>継続的インテグレーション</title>
+      <link>https://inzkyk.xyz/aosa/ci/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/ci/</guid>
+      <description>継続的インテグレーション (continuous integration, CI) システムとは、ソフトウェアのビルドとテストを定期的に自動で行うシステムのことです。CI システムの一番のメリットはビルドとテストの間にある長い時間を無くせることですが、それだけではなく面倒なタスクを単純化および自動化できるというメリットもあります。例えばクロスプラットフォームのテスト、低速なテスト、大量のデータが必要なテスト、構成が難しいテスト、レガシープラットフォーム</description>
+    </item>
+    
+    <item>
+      <title>Jitsi</title>
+      <link>https://inzkyk.xyz/aosa/jitsi/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/jitsi/</guid>
+      <description>Jitsi はビデオ通話、ボイス通話、デスクトップの共有、ファイルやメッセージの交換を行うためのアプリケーションです。Jitsi にとってこういった機能よりも重要なのは、様々なプロトコルが利用できる点です。利用可能なプロトコルは XMPP (Extensible Messaging and Presence Protocol) や SIP (Session Initiation Protocol) といった標準化されているものから、Yahoo! Messenger や Windows Live Messenger (MSN) といったプロプライエタリなものまであります。Jitsi は Microsoft Windows、Apple Mac OS X、Linux、</description>
+    </item>
+    
+    <item>
+      <title>LLVM</title>
+      <link>https://inzkyk.xyz/aosa/llvm/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/llvm/</guid>
+      <description>この章では LLVM1 を形作った設計上の判断について議論します。LLVM は各要素が密接な結び付きを持つ低レベルツールチェイン (アセンブラ、コンパイラ、デバッガなど) の包括的プロジェクトであり、Unix システムでよく使われている既存のツールと互換性を保つように設計されています。“LLVM”という名前はかつては頭字語でしたが、現在ではプロジェクト全体を指すブランド名となっています。LLVM はユニークな機能を持ち</description>
+    </item>
+    
+    <item>
+      <title>Mercurial</title>
+      <link>https://inzkyk.xyz/aosa/mercurial/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/mercurial/</guid>
+      <description>Mercurial はモダンな分散型バージョン管理システム (VCS) であり、多くの部分が Python で、一部が高速化のために C で書かれています。この章では Mercurial のアルゴリズムとデータ構造を設計するうえで生じた判断を議論します。まずはバージョン管理システムの簡単な歴史を見ていきながら、これからの説明に必要なコンテキストを説明しましょう。 バージョン管理の簡単な歴史 この章では主に Mercurial のソフトウェアアーキテクチャについて説明しますが、登場する概念</description>
+    </item>
+    
+    <item>
+      <title>NoSQL エコシステム</title>
+      <link>https://inzkyk.xyz/aosa/nosql/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/nosql/</guid>
+      <description>この本に出てくる他の多くのプロジェクトとは異なり、NoSQL は一つのツールの名前ではありません。NoSQL はエコシステムであり、互いに補い合いながらも競い合ういくつかのツールからなります。NoSQL と名の付くツールは SQL を使ったリレーショナルデータベースシステムの代替を提供します。NoSQL を理解するには、利用可能なツールを見渡し、それぞれのツールの設計がどのようにデータの保存という機能を捉えている</description>
+    </item>
+    
+    <item>
+      <title>Python のパッケージング</title>
+      <link>https://inzkyk.xyz/aosa/python_packaging/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/python_packaging/</guid>
+      <description>はじめに アプリケーションのインストール方法には二つの流儀があります。一つ目の流儀は Windows と Mac OS X で一般的なもので、アプリケーションは必要なものを全て含むべきであり、インストールするときには何にも依存してはいけないという考え方です。この考え方ではアプリケーションの管理が単純になります: アプリケーションはスタンドアローンの“ツール”であり、インストールおよびアンインストールで OS の他の部分がめちゃくちゃにな</description>
+    </item>
+    
+    <item>
+      <title>Riak と Erlang/OTP</title>
+      <link>https://inzkyk.xyz/aosa/riak/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/riak/</guid>
+      <description>Riak は分散型で障害体制を備えたオープンソースのデータベースであり、Erlang/OTP を使った大規模システム構築の好例です。大規模でスケーラブルな分散システムに対する Erlang のサポートのおかげで、Riak は容量とスループットの両方に対する線形スケーラビリティや高可用性といったデータベースではあまり見られない特徴を持っています。 Erlang/OTP ではノード間通信、メッセージキュー、障害検出機構、クライアント-サーバーの抽象</description>
+    </item>
+    
+    <item>
+      <title>Selenium WebDriver</title>
+      <link>https://inzkyk.xyz/aosa/selenium/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/selenium/</guid>
+      <description>Selenium はブラウザ自動化ツールであり、ウェブアプリケーションの end-to-end テストによく使われます。ブラウザ自動化ツールはその名の通りのことを行います: ブラウザーの制御を自動化し、反復的なタスクを自動的に行います。単純な問題に見えるかもしれませんが、この章でこれから見る通り、裏で様々なことをしなければ上手く動きません。 Selenium のアーキテクチャを説明する前に、プロジェクトの各部分がどのように組み合わさっているかを見た方が分</description>
+    </item>
+    
+    <item>
+      <title>Sendmail</title>
+      <link>https://inzkyk.xyz/aosa/sendmail/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/sendmail/</guid>
+      <description>電子メールと聞いたときに多くの人が思い浮かべるのは、メールを読み書きするときにユーザーとの対話を行うプログラムです。これはメールクライアント、正確には Mail User Agent (MUA) と呼ばれます。しかし電子メールにはもう一つ重要な部分があります。それはメールを送信者から受信者へ実際に転送するソフトウェアであり、Mail Transfer Agent (MTA) と呼ばれます。インターネットを使う最初の MTA にして現在最もよく使われている MTA でもあるのが sendmail です。 sendmail が</description>
+    </item>
+    
+    <item>
+      <title>SnowFlock</title>
+      <link>https://inzkyk.xyz/aosa/snowflock/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/snowflock/</guid>
+      <description>クラウドコンピューティングは魅力的な価格で計算プラットフォームを提供します。ユーザーは物理サーバーの購入と設定にかかる時間・金銭的な初期投資なしに、何回かクリックするだけでクラウド上にある「サーバー」を一時間あたり 10 セントという価格で借りることができます。クラウドのプロバイダがコストを低く保てている鍵は物理的なコンピューターではなく仮想マシン (virtual machine, VM) を使っていることであり、ここでは仮想マシンモニタ (virtual</description>
+    </item>
+    
+    <item>
+      <title>SocialCalc</title>
+      <link>https://inzkyk.xyz/aosa/socialcalc/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/socialcalc/</guid>
+      <description>スプレッドシートは 30 年以上の歴史を持ちます。最初のスプレッドシートプログラム VisiCalc は Dan Bricklin によって 1978 年に構想され、1979 年に完成しました。根本的な考え方はとても単純です: 二次元に無限に広がる表があり、各マス (セル) にテキスト・数・式が入るというものです。式では基本的な算術演算やたくさんのビルトイン関数が利用でき、他のセル要素を値として参照できます。 スプレッドシートの考え方は単純ですが、応用は多岐にわた</description>
+    </item>
+    
+    <item>
+      <title>Telepathy</title>
+      <link>https://inzkyk.xyz/aosa/telepathy/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/telepathy/</guid>
+      <description>Telepathy1 は音声・動画・テキスト・ファイルなどを転送するためのリアルタイム通信フレームワークです。Telepathy がユニークなのは様々なインスタントメッセージプロトコルを抽象化する点ではなく、サービスとしての通信 (communications as a service) というアイデアを採用する点です。これは印刷がサービスであるのとちょうど同じで、様々な応用を可能にします。Telepathy は D-Bus メッセージングとモジュール化された設計を大いに利用してこれを</description>
+    </item>
+    
+    <item>
+      <title>Thousand Parsec</title>
+      <link>https://inzkyk.xyz/aosa/thousandparsec/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/thousandparsec/</guid>
+      <description>百の世界を支配し、千パーセクにも及ぶ広大な銀河帝国。銀河の他の部分とは違い、そこにいるのは柄の悪い輩ではない。文化的で学術的な伝統を持った知的な人々がそこには暮らしている。偉大な科学技術大学が次々に作られる彼らの輝かしい惑星は、現在の平和と繁栄の象徴である。宇宙域の遥か彼方から宇宙船がやってきては、一流の研究者を遠くから連れてくる。彼らは、衆生が試みた中で最も高い目標を持つプロジェクトに自身の技能</description>
+    </item>
+    
+    <item>
+      <title>Violet</title>
+      <link>https://inzkyk.xyz/aosa/violet/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/violet/</guid>
+      <description>2002 年、私はオブジェクト指向を使ったデザインとパターンに関する学部生向けの教科書 [Hor05] を執筆しました。多くの本と同様、この本を書いた理由は現在支配的なカリキュラムに不満があったからです。コンピューターサイエンスを学ぶ学生によくあるのは、最初のプログラミングの講義で単一クラスの設計方法を学んだら、その後は上級ソフトウェアエンジニアリングの講義までオブジェクト指向デザインの訓練を受けないという状況です。最初</description>
+    </item>
+    
+    <item>
+      <title>VisTrails</title>
+      <link>https://inzkyk.xyz/aosa/vistrails/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/vistrails/</guid>
+      <description>VisTrails1 はデータの探索と可視化をサポートするオープンソースシステムであり、科学ワークフローシステムと可視化システムが持つ便利な機能を大きく拡張した形で持ちます。Kepler や Taverna といった科学ワークフローシステムと同様、VisTrails を使った計算プロセスの記述が可能であり、このプロセスには既存のアプリケーション、互いに結び付いたリソース、あるいはライブラリを規則に沿って追加できます。AVS や ParaView といった可</description>
+    </item>
+    
+    <item>
+      <title>VTK</title>
+      <link>https://inzkyk.xyz/aosa/vtk/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/vtk/</guid>
+      <description>Visualization Tookit (VTK) は広く使われているソフトウェアシステムです。データの処理と可視化が可能であり、科学計算、医療画像解析、計算幾何学、レンダリング、画像処理、インフォマティクスといった分野で利用されています。この章では VTK を概観し、VTK を成功に導いた基本的なデザインパターンなどを説明します。 ソフトウェアシステムを本当に理解するには、そのシステムが解決する問題だけではなく、そのシステムが生まれた文化を理解すること</description>
+    </item>
+    
+    <item>
+      <title>Battle for Wesnoth</title>
+      <link>https://inzkyk.xyz/aosa/wesnoth/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/wesnoth/</guid>
+      <description>プログラミングは問題解決の手段だと単純に考えられがちです。開発者は自身が抱える要件の解決法をコードにするのだというこの考え方では、コードの素晴らしさは技術的実装の美しさや効率の良さによって判断されます: この本には優れた例がたくさんあるでしょう。しかし計算という直接的な機能を越えて、コードが人々の暮らしに大きく影響する場合もあります。つまりコードを見た人を、プロジェクトに参加して新しいコンテンツを制</description>
+    </item>
+    
+    <item>
+      <title>参考文献</title>
+      <link>https://inzkyk.xyz/aosa/bibliography/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/bibliography/</guid>
+      <description>[AF94] Rick Adams and Donnalyn Frey: !%@:: A Directory of Electronic Mail Addressing &amp; Networks. O&#39;Reilly Media, Sebastopol, CA, fourth edition, 1994. [Ald02] Gaudenz Alder: The JGraph Swing Component. PhD thesis, ETH Zurich, 2002. [BCC+05] Louis Bavoil, Steve Callahan, Patricia Crossno, Juliana Freire, Carlos E. Scheidegger, Cláudio T. Silva, and Huy T. Vo: “VisTrails: Enabling Interactive Multiple-View Visualizations”. Proc. IEEE Visualization, pages 135–142, 2005. [Bro10] Frederick P. Brooks, Jr.: The Design of Design: Essays from a Computer Scientist. Pearson Education, 2010. [CDG+06] Fay Chang, Jeffrey Dean, Sanjary Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert E. Gruber: “BigTable: a Distributed Storage System for Structured Data”. Proc. 7th USENIX Symposium on Operating Systems Design and Implementation (OSDI&#39;06). USENIX Association, 2006. [CIRT00] P. H. Carns, W. B. Ligon III, R. B. Ross, and R. Thakur: “PVFS: A Parallel</description>
+    </item>
+    
+    <item>
+      <title>アルゴリズムとは何か？</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/what_is_an_algorithm/</link>
+      <pubDate>Thu, 03 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/what_is_an_algorithm/</guid>
+      <description>アルゴリズムとは、明示的で、精確で、曖昧さを持たない、機械で実行できる簡単な命令を並べたものです。アルゴリズムは通常何らかの目的を念頭において作られます。例えば次のアルゴリズムは、“99 Bottles of Beer on the Wall”という歌の 99 の部分を任意の値にした歌を歌います: \begin{algorithmic} \Procedure{BottlesOfBeer}{$n$} \For{\(i \leftarrow n\) \DownTo \(1\) } \State{“ \(i\) bottles of beer on the wall \(i\),” と歌う} \State{“Take one down, pass it around, \(i - 1\) bottles of beer on the wall.” と歌う} \EndFor \St</description>
+    </item>
+    
+    <item>
+      <title>掛け算</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/multiplication/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/multiplication/</guid>
+      <description>アルゴリズムが正式な学術研究の対象となってまだ数十年しか経っていませんが、人類は文明が始まった頃からアルゴリズムを使ってきました。計算手順の詳細な説明は人類が言語を書き留めた最も古い例の一つです。それは Fibonacci や al-Khwārizmī よりもずっと前のことで、彼らが広めた位取り記数法よりもさらに前のことです。 格子掛け算 少なくとも多くのアメリカ人の学生にとって、大きな整数を掛け算する方法として一番なじみ深</description>
+    </item>
+    
+    <item>
+      <title>議会の議席配分</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/congressional_apportionment/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/congressional_apportionment/</guid>
+      <description>現実世界のアルゴリズムの例をもう一つ示しましょう。このアルゴリズムは政治的に非常に重要です。アメリカ合衆国憲法第 1 条第 2 節は次のことを定めています: 下院議員と直接税はこの連邦に加入することを認められた州の人口に比例して各州で配分される。 ... 下院議員の定数は人口3万人に対し1人を超えてはならないが、各州は少なくとも1人の下院議員を持たなくてはならない。 ... 下院議会の議席は有限なので、議席を完全に人口に比</description>
+    </item>
+    
+    <item>
+      <title>悪い例</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/a_bad_example/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/a_bad_example/</guid>
+      <description>アルゴリズムでない命令列の分かりやすい例として、次の Martin (マーティン) のアルゴリズム1を考えます: \begin{algorithmic} \Procedure{BeAMillionaireAndNeverPayTaxes}{} \State{百万ドル手に入れる} \If{徴税人がきて 「税金を払っていませんよ！」 と言う} \State{「忘れてた」 と言う} \EndIf \EndProcedure \end{algorithmic} このアルゴリズムは単純ですが、一行目が絶望的に実行困難です！ 大富豪の CEO、シリコンバレーのベンチャー投資家、ニューヨークのやり手不動産家などにとっては一行目はすぐに実行</description>
+    </item>
+    
+    <item>
+      <title>アルゴリズムの説明</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/describing_algorithms/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/describing_algorithms/</guid>
+      <description>アルゴリズムを正しく設計そして解析するためのスキルは、アルゴリズムを分かりやすく説明するためのスキルと結びついています。少なくとも私の講義において、アルゴリズムを完全に説明するために必要な要素は次の四つです: What: アルゴリズムが解く問題の明確な仕様 How: アルゴリズムの明確な説明 Why: アルゴリズムが解くべき問題を解くという証明 How fast: アルゴリズムの実行時間の解析 四つの要素をこの順番で開発する必要はありません (という</description>
+    </item>
+    
+    <item>
+      <title>アルゴリズムの解析</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/analyzing_algorithms/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/analyzing_algorithms/</guid>
+      <description>アルゴリズムをただ書き下して「見よ！」というだけでは不十分で、アルゴリズムがすべきことを効率良く行うことを聴衆 (および自分自身) に納得させなければなりません。 正しさ アプリケーションが置かれる環境によっては、プログラムが「常識的な」入力の全てに対してほとんどの場合に正しく動けばそれで OK とされることもあります。しかし、この本では違います。アルゴリズムは全ての可能な入力に対して常に正しいことを要求されま</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/exercises/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/exercises/</guid>
+      <description>通常のチェスボード上に並べられた通常のチェスの駒の配置がルールに反していない場合に、どちらのプレイヤーが勝つかを判定する効率の良いアルゴリズムを説明、解析してください。両プレイヤーは完璧に駒を進めるものとします。[ヒント: 一行で書ける自明な答えがあります！] ❤ 最初の \(n\) バースを歌うのに時間が \(\Theta(n^{3})\) かかる歌を見つけて (または作って) ください。 最初の \(n\) バースを歌うのに時間が \(\Theta(n \log n)\) かかる歌を見つけて (または作</description>
+    </item>
+    
+    <item>
+      <title>帰着</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/reductions/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/reductions/</guid>
+      <description>帰着 (reduction) はアルゴリズムを設計するときに最もよく使われるテクニックです。問題 \(X\) を問題 \(Y\) に帰着させると言った場合、それは \(Y\) を解くアルゴリズムをブラックボックス (サブルーチン) として使いながら \(X\) を解くことを意味します。帰着を考えるときに重要なのが、帰着の結果として出来上がる \(X\) を解くアルゴリズムの正しさを、ブラックボックスがどう問題 \(Y\) を解くかに依存させてはいけない点です。仮定してよいのは、ブラックボックスが</description>
+    </item>
+    
+    <item>
+      <title>単純にして任せる</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/simplify_and_delegate/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/simplify_and_delegate/</guid>
+      <description>再帰 (recursion) は特に強力な帰着です。大雑把に言うと、次のように説明できます: もし問題のインスタンスを直接解くことができるなら、直接解く。 そうでなければ、問題を同じ問題のよりシンプルなインスタンスに帰着させる。 自分自身を参照する部分が分かりにくいなら、他の帰着と同じように、小さいインスタンスを別の人が解いてくれると想像すると良いでしょう (この別の人のことを再帰の妖精 (Recursion Fairy)と呼ぶのが私のお気に入りです</description>
+    </item>
+    
+    <item>
+      <title>Hanoi の塔</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/tower_of_hanoi/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/tower_of_hanoi/</guid>
+      <description>Hanoi (ハノイ) の塔は 1883 年1にフランス人教師で娯楽数学者でもあった Éduoard Lucas (エドゥアール・リュカ) によって2最初に発表されました ――実際に遊べるパズルとして！ その次の年、Henri de Parville (アンリ・ド・パルヴィル) はこのパズルを次のストーリーと共に紹介しています3: Benares (ベナレス) にある大寺院4...世界の中心にあるドームには、三つのダイアモンドの棒が刺さった真鍮のプレートがある。棒の高さは 1 キュー</description>
+    </item>
+    
+    <item>
+      <title>マージソート</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/mergesort/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/mergesort/</guid>
+      <description>マージソート (mergesort) はプログラム内蔵式の汎用コンピューター用に作られた最も古いアルゴリズムの一つです。このアルゴリズムは John von Neumann (ジョン・フォン・ノイマン) によって 1945 年に開発され、 1947 年に Herman Goldstine (ハーマン・ゴールドスタイン) との共著で発表されました。このプログラムは EDVAC 用に作られた計算用途ではないプログラムのうち最初期のものでもあります1。マージソートは次のステップからなります: 入力の配列をほぼ同じ長さの二つの</description>
+    </item>
+    
+    <item>
+      <title>クイックソート</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/quicksort/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/quicksort/</guid>
+      <description>クイックソート (quicksort) もまた再帰的なソートアルゴリズムです。Tony Hoare (トニー・ホーア) によって 1959 年に発見され、1961 年に発表されました。このアルゴリズムの各ステップを次に示します。クイックソートにおいて本当の作業と呼べるのは再帰呼び出しの前に配列を小配列に振り分ける部分であり、この振り分けによって最後のマージ処理が必要なくなります。 配列からピボット (pivot) を選ぶ。 配列を三つの小配列に分ける。三つの配列には</description>
+    </item>
+    
+    <item>
+      <title>パターン</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/the_pattern/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/the_pattern/</guid>
+      <description>マージソートとクイックソートで見てきた三段階のパターンは分割統治 (devide-and-conquer)と呼ばれます: 与えられた問題のインスタンスを同じ問題の独立したより小さいインスタンスに分割する (devide)。 小さいインスタンスを再帰の妖精に任せる (delegate)。 小さいインスタンスの答えを元のインスタンスの答えになるよう組み合わせる (combine)。 インスタンスのサイズがある定数より</description>
+    </item>
+    
+    <item>
+      <title>再帰木</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/recursion_tree/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/recursion_tree/</guid>
+      <description>先ほどから何度も出てきている再帰木 (recursion tree) を説明しましょう。再帰木とは分割統治法で出てくる再帰方程式を解くためのツールであり、単純で、多くの問題に適用でき、視覚的に理解が簡単です。 再帰木では根につながっている頂点が再帰的な小問題を表します。頂点の値 (value) とは、その頂点が表す小問題を解くのにかかる時間から再帰呼び出しの分の時間を除いたものです。この定義から、アルゴリズムの実行時間は木に含まれる全ての頂点の値</description>
+    </item>
+    
+    <item>
+      <title>❤ 線形選択</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/linear_time_selection/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/linear_time_selection/</guid>
+      <description>クイックソートに関する議論の中で、ソートされていない配列から中央値を見つける処理が線形時間で行えると説明しました。この操作のためのアルゴリズムは 1970 年代に Manuel Blum (マヌエル・ブラム)、Bob Floyd (ボブ・フロイド)、Vaughan Pratt (ヴォーン・プラット)、Ron Rivest (ロン・リベスト)、Robert Tarjan (ロバート・タージャン) によって発見されました。彼らのアルゴリズムが扱ったのは \(n\) 要素の配列と整数 \(k\) を受け取って配</description>
+    </item>
+    
+    <item>
+      <title>高速乗算</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/fast_multiplication/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/fast_multiplication/</guid>
+      <description>前章では、\(n\) 桁の数の乗算を \(O(n^{2})\) で行う古くからあるアルゴリズムをいくつか紹介しました。小学校で習う格子アルゴリズムや、エジプト人農民の乗算アルゴリズムです。 桁ごとの数を収めた配列を分割して、さらに次の等式を使えばもっと効率の良いアルゴリズムが作れそうです: \[ (10^{m}a + b)(10^{m}c + d) = 10^{2m}ac + 10^{m}(bc + ad) + bd \] この再帰方程式から以下に示す分割統治法を使ったアルゴリズムが作れます。\(n\) 桁の整数 \(x\) と \(y\) の積を計算するア</description>
+    </item>
+    
+    <item>
+      <title>べき乗</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/exponentiation/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/exponentiation/</guid>
+      <description>与えられた実数 \(a\) と正の整数 \(n\) について、\(a^{n}\) を計算する問題を考えましょう。標準的でナイーブな実装は単純な for ループを使うものです。\(n - 1\) 回の \(a\) による乗算が行われます: \begin{algorithmic} \Procedure{SlowPower}{$ a,n $} \State{\( x \leftarrow a \)} \For{\( i \leftarrow 2 \) \To \( n \)} \State{\( x \leftarrow x \cdot a \)} \EndFor \Return{\(x\)} \EndProcedure \end{algorithmic} 入力パラメータ \(a\) は整数でも、有理数でも、浮動小数点数でも構いません。さらに言えば、乗算の方法さえ分かっていれば数でなくても構いません。例えば同じアルゴリズムを使っ</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/exercises/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/exercises/</guid>
+      <description>Hanoi の塔 以下に示す再帰的でないアルゴリズムがそれぞれ上述した再帰的なアルゴリズムと全く同じ操作を行うことを示してください。同じ円盤を、同じ杭から同じ杭に、同じ順番で動かすことを示してください。三つの杭を \(0\), \(1\), \(2\) で表し、\(n\) 個の円盤を \(0\) から \(2\) に移動させるとします (図 1.1 参照)。 \(n\) が偶数ならば、杭 \(1\) と \(2\) の名前を交換する。\(i\) 番目のステップにおいて、杭 \(i \text{ mod } 3\) を使わないで行える唯一の操作を行う。</description>
+    </item>
+    
+    <item>
+      <title>N クイーン</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/n_queens/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/n_queens/</guid>
+      <description>バックトラッキングを使うアルゴリズムとして分かりやすいのが、有名な \(\pmb n\) クイーン問題を解くアルゴリズムです。通常の 8 x 8 のチェス盤に対するこの問題はドイツ人チェス愛好家 Max Bezzel (マックス・ベッツェル) によって (“Schachfreund”という偽名で) 1848 年に発表され、1869 年には一般的な \(n \times n\) の盤に対する問題が François-Joseph Eustache Lionnet (フランソワ=ジョゼフ・ウスターシュ・ライオネット) によっ</description>
+    </item>
+    
+    <item>
+      <title>ゲーム木</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/game_tree/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/game_tree/</guid>
+      <description>正方形のマス目からなる \(n \times n\) の格子を使った次の単純な二人対戦ゲームを考えます1。このゲームは二人のプレイヤー Horace Fahlberg-Remsen (ホレース・ファールベルグ・レムセン) と Vera Rebaudi (ベラ・レバウディ)2が \(n\) 個の駒を盤の反対側に向かって移動させるゲームです。Horace の駒は左端の列に一列に並んだ状態でスタートし、水平方向に (horizontally) 右へ移動します。同じように Vera の駒は一番上の行に一列に並んだ状態からスタートし、一番下の列を目指して</description>
+    </item>
+    
+    <item>
+      <title>部分和</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/subset_sum/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/subset_sum/</guid>
+      <description>\(\textsc{SubsetSum}\) というもっと複雑な問題を考えましょう。正の整数の集合 \(X\) とターゲットとなる整数 \(T\) が与えられたときに、和が \(T\) となる \(X\) の部分集合を求める問題です。 条件を満たす部分集合が複数存在しても構わないことに注意してください。例えば \(X = \lbrace 8,6,7\) \(,5,3,10,\) \(9 \rbrace\) で \(T = 15\) のとき、答えは \(\textsc{True}\) であり、和が 15 になる部分集合は \(\lbrace 8, 7 \rbrace\), \(\lbrace 7,5,3 \rbrace\), \(\lbrace 6, 9 \rbrace\) の三つです。一方 \(X = \lbrace 11, 6, 5, 1, 7, 13, 12 \rbrace\) で \(T = 15\) のとき、答えは \(\textsc{False}\) です。 自明なケースが二つあります</description>
+    </item>
+    
+    <item>
+      <title>共通するパターン</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/the_general_pattern/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/the_general_pattern/</guid>
+      <description>バックトラッキングを使ったアルゴリズムはどれも、特定の制約を満たす再帰的に定義された構造の構築を目標として決断の列 (decision sequence) を作っていきます。目標となる構造そのものが求める決断の列であることもありますが、常にそうだというわけではありません。これまでの例でいうと: \(n\) クイーン問題では、目標は各列におけるクイーンの配置の列であり、どの二つのクイーンもお互いを攻撃できてはいけないという制約がありました。アルゴリ</description>
+    </item>
+    
+    <item>
+      <title>分かち書き (Interpunctio Verborum)</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/string_segmentation/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/string_segmentation/</guid>
+      <description>空白も句読点もない外国語の文章を単語ごとに区切りたいとします。例えば次の文章は、Lucius Licinius Murena (ルシウス・リキニウス・ムレナ) を弁護するために Cicero (キケロ) が紀元前 62 年に行った有名な演説を、古典ラテン語の標準的な記法 scriptio continua で表したものです1: PRIMVSDIGNITASINTAMTENVISCIENTIANONPOTESTESSERESENIMSVNTPARVAEPROPEINSINGVLISLITTERISATQVEINTERPVNCTIONIBUSVERBORVMOCCVPATAE ラテン語が流暢な読者は、この文字列を (現代的な正書法で) Primus dignitas in tam tenui scientia non potest esse; res enim sunt parvae, prope in singulis litteris atque interpunctionibus verborum occupatae とパースできるでしょう2。 このような文字列の分割のことを“分</description>
+    </item>
+    
+    <item>
+      <title>最長増加部分列</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence/</guid>
+      <description>任意の列 \(S\) に対して、\(S\) からゼロ個以上の要素を削除してできる列を部分列 (subsequence) と言います。このとき残った要素の順番は変更せず、部分列の要素は \(S\) で隣り合っている必要はありません。 例えば街の大通りを車で通って信号の列 \(S\) を通り過ぎるとき、あなたが車を停めるのは赤になっている信号からなる \(S\) の部分列です。運が良ければ信号で全く停まらずに済みますが、その場合に対応する空列も \(S\) の部分列です。また運が悪くて全ての</description>
+    </item>
+    
+    <item>
+      <title>最長増加部分列 テイク 2</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence_take_2/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence_take_2/</guid>
+      <description>最長増加部分列を見つけるのに使えるバックトラッキングを使ったアルゴリズムはこれだけではありません。入力配列を一つずつ走査していくのではなくて、出力配列を一つずつ構築していくこともできます。つまり、「\(A[i]\) は出力配列に含まれるか？」ではなく「出力配列における次の要素は何か？ そもそも存在するか？」を直接考えるということです。 この戦略を処理している途中に放り込まれた場合、次のような図を目にする</description>
+    </item>
+    
+    <item>
+      <title>最適二分探索木</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/optimal_binary_search_trees/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/optimal_binary_search_trees/</guid>
+      <description>この章で最後に説明するのは、再帰的なバックトラッキングと分割統治法を組み合わせた例です。 二分探索木の探索が成功した場合、その実行時間は探索する頂点の祖先1の数に比例することを思い出してください。このため探索の最悪実行時間は木の深さに等しくなります。したがって探索処理の最悪計算時間を小さくするには、木の高さは最小であるべきであり、理想は完璧にバランスの取れた木です。 しかし二分探索木が使われる多くの場</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/exercises/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/exercises/</guid>
+      <description>\(\textsc{SubsetSum}\) を一般化した次の問題に対する再帰的なアルゴリズムを説明してください。 正の整数からなる配列 \(X[1..n]\) と整数 \(T\) が与えられたときに、和が \(T\) となる \(X\) の部分集合の数を求める。 正の整数からなる二つの配列 \(X[1..n]\) と \(W[1..n]\) と \(T\) が与えられ、\(W[i]\) が \(X[i]\) の重さ (weight) を表しているときに、和が \(T\) となる \(X\) の部分集合の中で重さが最大となるものの重さを求める。和が \(T\) となる \(X\) の部分集合がない場合には \(- \infty\) を返す。 次にあげる文字列分割問題の変種</description>
+    </item>
+    
+    <item>
+      <title>Mātrāvṛtta</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/matravrtta/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/matravrtta/</guid>
+      <description>人類が再帰処理を使った一番古い例は、2000 年以上前のインドにおける詩の歩格と韻律に関する研究に見ることができます。古典サンスクリット語の詩では、音節 (akṣara) を軽い (laghu) 音節と重い (guru) 音節の二つに区別していました。mātrāvṛtta (マトラブラッタ)、 mātrāchandas (マトラチャンダス) などと呼ばれる歩格の詩では各行が同じ数の拍 (mātrā) を持ち、軽い音節は一拍、重い音節は二拍の長さ</description>
+    </item>
+    
+    <item>
+      <title>❤ 余談: さらに高速な Fibonacci 数</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/aside_even_faster_fibonacci_numbers/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/aside_even_faster_fibonacci_numbers/</guid>
+      <description>先ほど示したアルゴリズムは単純で魅力的でしたが、Fibonacci 数を計算する最速のアルゴリズムではありません。Fibbonacci 数を定義する再帰方程式を次のように行列の式として表すと、これまでより速いアルゴリズムが作れます: \[ \begin{bmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} y \\ x + y \end{bmatrix} \] この式を言い換えると、二次元ベクトルに行列 \(\begin{bmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}\) を掛けることが \(\textsc{IterFibo2}\) の for ループを一回進めるのとちょうど同じ効果を持っ</description>
+    </item>
+    
+    <item>
+      <title>分かち書き (Interpunctio Verborum) 再訪</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/interpunctio_verborum_redux/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/interpunctio_verborum_redux/</guid>
+      <description>次に考える動的計画法の例は、前章で触れた文字列分割の問題です。この問題の入力は文字列が (何らかの意味で) 単語かどうかを判定するサブルーチン \(\textsc{IsWord}\) と検査する文字列 \(A[1..n]\) であり、出力は \(A\) を単語列に分割できるかどうかでした。 この問題を解いたときに使ったのは接尾部分 \(A[i..n]\) が分割できる場合に限って \(\textsc{True}\) を返す関数 \(\mathit{Splittable}(i)\) であり、\(\mathit{Splittable}(1)\) を計算することで問題を解きました。この関数は次の再</description>
+    </item>
+    
+    <item>
+      <title>パターン: 賢い再帰</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/the_pattern_smart_recursion/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/the_pattern_smart_recursion/</guid>
+      <description>一言で行ってしまえば、動的計画法とは無駄のない再帰です。 たしかに動的計画法を使ったアルゴリズムは、途中で解く小問題の答えを配列や表などのデータ構造に保存します。しかしアルゴリズムを学ぶ生徒 (そして教師と教科書) は、この表を強調しすぎるという間違いを犯しています。表なら誰でも知っていて簡単に理解できるからそうするのでしょうが、こうするとはるかに重要な (そしてはるかに難しい) 問題である、正しい再帰方程</description>
+    </item>
+    
+    <item>
+      <title>警告: 貪欲は愚か</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/warning_greed_is_stupid/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/warning_greed_is_stupid/</guid>
+      <description>本当に運が良ければ、再帰方程式や表などを何も考えない貪欲な (greedy)アルゴリズムで問題が解けてしまうことがあります。貪欲なアルゴリズムはバックトラッキングを使ったアルゴリズムと同じように決断を積み重ねることで解を作りますが、再帰的な小問題を解くことなく愚直に一度だけ決断を行います。このアプローチはとても自然に見えるかもしれませんが、上手く行くことはまずありません。貪欲なアルゴリズムによって解</description>
+    </item>
+    
+    <item>
+      <title>最長増加部分列</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/longest_increasing_subsequence/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/longest_increasing_subsequence/</guid>
+      <description>前の章で考えた問題の中に、与えられた数値の配列 \(A[1..n]\) に含まれる一番長い増加部分列の長さを求めるという問題があり、この問題に対するバックトラッキングを使ったアルゴリズムを二つ説明しました。どちらも最悪ケースの実行時間が \(O(2^{n})\) でしたが、両方とも動的計画法を使うことで著しい高速化が可能です。 一つ目の再帰方程式: これは次？ 一つ目のバックトラッキングを使ったアルゴリズムが評価するのは、全ての要素が \(A[i]\) よりも大きい \(A[j..n]\) の</description>
+    </item>
+    
+    <item>
+      <title>編集距離</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/edit_distance/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/edit_distance/</guid>
+      <description>二つの文字列の間の編集距離 (edit distance)とは、一方の文字列をもう片方と同じ文字列に変形するために必要となる、文字の挿入、削除、置換の最小回数です。例えば \(\color{maroon}{\texttt{FOOD}}\) は次のように \(\color{maroon}{\texttt{MONEY}}\) に変形できるので、\(\color{maroon}{\texttt{FOOD}}\) と \(\color{maroon}{\texttt{MONEY}}\) の間の編集距離が最大でも \(4\) であることが分かります: \[ {\color{maroon}\texttt{FOOD}} \rightarrow {\color{maroon}\texttt{MOOD}} \rightarrow {\color{maroon}\texttt{MOND}} \rightarrow {\color{maroon}\texttt{MONED}} \rightarrow {\color{maroon}\texttt{MONEY}} \] この距離関数は暗号理論を研究していた Vladimir Levenshtein (ウラジミール・レーベンシ</description>
+    </item>
+    
+    <item>
+      <title>部分和問題</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/subset_sum/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/subset_sum/</guid>
+      <description>前章で触れた部分和問題とは、正の整数の配列 \(X[1..n]\) と整数 \(T\) を受け取って \(X\) の部分集合で和が \(T\) となるものがあるかどうかを答える問題です。前章ではこの問題に対する再帰的なアルゴリズムを次の真偽値関数 \(SS(i,t)\) を使って定式化しました。この式では入力 \(X[1..n]\) と \(T\) が固定されています: \[ SS(i, t) = \textsc{True} \Leftrightarrow X[i..n] \text{ の部分集合で和が }t \text{ になるものが存在する} \] 計算すべきは \(SS(1,T)\) です。この関数は次の再帰方程式を満たしました: \[ SS(i, t) = \begin{cases} \textsc{True} &amp; \text{if } t = 0 \\ \textsc{False}</description>
+    </item>
+    
+    <item>
+      <title>最適二分探索木</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/optimal_binary_search_trees/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/optimal_binary_search_trees/</guid>
+      <description>前章で最後に考えたのは最適二分探索木の問題でした。入力は探索のためのソートされた鍵 \(A[1..n]\) と頻度 \(f[1..n]\) であり、\(f[i]\) が \(A[i]\) に対する探索の回数を表します。出力は入力の鍵に対する二分探索木であって全ての探索の合計時間を最小にするものです。 頻度を表す配列 \(f\) を固定し、\(A[i..k]\) の最適探索時間を \(\mathit{OptCost}(i,k)\) とすると、次の再帰方程式が成り立つことを前章で見ました: \[ \mathit{OptCost}(i, k) = \begin{cases} 0 &amp; \text{if } i k \\ \displaystyle \sum_{j=i}^{k}f[j] + \min\limits_{i \leq r \leq k} \left \lbrace \begin{array}{l}</description>
+    </item>
+    
+    <item>
+      <title>木の上の動的計画法</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/dynamic_programming_on_trees/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/dynamic_programming_on_trees/</guid>
+      <description>今まで見てきた動的計画法の例はどれも、再帰的な小問題の答えを格納するのに多次元配列を使っていました。しかし次の例が示すように、配列が常に一番良いデータ構造であるとは限りません。 グラフの独立集合 (independent set) とは、頂点の部分集合であってどの頂点の間にも辺がないものを言います。任意のグラフの最大独立集合を見つけるのは極端に難しい問題であり、実際これは十二章で扱う NP 困難な問題の中でも有名なものです。しかしグラフが</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/exercises/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/exercises/</guid>
+      <description>ここにあげられた練習問題を解くときには ――さらに言えば動的計画法を使うアルゴリズムを新しく作るときにはどんなときでも――、 以前に示したステップを踏むことを強く勧めます。特に、準備が完了するまでは表や for ループについて考え始めないでください。ここで言う準備とは、実際に解くことになる再帰的な小問題の英語で書かれた明解な仕様と、それを使った元の問題に対する完全な解のことです1。 まず動くようにせよ。それから</description>
+    </item>
+    
+    <item>
+      <title>テープへのファイルの保存</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/stroing_files_on_tape/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/stroing_files_on_tape/</guid>
+      <description>磁気テープ1に \(n\) 個のファイルを保存したいとします。テープに保存したファイルは後でユーザーが読み込みますが、テープからのファイルの読み込みはディスクからの読み込みのようにはいきません。磁気テープを読み込むときには、まず目的のファイルがあるところまでテープを送る必要があるからです。 \(L[1..n]\) でファイルの長さを表すことにして、\(i\) 番目のファイルの長さが \(L[i]\) だとします。ファイルが \(1\) から \(n\) という順番で保存されて</description>
+    </item>
+    
+    <item>
+      <title>講義のスケジューリング</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/scheduling_classes/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/scheduling_classes/</guid>
+      <description>次の例はもう少し複雑です。あなたは情報科学をドロップアウトして応用カオス理論を専攻することに決めたとします。応用カオス理論専攻では全ての講義が毎週同じ日に開校されており、この日は学生から「Soberday (素面日)」と呼ばれていました (興味深いことに、学部はこの名前を使いませんでした)。講義はそれぞれ異なった開始時刻と終了時刻を持ちます: 例えば AC 101 (トイレットペーパー景観設計“Toilet Paper Landscape Ar</description>
+    </item>
+    
+    <item>
+      <title>共通するパターン</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/general_pattern/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/general_pattern/</guid>
+      <description>講義のスケジューリングに対する貪欲アルゴリズムの正しさの証明は、テープをソートするアルゴリズムの正しさの証明と同じ構造を持っています。つまり、帰納法を使った交換の議論 (exchange argument) です: 貪欲な解と異なる最適な解の存在を仮定する。 二つの解の“最初の”違いを見つける。 最適な選択と貪欲な選択を交換しても解が悪くならないことを示す (良くならなくても構わない)。 この議論と帰納法を組み合わせると最適な解が貪欲な解を含む</description>
+    </item>
+    
+    <item>
+      <title>Huffman 符号</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/huffman_codes/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/huffman_codes/</guid>
+      <description>二進符号 (binary code) は \(0\) と \(1\) からなる文字列 (符号) をアルファベットに対応させます。任意の符号が他の符号の接頭語になっていないとき、その二進符号は接頭独立 (prefix-free) であると言います (紛らわしいのですが、接頭独立な符号は接頭符号 (prefix code) と呼ばれることが多いです)。例えば 7 ビット ASCII コードとユニコードの UTF-8 はどちらも接頭独立な二進符号です。一方モールス信号は \(\cdot\) と \(-\) から構成されるものの、\(\color{maroon}{\tex</description>
+    </item>
+    
+    <item>
+      <title>安定マッチング</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/stable_mathcing/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/stable_mathcing/</guid>
+      <description>毎年数千人の新米医師が合衆国中の病院のインターンとなります。 二十世紀の最初の 50 年の間に良い医師を求める病院同士の競争は激しさを増していき、医学学校にいる生徒へのインターンシップの勧誘はどんどん早くなっていきました。時には二年生の生徒にまで締め切りの短い勧誘が来ることがあったといいます。このような状況を受けて、1940 年代に全国の医学校は生徒が 4 年生の特定の日になるまではインターンの情報を解禁しない</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/exercises/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/exercises/</guid>
+      <description>読者への注意: 貪欲アルゴリズムを使って解けない問題が混じっています！ また貪欲アルゴリズムを説明、解析するときには正しさの証明を必ず付けてください。証明は通常交換の議論の形をしているはずです。普通の問題では正しさの証明を要求しない (私の担当しているような) 講義において、この証明は特に重要となります。 講義のスケジューリング問題に対する \(\textsc{GreedySchedule}\) アルゴリズムは、この問題に対する唯一の貪欲アルゴリズムであるという</description>
+    </item>
+    
+    <item>
+      <title>導入と歴史</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/introduction_and_history/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/introduction_and_history/</guid>
+      <description>グラフとは組 (pair) を集めたものです ――整数の組、人の組、都市の組、星の組、国の組、科学論文の組、ウェブページの組、ゲームの配置の組、再帰的な小問題の組、さらにグラフの組だって考えます。グラフを図示するときに一番よく使われる方法と対応して、組にされるオブジェクトは頂点 (vertex) あるいはノード (node) と呼ばれ、組そのものは辺 (edge) あるいは弧 (arc) と呼ばれます。しかしもちろん、オブジェクトと組はどんなものでも構いません。 人類が初</description>
+    </item>
+    
+    <item>
+      <title>基本的な定義</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/basic_definitions/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/basic_definitions/</guid>
+      <description>きちんと述べると、 (単純) グラフとは集合の組 \((V, E)\) であって、 \(V\) が任意の空でない有限の集合で、\(E\) が \(V\) の要素の組の集合であるものです。ここで \(V\) の要素は 頂点 (vertex)1 またはノード (node) と呼ばれ、\(E\) の要素は辺 (edge) と呼ばれます。無向グラフ (unordered graph) では辺は順序の無い組、つまり大きさ 2 の集合です。これからは頂点 \(u\) と \(v\) の間の無向辺を \(\lbrace u, v\rbrace\) ではなく \(uv\) と書きます。また \(u\) から \(v\) へ向かう有向辺は \((u, v)\) ではなく \(u \rightarrow v\) と書きます。</description>
+    </item>
+    
+    <item>
+      <title>グラフの表現と例</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/representations_and_examples/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/representations_and_examples/</guid>
+      <description>グラフを可視化する最も簡単な方法は描くことです。描いたグラフのことを、グラフの描画 (drawing) と呼びます。グラフの描画は各頂点を平面上の (普通小さい円などで表される) 点に、各辺を頂点間の直線 (または曲線) に対応させます。どの辺も交わらないようにグラフを描画できるとき、グラフは平面 (planar) であると言い、そのような描画を埋め込み (embedding) と呼びます1。同じグラフでも描画はいくつもあり得るので、特定の描画とグラフを混同しないよ</description>
+    </item>
+    
+    <item>
+      <title>データ構造</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/data_structure/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/data_structure/</guid>
+      <description>実際のプログラムでグラフを扱うときは、たいていは隣接リストと隣接行列という二つのよく知られたデータ構造のどちらかを使ってグラフを表現することになります。高いレベルで抽象的に言うと、どちらのデータ構造も頂点を添え字とした配列です。各頂点に \(1\) から \(V\) のユニークな整数を割り当てて、この整数と頂点を同一視します。 隣接リスト グラフの格納に使われる最も一般的なデータ構造は隣接リスト (adjacency list) です。隣接リストはリストの</description>
+    </item>
+    
+    <item>
+      <title>何か優先探索</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/whatever_first_search/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/whatever_first_search/</guid>
+      <description>ここまではグラフに対する局所的な操作のみを考えてきましたが、ここからはグラフ全体に関する操作や性質を考えます。グラフ全体に関係する最も基礎的な性質は到達可能性 (reachablity) です。到達可能性問題では、グラフ \(G\) と頂点 \(s\) が与えられたときにどの頂点が \(s\) から到達可能か、つまり \(s\) からの路が存在する頂点はどれかを考えます。まずは無向グラフを考え、有向グラフは節の終わりで軽く触れることにします。無向グラフでは、\(s\) から</description>
+    </item>
+    
+    <item>
+      <title>重要な変種</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/important_variants/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/important_variants/</guid>
+      <description>スタック: 深さ優先 “袋”としてスタックを使って何か優先探索を実装した場合、以前に紹介した深さ優先探索となります。スタックでは挿入 (プッシュ) と削除 (ポップ) をそれぞれ \(O(1)\) 時間で行えることから、アルゴリズム全体の実行時間は \(\pmb{O(V + E)}\) です。親へ向かう辺を集めることで形成される全域木は深さ優先全域木 (depth-first spanning tree) と呼ばれます。この全域木の正確な形は探索を始める頂点と for ループにおいて辺を選ぶ順番に依存しますが、一般的に</description>
+    </item>
+    
+    <item>
+      <title>グラフへの帰着</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/graph_reductions/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/graph_reductions/</guid>
+      <description>塗りつぶし (Flood Fill) 何か優先探索の現代的な例のうち最も古いものの一つは、Edward Moore (エドガー・ムーア) によって 1950 年代中ごろに提案された、ピクセルマップに対する塗りつぶし (flood fill) 演算です。ピクセルマップ (pixel-map) とは各要素が色を表す二次元配列であり、配列の要素は picture elements (画素) を省略してピクセル (pixel) と呼ばれます1。ピクセルマップの連結領域 (connected region) とは同じ色を持つピクセルの連結な部分集合のことです。ここで二つのピクセルが連結</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/exercises/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/exercises/</guid>
+      <description>グラフ 次の定義が全て同値なことを示してください。 木とは連結な非巡回グラフである。 木とは一成分からなる森である (森は非巡回グラフ)。 木とは辺が \(V-1\) 個以下の連結グラフである。 木とは最小連結グラフである: 任意の辺を削除するとグラフが非連結となる。 木とは辺が \(V-1\) 個以上の非巡回グラフである。 木とは最大非巡回グラフである: 任意の二つの頂点の間に辺を追加すると閉路ができる。 \(n2\) 個の頂点を持つ任意の連結非巡回グラフには</description>
+    </item>
+    
+    <item>
+      <title>行きがけ順と帰りがけ順</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/preorder_and_postorder/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/preorder_and_postorder/</guid>
+      <description>根付き木に対する深さ優先探索によって行きがけ順 (preorder) および帰りがけ順 (postorder) が定義できることは知っているはずです。同じような走査順序は任意の (連結であるとは限らない) 有向グラフに対しても定義できます。次のようにカウンターを使います: \begin{algorithmic} \Procedure{DFSAll}{$G$} \State{\(\color{#2D2F91}{\mathit{clock} \leftarrow 0}\)} \For{頂点 \(v\)} \State{\(v\) の印を消す} \EndFor \For{頂点 \(v\)} \If{\(v\) に印が付いていない} \State{\(\mathit{clock} \leftarrow\) \Call{DFS}{\(v, \mathit{clock}\)}} \EndIf \EndFor \EndProcedure \end{algorithmic} \begin{algorithmic} \Procedure{DFS}{$v, \mathit{clock}$} \State{\(v\) に印を付ける} \State{\(\color{red}{\mathit{clock} \leftarrow \mathit{clock} + 1;\ \mathit{v.pre} \leftarrow \mathit{clock}}\)} \For{\(v \rightarrow w\) の形をした辺} \If{\(w\) に印が付いていない} \State{\(\mathit{parent}(w)</description>
+    </item>
+    
+    <item>
+      <title>閉路の検出</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/detecting_cycles/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/detecting_cycles/</guid>
+      <description>閉路を含まない有向グラフを有向非巡回グラフ (directed acyclic graph, DAG)と呼びます。ある頂点に向かう辺が無い場合、その頂点をソース (source) と言い、ある頂点から出る辺が無い場合、その頂点をシンク (sink) と言います。辺が一つも付いていない孤立した頂点はソースかつシンクです。任意の DAG には少なくとも一つのソースとシンクがありますが、複数あることもあります: 例えば辺が無いグラフでは全ての頂点がソースかつシンクです。 図 6.6 有向非巡回グラフ</description>
+    </item>
+    
+    <item>
+      <title>トポロジカルソート</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/topological_sort/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/topological_sort/</guid>
+      <description>有向グラフ \(G\) のトポロジカル順序とは、頂点の間の全順序 \(\prec\) であって全ての辺 \(u \rightarrow v\) に対して \(u \prec v\) が成り立つものを言います。くだけて言うと、トポロジカル順序とは全ての辺が右から左に行くように頂点を一列に並べたものです。\(G\) が有向閉路を持っている場合にはトポロジカル順序が存在しないのは定義から明らかです ――閉路に含まれる頂点のうち一番右にある頂点からは左に向かう辺が出てしまいます！ 有向グラフ \(G\) の任意の</description>
+    </item>
+    
+    <item>
+      <title>メモ化と動的計画法</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/memoization_and_dynamic_programming/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/memoization_and_dynamic_programming/</guid>
+      <description>トポロジカルソートを使うと多くの動的計画法のアルゴリズムを表現できます。ここでは例として依存グラフを考えます。以前触れた通り、再帰方程式の依存グラフ (dependency graph) とは、頂点が再帰的な小問題に対応する有向グラフであって、小問題同士を繋ぐ辺があるのは始点の問題を解くときに終点の問題の答えが必要になるときだけであるものです。依存グラフに閉路があるとナイーブな再帰的アルゴリズムが停止しなくなるので、依存グラフは必ず</description>
+    </item>
+    
+    <item>
+      <title>強連結性</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/strong_connectivity/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/strong_connectivity/</guid>
+      <description>有向グラフにおける連結性の正式な定義に戻りましょう。有向グラフ \(G\) の頂点 \(u\) が他の頂点 \(v\) に到達するとは、\(G\) に \(u\) から \(v\) への有向路があることを言い、\(\mathit{reach}(u)\) で \(u\) から到達できる頂点全体の集合を表しました。二つの頂点 \(u, v\) が強連結 (strongly connected) であるとは、\(u\) が \(v\) に到達し、かつ \(v\) が \(u\) に到達することを言います。有向グラフが強連結であるとは全ての頂点の組が強連結であることと同値</description>
+    </item>
+    
+    <item>
+      <title>線形時間で強連結成分を求める</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/strong_components_in_linear_time/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/strong_components_in_linear_time/</guid>
+      <description>有向グラフの強連結成分を \(O(V+E)\) 時間で計算するアルゴリズムはいくつかありますが、どれも突き詰めれば次の観察に基づいています: 命題 6.2 任意の有向グラフ \(G\) の深さ優先走査を一つ固定する。\(G\) の任意の強連結成分 \(C\) には \(C\) の中に親を含まない頂点がちょうど一つ含まれる (この頂点の親は他の強連結成分に含まれるか、そうでなければ親を持たない)。 証明 \(G\) の任意の強連結成分を \(C\) とする。適当な頂点 \(v \in C\) から \(w \in C\) への任意の路</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/exercises/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/exercises/</guid>
+      <description>深さ優先探索・トポロジカルソート・強連結成分 有向グラフ \(G\) の逆 \(\mathit{rev}(G)\) を \(O(V+E)\) 時間で計算するアルゴリズムを説明してください。 任意の有向グラフ \(G\) について、強連結成分グラフ \(\mathit{scc}(G)\) が非巡回であることを示してください。 任意の有向グラフ \(G\) について、\(\mathit{scc}(\mathit{rev}(G)) = \mathit{rev}(\mathit{scc}(G))\) を示してください。 有向グラフ \(G\) を固定します。\(G\) の任意の頂点 \(v\) について、\(S(v)\) で \(v\) を含む \(G\) の強連</description>
+    </item>
+    
+    <item>
+      <title>辺の重みが異なる場合</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/distinct_edge_weights/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/distinct_edge_weights/</guid>
+      <description>最小全域木問題が厄介なのは、グラフに重みが同じ最小全域木が複数存在することがあり得る点です。例えば \(G\) の全ての辺の重みが \(1\) の場合、\(G\) の全ての全域木が重み \(V-1\) の最小全域木です。最小全域木が複数あるとアルゴリズムの開発が複雑になるので、最小全域木が一つだけだと仮定できれば話が単純になります。 幸いにも、最小全域木が唯一であることを保証する簡単な条件があります。 命題 7.1 連結グラフ \(G\) の辺の重みが全て異なる</description>
+    </item>
+    
+    <item>
+      <title>唯一の全域最小木アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/the_only_minimum_spanning_tree_algorithm/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/the_only_minimum_spanning_tree_algorithm/</guid>
+      <description>最小全域木を計算するアルゴリズムはたくさんありますが、そのほとんどはこれから説明する一般的な戦略のインスタンスと言うことができます。これはグラフ探索アルゴリズムにおいて、たくさんの異なるアルゴリズムが何か優先探索という一般的なアルゴリズムの変種だったことに似ています。 一般的な最小全域木アルゴリズムは入力グラフ \(G\) の非巡回部分グラフ \(F\) を管理します。\(F\) は中間全域森 (intermediate spanning forest) と呼ばれ、アルゴリズムの各</description>
+    </item>
+    
+    <item>
+      <title>Borůvka のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/boruvka_algorithms/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/boruvka_algorithms/</guid>
+      <description>最も古くそしておそらくは最も単純な最小全域木アルゴリズムは、チェコ人数学者 Otakar Borůvka (オタカール・ブルーフカ) によって 1926 年に発見されました。彼がこのアルゴリズムを発見したのは、いくつかの都市を最小の電線で繋ぐ電気ネットワークを作るにはどうすればよいかと Jindřich Saxel という人物に尋ねられてから約一年後のことでした1。このアルゴリズムは Gustav Choquet (グスタフ・ショケ) によって 1938 年に、Józef Łuk</description>
+    </item>
+    
+    <item>
+      <title>Jarník の (Prim の) アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/jarkins_prims_algorithm/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/jarkins_prims_algorithm/</guid>
+      <description>次に古い最小全域木アルゴリズムはチェコ人数学者 Vojtěch Jarník (ヴォイチェフ・ヤルニク) によって 1925 年に、Borůvka に送った手紙の中で初めて示されました。Jarník は翌年にこの発見を公表しています。同じアルゴリズムは Joseph Kruskal (ジョゼフ・クラスカル) によって 1956 年に、(おそらくは) Robert Prim (ロバート・プリム) によって 1957 年に、Harry Lobermand (ハリー・ロバ―マンド) と Arnold Weinberger (アーノルド・ワインバーガー)</description>
+    </item>
+    
+    <item>
+      <title>Kruskal のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/kruskals_algorithms/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/kruskals_algorithms/</guid>
+      <description>最後に紹介する最小全域木アルゴリズムは Joseph Kruskal (ジョセフ・クラスカル) によって 1956 年に、彼が Jarník のアルゴリズムを再発見したのと同じ論文で発表されました。Kruskal がこの論文を書いた動機は、プリンストンの数学部門中を“飛び回って”いた“起源が曖昧な” Borůvka の原著論文の、“タイプライターを使った翻訳”を作ることでした。Kruskal は Borůvka のアルゴリズムを“不必要に難解”だと思っ</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/exercises/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/exercises/</guid>
+      <description>\(G = (V, E)\) を辺に重みの付いた任意の接続グラフとします。 \(G\) の任意の閉路に対して、\(G\) の最小全域木がその閉路で最大の重みを持つ辺を含まないことを示してください。 証明または反証してください:「\(G\) の任意の閉路に対して、\(G\) の最小全域木にはその閉路で最小の重みを持つ辺が含まれる」 この章では入力グラフの辺が同じ重みを持たないと仮定し、これによって最小全域木の唯一性を保証してきました。実は、よ</description>
+    </item>
+    
+    <item>
+      <title>最短路木</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/shortest_path_trees/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/shortest_path_trees/</guid>
+      <description>ある頂点から別の頂点への最短路を計算するほとんど全てのアルゴリズムが実際に解いているのは、次に説明する単一ソース最短路 (single source shortest path, SSSP) 問題です。これは \(s\) からグラフに含まれる他の全ての頂点への最短路を求める問題であり、通常は \(s\) を根とする最短路木 (shortest path tree) を見つけることで解かれます。最短路木には求めるべき全ての最短路が含まれます。 各頂点への最短路がユニークならばそれらの最短路を合わせると木になるというのはすぐに</description>
+    </item>
+    
+    <item>
+      <title>唯一の SSSP アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/the_only_sssp_algorithm/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/the_only_sssp_algorithm/</guid>
+      <description>グラフの探索問題や最小全域木問題と同じように、多くの異なる SSSP アルゴリズムは次に示す一般的なアルゴリズムの特殊ケースとして表現できます。このアルゴリズムは Lester Ford (レスター・フォード) によって 1956 年に、そして Geroge Dantzig (ジョージ・ダンツィグ) によって 1957 年に、George Minty (ジョージ・ミンティ) によって 1958 年にそれぞれ独立に発見されました1。このアルゴリズムではグラフの各頂点 \(v\) が次の二つの値を保存し、これらの値によ</description>
+    </item>
+    
+    <item>
+      <title>重み無しグラフ: 幅優先探索</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/unweighted_graphs_bredadth_first_search/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/unweighted_graphs_bredadth_first_search/</guid>
+      <description>最も単純な最短路問題は全ての辺の重みが \(1\) で、路の長さが辺の数に等しい場合です。この特殊ケースではこれまでに説明したグラフ探索アルゴリズムの一つ幅優先探索 (breadth-first search, BFS) を使って答えを見つけられます。 幅優先探索は Edward Moore (エドワード・ムーア) によって発見されたとされることが多いです。実際彼は幅優先探索を (“Algorithm A”として) 1957 年に発表しており、これは初めて公表された迷路の最短路を見つけるための手続きで</description>
+    </item>
+    
+    <item>
+      <title>有向非巡回グラフ: 深さ優先探索</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/dag_depth_first_search/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/dag_depth_first_search/</guid>
+      <description>有向非巡回グラフの最小路を計算するのは簡単であり、辺に重みが付いていても、その重みが負であったとしても簡単です (負閉路を気にする必要ありません。定義により、閉路が無いのですから！)。実はこれは完全に標準的な動的計画法のアルゴリズムです。 \(G\) を辺に重みの付いた有向非巡回グラフ、\(s\) を固定された開始頂点とします。任意の頂点 \(v\) に対して、\(\mathit{dist}(v)\) で \(G\) における \(s\) から \(v\) への</description>
+    </item>
+    
+    <item>
+      <title>最良優先: Dijkstra のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/best_first_dijkstras_algorithm/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/best_first_dijkstras_algorithm/</guid>
+      <description>幅優先探索では FIFO を使っていましたが、この FIFO を頂点 \(v\) に対する鍵が暫定的な距離 \(\mathit{dist}(v)\) であるような優先度付きキューで置き換えると、別の最短路アルゴリズムが手に入ります。1957 年にこのアルゴリズムを初めて“出版”したのは Michael Leyzorek (マイケル・レイゾレク) を中心とするケース工科大学の研究者チームで、米陸軍電子機器性能証明実験場の戦闘開発部署に対する定期報告書でのことでした。同じアルゴリズムは Edsger Dijkstra (エドガー・ダイクス</description>
+    </item>
+    
+    <item>
+      <title>スベテの辺を緩和する: Bellman-Ford</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/relax_all_the_edges_bellman_ford/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/relax_all_the_edges_bellman_ford/</guid>
+      <description>Ford の一般的な最短路アルゴリズムの一番単純な実装のアイデアは、1954 年に Alfonso Shimbel (アルフォンソ・シンベル) によって提案され、1957 年に Edward Moore (エドワード・ムーア) によってより詳細に示されました。同じアルゴリズムは 1957 年には Max Woodbury (マックス・ウッドベリー) と George Dantzig (ジョージ・ダンツィグ) によって、1958 年には Richard Bellman (リチャード・ベルマン) によって、同じく 1958 年に Geroge Minty (ジョージ・ミンティ) によってそれぞれ独立に発</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/exercises/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/exercises/</guid>
+      <description>辺に任意の重みが付いた、負閉路が含まれないとは限らない有向グラフを \(G\) とし、\(s\) を \(G\) の適当な頂点とします。 全ての頂点 \(v\) が \(\mathit{dist}(v)\) を保持しているとします (前者へのポインタは保持していません)。このとき全ての \(v\) について \(\mathit{dist}(v)\) が \(s\) から \(v\) への最短路の長さかどうかを判定するアルゴリズムを説明、解析してください。 全ての頂点 \(v \neq s\) が \(G\) の他の頂点へのポインタ \(\mathit{pred}(v)\) を保持しているとします (距離は保持していまません)。このとき</description>
+    </item>
+    
+    <item>
+      <title>導入</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/introduction/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/introduction/</guid>
+      <description>前章では単一の頂点 \(s\) から他の全ての頂点への最短路を \(s\) を根とした最短路木を作ることで見つけるアルゴリズムについて議論しました。最短路木はグラフの各頂点 \(v\) に対して二つの情報を割り当てます: \(s\) から \(v\) への最短路の長さを表す \(\mathit{dist}(v)\) \(s\) から \(v\) への最短路における最後から二つ目の頂点を表す \(\mathit{pred}(v)\) この章で扱うのは、もっと一般的な全組最短路問題 (all pairs shortest path problem, APSP) です。これは任意のソース頂点から任意の目標頂点への最短路を求める問題であ</description>
+    </item>
+    
+    <item>
+      <title>たくさんの単一ソース</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/lots_of_single_sources/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/lots_of_single_sources/</guid>
+      <description>全組最短路問題の明らかな解法は、単一ソース最短路問題を各頂点に対して一回ずつ、合計で \(V\) 回解くというものです。具体的に言うと、単一ソース最短路問題を解くたびに一次元の部分配列 \(\mathit{dist}[s, \cdot]\) が埋まります: \begin{algorithmic} \Procedure{ObviousAPSP}{$V, E, w$} \For{頂点 \(s\)} \State{\(\mathit{dist}[s, \cdot] \leftarrow \) \Call{SSSP}{\(V, E, w, s\)}} \EndFor \EndProcedure \end{algorithmic} このアルゴリズムの実行時間が用いる単一ソース最短路アルゴリズムに依存しているのも明らかです。単一ソースのときと同じように、グラフの構造と辺の重みに依存する四種類の選</description>
+    </item>
+    
+    <item>
+      <title>重みの変更</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/reweighting/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/reweighting/</guid>
+      <description>負の辺があると実行が非常に遅くなります: どうにかして削除できないでしょうか？ たくさんの人が思い浮かべる単純なアイデアは、全ての辺の重みを同じだけ増加させることで全ての辺の重みを正にして、Bellman-Ford の代わりに Dijkstra を使うというものです。残念ながら、この単純なアイデアは上手く行きません ――こうすると、多くの辺を持つ路の重みが少ない辺しか持たない路よりも多く増加してしまうからです。次の図に示す</description>
+    </item>
+    
+    <item>
+      <title>Johnson のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/johnsons_algorithm/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/johnsons_algorithm/</guid>
+      <description>Johnson (ジョンソン) の全組最短路アルゴリズムは全ての辺の重みが非負となるように各頂点に価値 \(\pi(v)\) を割り当て、その後 Dijkstra のアルゴリズムを使って新しい重みに対する最短路を計算します。 まずグラフの全ての頂点に到達できる頂点 \(s\) が存在すると仮定します。Johnson のアルゴリズムは最初 \(s\) から他の全ての頂点に対する最短路を (負辺があっても正しく動く) Bellman-Ford のアルゴリズムを使って計算し、それから価値関数を \(\pi(v) = \mathit{dist}(s, v)\) と定義します</description>
+    </item>
+    
+    <item>
+      <title>動的計画法</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/dynamic_programming/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/dynamic_programming/</guid>
+      <description>単一ソース最短路アルゴリズムの代わりに動的計画法を使っても全組最短路問題を解くことができます。\(E = \Theta(V^{2})\) であるような密なグラフに対しては、動的計画法を使ったアプローチの方が Johnson のアルゴリズムよりも単純で (少しだけ) 速いアルゴリズムとなります。 この章の残りの部分では、入力グラフに負閉路が無いことを仮定します。 まずは動的計画法のアルゴリズムに付き物の再帰方程式を考えます。単一ソースと同様に、“明らかな”</description>
+    </item>
+    
+    <item>
+      <title>分割統治</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/divide_and_conquer/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/divide_and_conquer/</guid>
+      <description>1971 年に Michael Fischer (マイケル・フィッシャー) と Albert Meyer (アルバート・マイヤー) によって提案された方法を使うと、さらに格段な高速化が可能です。Bellman の再帰方程式は最短路を少しだけ短い路と一つの辺に分けて考え、目標頂点の全ての前者を考えることで最短路を求めていました。こうする代わりに、最短路をその中間地点にある頂点で分けて二つの路にしてみましょう。こうすると、先ほど定義した \(\mathit{dist}(u, v, l)\) に対する異なる再帰方程式が</description>
+    </item>
+    
+    <item>
+      <title>おかしな行列積</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/funny_matrix_multiplication/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/funny_matrix_multiplication/</guid>
+      <description>有向グラフの最短路の計算と正方行列のべき乗の計算の間には密接な関係があります。この関係は Alfonso によって最初に発見され、後に Bellman も独立に発見しました。\(n \times n\) の行列の二乗を求めるアルゴリズムを次に示します。これを \(\textsc{FischerMeyerAPSP}\) の内側のループと比べてみてください (似ていることが分かりやすいように二つ目のアルゴリズムの記法を少し変えています)。 \begin{algorithmic} \Procedure{MatrixSquare}{$A$} \For{\(i \leftarrow 1\) \To \(n\)} \For{\(j \leftarrow 1\) \To \(n\)} \State{\(A^{\prime}[i, j] \leftarrow 0\)} \For{\(k \leftarrow 1\) \To \(n\)} \State{\(A^{\prime}[i, j] \leftarrow A^{\prime}[i, j] + A[i, k] \cdot A[k, j]\)} \EndFor \EndFor \EndFor \EndProcedure \end{algorithmic} \begin{algorithmic}</description>
+    </item>
+    
+    <item>
+      <title> (Kleene-Roy-) Floyd-Warshall (-Ingerman)</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/kleene-roy-floyd-warshall-ingerman/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/kleene-roy-floyd-warshall-ingerman/</guid>
+      <description>Johnson のアルゴリズムのフィボナッチヒープを使った実装と比べると、高速な方の動的計画法アルゴリズムでさえ最悪ケースの計算時間が \(O(\log V)\) 倍低速です。最短路問題の異なる定式化を使うとこの対数部分を改善できます。この定式化を使ったアルゴリズムは 1962 年に Robert Floyd (ピーター・フロイト) と Peter Ingerman (ピーター・インガーマン) によってぞれぞれ独立に発見され、両者とも同年の前半に Stephen Warshall (ステファン・ワーシャル) によって発表されたアルゴリ</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/exercises/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/exercises/</guid>
+      <description>\(\textsc{LeyzorekAPSP}\) を改変して、最短路の長さの配列だけはなく前者へのポインタの配列も計算するようにしてください。実行時間は \(O(V^{3}\log V)\) のままであるようにしてください。 \(\textsc{FloydWarshall}\) を改変して、最短路の長さの配列だけはなく前者へのポインタの配列も計算するようにしてください。実行時間は \(O(V^{3})\) のままであるようにしてください。 この章で議論した全てのアルゴリズムは負閉路が含まれるグラフに対して正しい答えを計算できません。グラフに負閉路が含まれている</description>
+    </item>
+    
+    <item>
+      <title>フロー</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/flow/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/flow/</guid>
+      <description>\(\pmb{(s, t)}\)-フロー (ソースとシンクが明らかな場合には単にフロー) とは、関数 \(f:E \rightarrow \mathbb{R}\) であって \(s,t\) 以外の全ての頂点 \(v\) において次の保存条件 (conservation constraint) が満たされるものを言います: \[ \sum_{u} f(u \rightarrow v) = \sum_{w} f(v \rightarrow w) \] 保存条件を言葉を使って言い換えれば、全ての頂点 \(v\) に対して \(v\) に入るフローと \(v\) から出るフローが等しいということです。記法を単純にするために、辺 \(u \rightarrow v\) が存在しない場合には \(f(u \rightarrow v) = 0\) と定義します。フロー \(f\) の値 (value) \(|f|\) とはソース頂</description>
+    </item>
+    
+    <item>
+      <title>カット</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/cut/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/cut/</guid>
+      <description>\(\pmb{(s, t)}\)-カット (ソースとシンクが明らかな場合は単にカット) とは、頂点集合の互いに素な二つの部分集合 \(S, T\) への分解であって \(s \in S\) かつ \(t \in T\) を満たすものを言います。\(S\) と \(T\) が互いに素とは \(S \cup T = V\) かつ \(S \cap V = \varnothing\) ということです。 容量関数 \(c:E \rightarrow \mathbb{R}_{\geq 0}\) が与えられたとき、カットの容量 (capacity) が \(S\) から \(T\) に向かう辺の容量の和として定義されます: \[ \| S, T \| = \sum_{s \in S} \sum_{t \in T} c(s \rightarrow t) \] (ここでも辺 \(v \rightarrow w\) が存在しない場合には</description>
+    </item>
+    
+    <item>
+      <title>最大フロー最小カット定理</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/the_maxflow_mincut_theorem/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/the_maxflow_mincut_theorem/</guid>
+      <description>意外なことに、任意のフローネットワークは \(|f| = \| S, T \|\) を満たす \((s,t)\)-フロー \(f\) と \((s,t)\)-カット \((S, T)\) を必ず持ちます。これが有名な最大フロー最小カット定理 (Maxflow-Mincut Theorem) です。この定理は Lester Ford (レスター・フォード、最短路アルゴリズムで知られる) と Delbert Fulkerson (デルバート・ファルカーソン) によって 1954 年に初めて証明され、1956 年には Peter Elias (ピーター・イライアス) と Amiel Feinstein (アミエイ・ファインスタイン) と Claude Shannon (</description>
+    </item>
+    
+    <item>
+      <title>Ford と Fulkerson の増加路アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/ford_and_fulkerson_algorithm/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/ford_and_fulkerson_algorithm/</guid>
+      <description>Ford と Fulkerson が示した最大フロー最小カット定理の証明から、最大フローを計算するアルゴリズムが直ちに手に入ります: 空のフローから始め、残余グラフにおける \(s\) から \(t\) への任意の増加路を使ってフローを増加させる処理を増加路が無くなるまで繰り返すというものです。 このアルゴリズムについての次の系は簡単に示せますが、重要です: 整数性定理 フローネットワークの辺の容量が全て整数ならば、全ての辺に流れるフローが整数の最大フロー</description>
+    </item>
+    
+    <item>
+      <title>フローの合成と分解</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/combining_and_decomposing_flows/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/combining_and_decomposing_flows/</guid>
+      <description>フローの定義は頂点における保存条件が満たされるグラフの辺を入力とする関数であるのが普通ですが、他の定式化もあります。この定式化の方がより自然で有用なこともあります。 任意のグラフ \(G\) とソース頂点 \(s\) とシンク頂点 \(t\) が与えられたとして、\(G\) の適当な \((s,t)\)-フロー \(f, g\) と実数 \(\alpha, \beta\) を取り、次の関数 \(h: E \rightarrow \mathbb{R}\) を考えます: \[ h(u \rightarrow v) := \alpha \cdot f(u \rightarrow v) + \beta \cdot g(u \rightarrow v) \] ここで \(u \rightarrow v\) は任意の辺です。この定義は単純に \(h</description>
+    </item>
+    
+    <item>
+      <title>Edmonds と Karp のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/edmonds_and_karps_algorithms/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/edmonds_and_karps_algorithms/</guid>
+      <description>Ford と Fulkerson のアルゴリズムは残余グラフのどの路を増加させるかを指定しません。このアルゴリズムの最悪計算時間がひどいのは、増加路の選び方をいくらでも悪くできるのが原因です。1970 年代前半、Jack Edmonds (ジャック・エドモンズ) と Richard Karp (リチャード・カープ) は増加路を選ぶための二つの自然な方法を解析し、どちらを使った場合でもより効率の良いアルゴリズムが得られることを示しました。 最幅増加路 Edmonds と Karp が解析した一つ目の</description>
+    </item>
+    
+    <item>
+      <title>さらなる進展</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/further_progress/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/further_progress/</guid>
+      <description>最大フローアルゴリズムの物語はこれで終わりでは決してありません。何十年にも渡る高速なアルゴリズムの研究の成果を次の表にまとめます1。ここにあるアルゴリズムは全て反復によって最大フローを計算するものであり、ほとんどのアルゴリズムには二つのバージョンがあります: 一つは各反復で総当たりを使う単純なバージョンで、もう一つは洗練されたデータ構造を使ってフローネットワークの全域木を管理することで反復と全域木の</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/exercises/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/exercises/</guid>
+      <description>有向グラフ \(G = (V, E)\) と二つの頂点 \(s, t\) と容量関数 \(c: E \rightarrow \mathbb{R}^{+}\) と \(f: E \rightarrow \mathbb{R}\) が与えられたとします。\(f\) が \(G\) の最大 \((s,t)\)-フローであるかを判定するアルゴリズムを説明してください。 フローネットワーク \(G\) の実現可能な \((s,t)\)-フローを二つ取って \(f, f^{\prime}\) \((|f^{\prime}| |f|)\) とします。残余グラフ \(G_{f}\) に実現可能な \((s,t)\)-フローであって値が \(|f^{\prime}| - |f|\) であるものが存在することを示してください。 \(G\) を適当なフローネット</description>
+    </item>
+    
+    <item>
+      <title>辺素路</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/edge_disjoint_paths/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/edge_disjoint_paths/</guid>
+      <description>一番最初に発見された最大フローの応用の一つは、有向グラフ \(G\) の特定の頂点 \(s\) と \(t\) を結ぶ辺素な路集合の大きさの最大値の計算です。ここで \(G\) の路の集合が辺素 (edge-disjoint) であるとは、その集合に含まれる路の中に \(G\) の任意の辺が最大でも一回しか現れないことを言います。同じ頂点は複数回通っていても構いません。 任意のグラフを考えたとき、辺の重みが全て \(1\) ならば、\(s\) から \(t\) への最大フローは各辺に \(0\) または \(1\) 単位のフローを流します</description>
+    </item>
+    
+    <item>
+      <title>頂点容量と頂点素路</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/vertex_capacities_and_vertex_disjoint_paths/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/vertex_capacities_and_vertex_disjoint_paths/</guid>
+      <description>入力グラフ \(G\) が辺だけではなく頂点にも容量を持つとします。この設定では関数 \(f: E \rightarrow \mathbb{R}_{\geq 0}\) がフローであるための条件に新しい制約が加わります。その制約とは、\(s, t\) 以外の全ての頂点 \(v\) について \(v\) に入るフローの和が非負の定数 \(c(v)\) 以下でなければならないというものです (保存条件からこの値は \(v\) から出るフローの和と等しくなります): \[ \sum_{u \rightarrow v} f(u \rightarrow v) \leq c(v) \] この新しい制約があったとしても最大フローを計算できるでしょうか？ Ford と</description>
+    </item>
+    
+    <item>
+      <title>二部マッチング</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/bipartite_matching/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/bipartite_matching/</guid>
+      <description>もう一つのよく知られた最大フローの応用は、二部グラフの最大マッチング (maximum matching) の計算です。グラフのマッチングとは全ての頂点の次数が最大でも \(1\) であるような部分グラフのことであり、同じ頂点を共有しない辺の集合としても定義できます。ここで考える問題はマッチングであって辺の数が最大のものを計算する問題です。 例えば何人かの医師が職を探していて、いくつかの病院が医師を探しているとしましょう。各医師は働きたい病院をい</description>
+    </item>
+    
+    <item>
+      <title>タプル選択</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/tuple_selection/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/tuple_selection/</guid>
+      <description>二部グラフの最大マッチングは私がタプル選択 (tuple selection)1 と呼ぶ問題クラスの一番簡単な例です。タプル選択問題の入力は要素に重複がない有限集合 \(X_{1}, X_{2}, \ldots, X_{d}\) であり、出力は容量に関する次の条件を満たす最大の \(d\)-タプルの集合です: 全ての添え字 \(i\) に対して、各 \(x \in X_{i}\) がタプルに現れていいのは \(c(x)\) 回まで。 全ての添え字 \(i\) に対して、各 \(x \in X_{i}\) と \(y \in X_{i+1}\) がタプルに現れていいのは \(c(x,y)\) 回まで。 上界 \(c(x)\) と \(c(x,y)\) は (通常は小さな) 非負整数あるいは \(\infty\)</description>
+    </item>
+    
+    <item>
+      <title>素路被覆</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/disjoint_path_covers/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/disjoint_path_covers/</guid>
+      <description>有向グラフ \(G\) の路被覆 (path cover) とは、\(G\) の有向路の集合であって \(G\) の全ての辺が少なくとも一つの路に含まれるものを言います。\(G\) の素路被覆 (disjoint-path cover) とは、\(G\) の路被覆であってどの頂点もちょうど一つの路に含まれるものを言います。 任意の有向グラフには長さがゼロの路だけからなる自明な素路被覆がありますが、これは面白くありません。そうではなくて、なるべく少ない路を使った素路被覆を見つける問題を考えましょ</description>
+    </item>
+    
+    <item>
+      <title>ペナントレースにおける敗退</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/baseball_elimination/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/baseball_elimination/</guid>
+      <description>毎年何百万人という野球ファンが熱心に試合を観戦し、贔屓チームがプレーオフそしてワールドシリーズに進むことを期待します。しかし非情なことに、シーズンが終わる数日前あるいは数週間前の時点で、ほとんどのチームはペナントレースから“数学的に”敗退します。通常はあるチームが敗退したかどうかを判断するのは簡単です ――現在地区トップのチームに追いつけるほど試合数が無ければ敗退です―― が、状況がもっと複雑になるこ</description>
+    </item>
+    
+    <item>
+      <title>プロジェクト選択</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/project_selection/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/project_selection/</guid>
+      <description>最後の例として、与えられた \(n\) 個のプロジェクトの中から実際に行うものを選択する問題を考えます。いくつかのプロジェクトは他のプロジェクトが終わるまで開始できず、その依存関係が有向非巡回グラフ \(G\) で表されているとします。 \(G\) の頂点はプロジェクトを表し、辺 \(u \rightarrow v\) はプロジェクト \(v\) が完了するまでプロジェクト \(u\) に取り掛かれないことを表します (6.4 節 で考えた依存グラフと同じ形式です)。そして各プロジェクトには完了したとき</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/exercises/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/exercises/</guid>
+      <description>\(G = (V,E)\) を有向グラフとし、各頂点の入次数と出次数が等しいとします。\(G\) が \(u\) から \(v\) への大きさ \(k\) の辺素路集合を含むとき、\(G\) は \(v\) から \(u\) への大きさ \(k\) の辺素路集合を含みますか？ 証明または反例とその説明を示してください。 無向グラフ \(G = (V,E)\) と三つの頂点 \(u,v,w\) が与えられたとします。\(u\) から \(w\) への \(v\) を通る路があるかどうかを判定するアルゴリズムを説明、解析してください。 [ヒント: \(G\) が有向グラフだとこの問題</description>
+    </item>
+    
+    <item>
+      <title>勝てないゲーム</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/a_game_you_cant_win/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/a_game_you_cant_win/</guid>
+      <description>赤いスーツに身を包んだ、Tom Waits よろしくいかつい顔をしたセールスマンが、\(n\) 個のスイッチと一つの電球の付いた黒い金属の箱をあなたに見せてきました。セールスマンによると、箱の中にはブール回路 ――たくさんの \(\textsc{And}\), \(\textsc{Or}\), \(\textsc{Not}\) を繋いだもの―― が入っており、その回路の入力が \(n\) 個のスイッチで、出力が電球であるとのことです。 そして彼は次の質問をしました: 「電球を灯らせる入力は存在するか？」もし質問に正しく答えること</description>
+    </item>
+    
+    <item>
+      <title>P 対 NP</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/p_versus_np/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/p_versus_np/</guid>
+      <description>アルゴリズムが“効率的である”ための最低条件は、実行時間が入力サイズの多項式で抑えられることです。つまり入力サイズを \(n\) としたときにある定数 \(c\) が存在して、実行時間が \(O(n^{c})\) となるということです1。研究者達は全ての問題が高速に解けるわけではないことに早くから気付いていましたが、どの問題が早く解けてどの問題がそうでないのかを見極めるのに苦労していました。NP 困難 (NP-hard) と呼ばれる問題は誰もが多項式時間で解けないと信</description>
+    </item>
+    
+    <item>
+      <title>NP 困難・NP 容易・NP 完全</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/np_hard_easy_complete/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/np_hard_easy_complete/</guid>
+      <description>問題 \(\Pi\) がNP 困難 (NP-hard) であるとは、\(\Pi\) に対する多項式時間合アルゴリズムが NP に属する全ての問題に対する多項式時間アルゴリズムを意味することを言います。言い換えると: \(\pmb{\Pi}\) が NP 困難 \(\iff\) \(\pmb{\Pi}\) が多項式時間で解けるなら P=NP 分かりやすく言うと、ある NP 困難な問題 \(\Pi\) が一つでも高速に解ければ、 \(\Pi\) を解くサブルーチンを使うことで、答えが簡単に検証できる種類の問題全てを高速に解くことができるということです。NP 困難な問題は少</description>
+    </item>
+    
+    <item>
+      <title>❤ きちんとした定義 (HC SVNT DRACONES)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/formal_definitions/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/formal_definitions/</guid>
+      <description>複雑性クラス P, NP, co-CP をきちんと定義するには、言語 (language) と Turing 機械を使った議論が必要です。言語とは有限アルファベット \(\Sigma\) 上の文字列の集合であり、\(\Sigma = \lbrace {\color{maroon}{0}}, {\color{maroon}{1}} \rbrace\) と仮定しても一般性は失われません。Turing 機械とは機能が極端に制限されたコンピューターであり、その詳細な定義は計算能力を考えるときには驚くほど重要ではありません。 P は決定性単一テープ Turing 機械を使って多項式時間 (polynomial time) で判定できる言語の集合として</description>
+    </item>
+    
+    <item>
+      <title>帰着と SAT</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/reductions_and_sat/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/reductions_and_sat/</guid>
+      <description>回路充足性問題以外の全ての問題に対する NP 困難性を証明するには、帰着を使った議論が必要になります。問題 A を別の問題 B に帰着させる (reduce problem A to anther problem B) とは、問題 B へのアルゴリズムがすでに手に入っているという仮定の下で問題 A を解くアルゴリズムを説明することを言います。帰着はこの本を読み始める前にも何度も行ってきたはずですが、そのときには帰着のことを「サブルーチンを書く」あるいは「ユーティリティ関数を書く」また</description>
+    </item>
+    
+    <item>
+      <title>3 SAT (CircuitSAT からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/3sat_from_sat/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/3sat_from_sat/</guid>
+      <description>様々な問題の NP 困難性を証明するのに特に便利な \(\textsc{SAT}\) の特殊ケースがあり、\(\textsc{3CNF-SAT}\) あるいは \(\textsc{3SAT}\) と呼ばれます。 ブール式が連言標準形 (conjunctive normal form, CNF) であるとは、式がいくつかの節 (clause) の連言 (disjunction, \(\textsc{Or}\)) であり、それぞれの節がリテラルの選言からなる (conjunction, \(\textsc{And}\)) ことを言います。ここでリテラルは一つの変数またはその否定です。例えば: \[ \overbrace{(a \lor b \lor c \lor d)}^{\text{節 (clause)}} \land (b \lor \overline{c} \lor \overline{d}) \land (\overline{a} \lor c \lor d) \land (a \lor \overline{b}) \] は CNF 式で</description>
+    </item>
+    
+    <item>
+      <title>最大独立集合 (3SAT からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/maximum_independent_set_from_3sat/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/maximum_independent_set_from_3sat/</guid>
+      <description>これから考えるいくつかの問題において、入力は単純重み無し無向グラフ、出力は何らかの構造的な特徴を持つ部分グラフのうち最大または最小のものです。 \(G\) を任意のグラフとします。\(G\) の独立集合 (independent set) とは、\(G\) の頂点の集合でどの頂点の組の間にも辺が無いものを言います。最大独立集合問題、略して \(\textsc{MaxIndSet}\) は与えられたグラフに含まれる最大の独立集合の大きさを求める問題です。これから \(\textsc{MaxIndSet}\) が NP 困難であることを \(\textsc{3SAT}\) からの帰</description>
+    </item>
+    
+    <item>
+      <title>共通するパターン</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/general_pattern/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/general_pattern/</guid>
+      <description>NP 困難性の証明、そして一般的には全ての多項式時間帰着には、共通するパターンがあります。問題 \(X\) から問題 \(Y\) への多項式時間帰着には次のステップが必要です: \(X\) の任意のインスタンス \(x\) を \(Y\) の特殊なインスタンス \(y\) に変換する多項式時間アルゴリズムを示す。 \(x\) が \(X\) の“良い”インスタンスならば \(y\) は \(Y\) の“良い”インスタンスであると示す。 \(y\) が \(Y\) の“良い”インスタンスならば \(x\) は \(X\) の“良い”インスタンスであると示す (通常最も難</description>
+    </item>
+    
+    <item>
+      <title>クリークと頂点被覆 (最大独立集合からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/clique_and_vertex_cover/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/clique_and_vertex_cover/</guid>
+      <description>クリーク (clique) とはグラフに含まれる完全グラフ、つまり任意の頂点の組の間に辺がある部分グラフのことであり、\(\textsc{MaxClique}\) 問題とはグラフに含まれる最大のクリークの大きさを求める問題です。頂点被覆 (vertex cover) とはグラフの全ての辺に触れるような頂点の集合であり、\(\textsc{MinVertexCover}\) 問題とはグラフに含まれる最小の頂点被覆の大きさを求める問題です。 \(\textsc{MaxClique}\) が NP 困難</description>
+    </item>
+    
+    <item>
+      <title>グラフの彩色 (3SAT からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/graph_coloring/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/graph_coloring/</guid>
+      <description>グラフ \(G = (V,E)\) の真の \(\pmb{k}\)-彩色 (proper \(\pmb{k}\)-coloring) とは、各頂点に \(k\) 個ある色のどれかを割り当てる関数 \(C: V \rightarrow \lbrace 1, 2, \ldots, k \rbrace\) であって辺でつながれた任意の頂点に違う色が割り当てられるものを言います (“色”は適当なラベルであり、ここでは整数とします。電磁スペクトル、CMYK ベクトル、Pantone の色番号などは使いません)。グラフ彩色問題とは与えられたグラフを彩色するのに必要となる色の数の最小値を計算する問題</description>
+    </item>
+    
+    <item>
+      <title>ハミルトン閉路</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/hamiltonian_cycle/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/hamiltonian_cycle/</guid>
+      <description>ハミルトン閉路 (Hamiltonian cycle) とはグラフの全ての頂点をちょうど一回ずつ訪れる閉路のことです (オイラー閉路 (Eulerian cycle) とは異なります。オイラー閉路は全ての辺をちょうど一回ずつ使う閉じた歩道であり、深さ優先探索を使って線形時間で簡単に見つけられます)。ここでは有向グラフに対するハミルトン閉路問題が NP 困難であることの証明を二つ示します。 頂点被覆からの帰着 ハミルトン閉路問題の NP 困難性の証明の一つ目は、判定バージョンの頂点被覆</description>
+    </item>
+    
+    <item>
+      <title>部分和 (最小頂点被覆からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/subset_sum/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/subset_sum/</guid>
+      <description>次に NP 困難性を示す問題は二章で登場した \(\textsc{SubsetSum}\) です。この問題では正の整数の集合 \(X\) と整数 \(T\) が与えられ、\(X\) の部分集合で要素の和が \(T\) となるものが存在するかどうかを判定します。 ここでも \(\textsc{VertexCover}\) からの帰着を作ります。つまり任意の無向グラフ \(G\) と整数 \(k\) から整数の集合 \(X\) と整数 \(T\) を構築し、\(G\) に大きさ \(k\) の頂点被覆が存在するときに限って和が \(T\) の \(X\) の部分集合があるようにするということです。ここで説明する帰着には二種類</description>
+    </item>
+    
+    <item>
+      <title>その他の便利な NP 困難問題</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/other_useful_np_hard_problems/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/other_useful_np_hard_problems/</guid>
+      <description>文字通り数千もの問題が NP 困難であると示されています。ここでは帰着を導くときに有用な NP 困難問題をいくつか紹介します。それぞれについて NP 困難性の証明の詳細を述べることはしませんが、ほとんどの問題に対する証明は Garey と Johnson による NP 完全性についての恐ろしい黒本1に載っています。ここまでに紹介した問題の全て、そしてこのリストにある問題のほとんどは、1972 年の Richard Karp (リチャード・カープ) による一つの画期的な論文で NP</description>
+    </item>
+    
+    <item>
+      <title>正しい問題を選ぶ</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/choosing_the_right_problem/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/choosing_the_right_problem/</guid>
+      <description>問題の NP 困難性を証明するうえで最も難しいステップの一つは、帰着元となるのに適した問題を選ぶ部分です。Cook-Levin の定理からは、ある NP 困難な問題から問題 \(X\) への帰着があるならば、任意の NP 困難な問題から問題 \(X\) への帰着が存在することが言えます。しかしそうは言っても帰着のしやすさは問題によって異なります。問題を選ぶ機械的な方法というのは存在しませんが、役に立つであろう経験則をいくつかあげます: 問題が</description>
+    </item>
+    
+    <item>
+      <title>ちょっとした現実世界の例</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/a_frivolous_real_world_example/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/a_frivolous_real_world_example/</guid>
+      <description>ドラフツ (draughts) は何千年にもわたって遊ばれているボードゲームです。ドラフツには様々なバージョンがありますが、アメリカ人の多くにとってはチェッカー (checker) あるいはイングリッシュドラフツ (English draughts) と呼ばれるものが一番身近でしょう。しかし世界で一番知られているバージョンは国際ドラフツ (international draughts) あるいはポーランドドラフツ (Polish draughts) と呼ばれるものであり、16 世紀のオランダに起源を持ちます。完全なルールについては Wikipedia に譲り、英米バージョンと</description>
+    </item>
+    
+    <item>
+      <title>❤ 縞模様を超えて</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/on_beyond_zebra/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/on_beyond_zebra/</guid>
+      <description>P と NP は複雑性クラスの巨大な階層における最初の二ステップでしかありません。この章 (そしてこの本) の締めくくりとして、興味深い複雑性クラスをいくつか紹介します。 多項式空間 PSPACE は多項式空間を使って解ける判定問題の集合です。NP に属する全ての問題 (したがって P に属する全ての問題) は PSPACE に属します。NP \(\neq\) PSPACE であることが広く信じられていますが、P \(\neq\) PSPACE さえ証明できた人はいません。 問題 \(\Pi\) がPSPACE 困難 (PSPACE-hard) であると</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/exercises/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/exercises/</guid>
+      <description>\(\textsc{Partition}\) を \(O(nM)\) 時間で解くアルゴリズムを説明、解析してください。ここで \(n\) は入力の集合の大きさ、\(M\) は入力の集合の要素の和を表します。 このアルゴリズムが P=NP を意味しないのはなぜですか？ \(\textsc{BoxDepth}\) と呼ばれる次の問題を考えます:「辺が \(x, y\) 軸に平行な \(n\) 個の長方形の集合が与えられる。共通する点が存在するようなこの集合の部分集合で最大のものの大きさはいくつか？」 \(\textsc{BoxDepth}\) から \(\textsc{MaxClique}\) への多項式時間帰着を説明してください。 \(\textsc{BoxDepth}\) に対する多項式</description>
+    </item>
+    
+  </channel>
+</rss>

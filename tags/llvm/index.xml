@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLVM on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/tags/llvm/</link>
+    <description>Recent content in LLVM on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LLVM の WebAssembly バックエンドと Emscripten (翻訳)</title>
+      <link>https://inzkyk.xyz/v8/llvm_wasm_backend_emscripten/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/v8/llvm_wasm_backend_emscripten/</guid>
+      <description>WebAssembly は通常ソース言語からコンパイルされて作られるので、開発者が WebAssembly を利用するときにはコンパイルのためのツールが必要になります。このため V8 チームは関連するオープンソースプロジェクト (LLVM, Emscripten, Binaryen, WABT) に取り組んできました。この記事では Emscripten と LLVM に関して私たちが行ってきたことを説明します。これによって、Emscripten がデフォルトで使うバックエンドは LLVM の WebAssembly バックエンドに変更されます ――ぜひ試して、問題があれば教えてく</description>
+    </item>
+    
+    <item>
+      <title>LLVM</title>
+      <link>https://inzkyk.xyz/aosa/llvm/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/llvm/</guid>
+      <description>この章では LLVM1 を形作った設計上の判断について議論します。LLVM は各要素が密接な結び付きを持つ低レベルツールチェイン (アセンブラ、コンパイラ、デバッガなど) の包括的プロジェクトであり、Unix システムでよく使われている既存のツールと互換性を保つように設計されています。“LLVM”という名前はかつては頭字語でしたが、現在ではプロジェクト全体を指すブランド名となっています。LLVM はユニークな機能を持ち</description>
+    </item>
+    
+  </channel>
+</rss>

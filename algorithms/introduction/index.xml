@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>イントロダクション on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/introduction/</link>
+    <description>Recent content in イントロダクション on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>アルゴリズムとは何か？</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/what_is_an_algorithm/</link>
+      <pubDate>Thu, 03 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/what_is_an_algorithm/</guid>
+      <description>アルゴリズムとは、明示的で、精確で、曖昧さを持たない、機械で実行できる簡単な命令を並べたものです。アルゴリズムは通常何らかの目的を念頭において作られます。例えば次のアルゴリズムは、“99 Bottles of Beer on the Wall”という歌の 99 の部分を任意の値にした歌を歌います: \begin{algorithmic} \Procedure{BottlesOfBeer}{$n$} \For{\(i \leftarrow n\) \DownTo \(1\) } \State{“ \(i\) bottles of beer on the wall \(i\),” と歌う} \State{“Take one down, pass it around, \(i - 1\) bottles of beer on the wall.” と歌う} \EndFor \St</description>
+    </item>
+    
+    <item>
+      <title>掛け算</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/multiplication/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/multiplication/</guid>
+      <description>アルゴリズムが正式な学術研究の対象となってまだ数十年しか経っていませんが、人類は文明が始まった頃からアルゴリズムを使ってきました。計算手順の詳細な説明は人類が言語を書き留めた最も古い例の一つです。それは Fibonacci や al-Khwārizmī よりもずっと前のことで、彼らが広めた位取り記数法よりもさらに前のことです。 格子掛け算 少なくとも多くのアメリカ人の学生にとって、大きな整数を掛け算する方法として一番なじみ深</description>
+    </item>
+    
+    <item>
+      <title>議会の議席配分</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/congressional_apportionment/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/congressional_apportionment/</guid>
+      <description>現実世界のアルゴリズムの例をもう一つ示しましょう。このアルゴリズムは政治的に非常に重要です。アメリカ合衆国憲法第 1 条第 2 節は次のことを定めています: 下院議員と直接税はこの連邦に加入することを認められた州の人口に比例して各州で配分される。 ... 下院議員の定数は人口3万人に対し1人を超えてはならないが、各州は少なくとも1人の下院議員を持たなくてはならない。 ... 下院議会の議席は有限なので、議席を完全に人口に比</description>
+    </item>
+    
+    <item>
+      <title>悪い例</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/a_bad_example/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/a_bad_example/</guid>
+      <description>アルゴリズムでない命令列の分かりやすい例として、次の Martin (マーティン) のアルゴリズム1を考えます: \begin{algorithmic} \Procedure{BeAMillionaireAndNeverPayTaxes}{} \State{百万ドル手に入れる} \If{徴税人がきて 「税金を払っていませんよ！」 と言う} \State{「忘れてた」 と言う} \EndIf \EndProcedure \end{algorithmic} このアルゴリズムは単純ですが、一行目が絶望的に実行困難です！ 大富豪の CEO、シリコンバレーのベンチャー投資家、ニューヨークのやり手不動産家などにとっては一行目はすぐに実行</description>
+    </item>
+    
+    <item>
+      <title>アルゴリズムの説明</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/describing_algorithms/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/describing_algorithms/</guid>
+      <description>アルゴリズムを正しく設計そして解析するためのスキルは、アルゴリズムを分かりやすく説明するためのスキルと結びついています。少なくとも私の講義において、アルゴリズムを完全に説明するために必要な要素は次の四つです: What: アルゴリズムが解く問題の明確な仕様 How: アルゴリズムの明確な説明 Why: アルゴリズムが解くべき問題を解くという証明 How fast: アルゴリズムの実行時間の解析 四つの要素をこの順番で開発する必要はありません (という</description>
+    </item>
+    
+    <item>
+      <title>アルゴリズムの解析</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/analyzing_algorithms/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/analyzing_algorithms/</guid>
+      <description>アルゴリズムをただ書き下して「見よ！」というだけでは不十分で、アルゴリズムがすべきことを効率良く行うことを聴衆 (および自分自身) に納得させなければなりません。 正しさ アプリケーションが置かれる環境によっては、プログラムが「常識的な」入力の全てに対してほとんどの場合に正しく動けばそれで OK とされることもあります。しかし、この本では違います。アルゴリズムは全ての可能な入力に対して常に正しいことを要求されま</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/introduction/exercises/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/introduction/exercises/</guid>
+      <description>通常のチェスボード上に並べられた通常のチェスの駒の配置がルールに反していない場合に、どちらのプレイヤーが勝つかを判定する効率の良いアルゴリズムを説明、解析してください。両プレイヤーは完璧に駒を進めるものとします。[ヒント: 一行で書ける自明な答えがあります！] ❤ 最初の \(n\) バースを歌うのに時間が \(\Theta(n^{3})\) かかる歌を見つけて (または作って) ください。 最初の \(n\) バースを歌うのに時間が \(\Theta(n \log n)\) かかる歌を見つけて (または作</description>
+    </item>
+    
+  </channel>
+</rss>

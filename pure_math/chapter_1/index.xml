@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第一章 実数変数 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/pure_math/chapter_1/</link>
+    <description>Recent content in 第一章 実数変数 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/pure_math/chapter_1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>§1 有理数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_1/</guid>
+      <description>正または負の整数 \(p\) と \(q\) について、その比 \(r = p/q\) を有理数 (rational number) と呼ぶ。このとき \(p\) と \(q\) に公約数が存在するなら両方を公約数で割ることで、\(p\) と \(q\) が公約数を持たないと仮定できる。さらに次の式が成り立つので、\(q\) が正だとも仮定できる: \[ \begin{aligned} p/(-q) &amp;= (-p)/q, \\ (-p)/(-q) &amp;= p/q \end{aligned} \] こうして定義される有理数に、\(p = 0\) とした「有理数 \(0\)」を追加する。以降はこの有理数について考える。 読者は有理数に関する基本的な算術規則を</description>
+    </item>
+    
+    <item>
+      <title>§2 数直線上の点を使った有理数の表現</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_2/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_2/</guid>
+      <description>数学的な解析の様々な場面において、幾何学的な図を使うと議論が分かりやすくなる。 ただし幾何学的な図を使ったとしても、解析にその図が必要なわけでは決してない。図は図に過ぎず、説明を分かりやすくするためだけに使われる。そのため、初等幾何学の概念を使った論理的な議論は必ずしも必要とならない。図が真実からどれほど離れていたとしても、図の意味することをお互いに理解できれば、それで問題ない。 直線 (straight line)、直</description>
+    </item>
+    
+    <item>
+      <title>§3 無理数 (その 1)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_3/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_3/</guid>
+      <description>分母が \(1,2,3, \ldots\) である有理数に対応する数直線上の点全てに印を付けるところを想像すれば、有理点を使って数直線上に好きなだけ細かく印を付けられることを納得できるだろう。これを正確に表現すれば「\(\Lambda\) 上に任意の線分 \(BC\) を取ると、\(BC\) 上に好きなだけ多くの有理点を見つけられる」となる。 例えば \(BC\) が線分 \(A_{1}A_{2}\) の中に含まれるとする。正の整数 \(k\) を \[ k · BC \gt 1 \qquad \text{(1)} \] が成り立つように選び1、それから \(A_{1}A_{2}\) を \(k\) 分</description>
+    </item>
+    
+    <item>
+      <title>§4 無理数 (その 2)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_4/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_4/</guid>
+      <description>有理数の幾何学的な表現を使ったここまでの議論から、新しい種類の数を追加して「数」の概念を拡張するのが望ましいことが分かった。 幾何学の言葉を使わずとも同じ結論はおそらく得られる。代数における中心的な問題の一つは方程式の求解であり、例えば \[ x^{2} = 1,\quad x^{2} = 2 \] などの方程式を扱う。最初の方程式は二つの有理根 \(1\) と \(-1\) を持つが、私たちの数の概念が有理数に制限されるとすれば、二つ目の方程式には根が存在しないとしか言え</description>
+    </item>
+    
+    <item>
+      <title>§5 無理数 (その 3)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_5/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_5/</guid>
+      <description>前節では正の有理数を二つのクラス \(L\) と \(R\) に分割した。このとき (i) \(R\) の全ての要素は \(L\) のどんな要素よりもより大きく、(ii) \(L\) の要素と \(R\) の要素の組であって差が好きなだけ小さいものを取ることができ、(iii) \(L\) は最大要素を持たず、\(R\) は最小要素を持たない。直線の常識的な性質や初等幾何と初等代数からの要請といったものを考えると、\(L\) の全ての要素よりも大きく \(R\) の全ての要素よりも小さい数 \(x\)、お</description>
+    </item>
+    
+    <item>
+      <title>§6 無理数 (その 4)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_6/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_6/</guid>
+      <description>§ 4 では正の有理数 \(x\) を二つのクラスに分割する具体的な方法を説明し、\(x^{2} \lt 2\) を満たすクラスと \(x^{2} \gt 2\) を満たすクラスを考えた。この分割方法を、考えている数の切断 (section) と呼ぶ。二つのクラスの要素を特徴付ける不等式が \(x^{3} \lt 2\) と \(x^{3} \gt 2\)、あるいは \(x^{4} \lt 7\) と \(x^{4} \gt 7\) である場合にも切断を同じように構成できる。こういった正の有理数の「切断」の構築に関するごく自然な法則を示そう。 \(P\) と \(Q\) をとある性質とし、ある正の有理</description>
+    </item>
+    
+    <item>
+      <title>§7 無理数 (その 5)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_7/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_7/</guid>
+      <description>前節の最後で示した最初の二つのケースでは、切断が正の有理数 \(a\) に対応する。最初のケースでは \(a = l\) で、もう一つでは \(a = r\) となる。逆に正の有理数 \(a\) がある切断に対応するのも明らかなので、その切断を \(\alpha\) と表記する1。例えば \(P\) と \(Q\) がそれぞれ \[ x \leq a,\quad x \gt a \] という不等式、あるいは \(x \lt a\) と \(x \geq a\) という不等式で表されるケースがこれにあたる。最初のケースでは \(a\) が \(L\) の最大要素となり、二つ目のケースでは \(a\) が \(R\) の最小要素とな</description>
+    </item>
+    
+    <item>
+      <title>§8 実数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_8/</guid>
+      <description>前節では正の有理数の切断に話を限定し、この切断を仮に「正の実数」と呼んだ。最終的な定義を述べるには、これまでの定義を少し変える必要がある。ここからは切断、すなわち二つのクラスへの分割を、正の有理数だけではなく \(0\) を含めた全ての有理数に対して考えることにする。このとき § 6-§ 7 で正の有理数の切断について行った議論は、「正の」という言葉を適切に省略すればもう一度行える。そして次のように実数を定義する: 有</description>
+    </item>
+    
+    <item>
+      <title>§9 実数の大きさの関係</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_9/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_9/</guid>
+      <description>数の概念を拡張して次に当然行うべきは、対応する等号、不等号、加算、乗算といった概念の拡張である。こういった概念を新しい数に適用する方法、そして拡張された概念が通常の代数法則を満たすことを示す必要がある。この証明がなくては、一般的な実数を § 1 の有理数と同じように扱えない。しかし全てを詳細に示すには多くの紙面が必要になるので、ここでは詳細な議論の進め方を大まかに示すに留める。 実数は \(\alpha,\ \beta,\ \gamma,\ \ldots\) といったギリ</description>
+    </item>
+    
+    <item>
+      <title>§10 実数に対する代数演算 (その 1)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_10/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_10/</guid>
+      <description>続いて、加算などの初等的な代数演算を実数に対して一般的に定義する。 加算: 二つの数 \(\alpha\) と \(\beta\) の和の定義では、次の二つのクラスを考える: (i) 全ての和 \(c = a + b\) から得られる \((c)\) (ii) 全ての和 \(C = A + B\) から得られるクラス \((C)\)。明らかに \(c \lt C\) が常に成り立つ。 ここでも、\(c\) にも \(C\) にも属さない有理数は最大でも一つである。もしそのような二つの有理数 \(r,\ s\) が存在して \(s\) の方が大きかったとすると、\(r\) と \(s\) の両方</description>
+    </item>
+    
+    <item>
+      <title>§11 実数に対する代数演算 (その 2)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_11/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_11/</guid>
+      <description>乗算: 乗算ではまず最初に (\(0\) を含んだ) 正の数だけを考え、§ 4―§ 7 で扱った正の有理数からなる切断に戻ると簡単になる。\((c)\) を \((ab)\)、\((C)\) を \((AB)\) とすれば加算と本質的に同じ道をたどれる。議論が唯一異なるのが、最大でも一つの例外を除いた全ての有理数が \(c\) または \(C\) に属することを示す部分である。\(a,\ A,\ b,\ B\) を \(C - c\) が好きなだけ小さくなるように選べることを示すこの部分では、次の等式を</description>
+    </item>
+    
+    <item>
+      <title>§12 実数 \(\sqrt{2}\)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_12/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_12/</guid>
+      <description>前に § 4―§ 5 で個別に考えた無理数に戻ろう。そこでは不等式 \(x^{2} \lt 2\) と \(x^{2} \gt 2\) を使って切断を構築した。この切断はもともと正の有理数だけからなっていたが、後に (§ 8 で) 全ての有理数からなる切断に置き換えた。こうして定義される切断あるいは実数は \(\sqrt{2}\) と表される。 \(\sqrt{2}\) とそれ自身の積として構築されるクラスは、(i) 二乗が \(2\) より小さい正の有理数 \(a,\ a&#39;\) に対する \((aa&#39;)\)、および (ii) 二乗が \(2\) より大きい正の有理数 \(A,\ A&#39;\) に対</description>
+    </item>
+    
+    <item>
+      <title>§13 二次の不尽根数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_13/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_13/</guid>
+      <description>有理数の二乗でない正の有理数 \(a\) に対して、\(±\sqrt{a}\) の形をした実数を純粋な二次の不尽根数 (pure quadratic surd) と呼ぶ。有理数 \(a\) と純粋な二次の不尽根数 \(\sqrt{b}\) に対して、\(a ± \sqrt{b}\) の形をした数を混ざった二次の不尽根数 (mixed quadratic surd) と呼ぶことがある。 二つの実数 \(a ± \sqrt{b}\) は次の二次方程式の根である: \[ x^{2} - 2ax + a^{2} - b = 0 \] 逆に \(p, q\) が有理数で \(p^{2} - q \gt 0\) なら、二次方程式 \(x^{2} + 2px + q = 0\) は二つの二次の不尽根数 \(-p ± \sqrt{p^{2} - q}\) を根に持つ。 § 3</description>
+    </item>
+    
+    <item>
+      <title>§14 二次の不尽根数に関する諸定理</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_14/</guid>
+      <description>二つの純粋な二次の不尽根数が同じ不尽根数の有理数倍として表せるなら、二つは相似 (similar) であると言う。そうでないなら非相似 (dissimiar) と言う。例えば \[ \sqrt{8} = 2\sqrt{2},\quad \sqrt{\frac{25}{2}} = \frac{5}{2}\sqrt{2} \] だから、二つの純粋な不尽根数 \(\sqrt{8}\) と \(\sqrt{\frac{25}{2}}\) は相似だと分かる。一方 \(M\) と \(N\) が共通約数を持たない整数であって両方とも完全平方数でないなら、\(\sqrt{M}\) と \(\sqrt{N}\) は非相似である。なぜなら、もし相似だとしたら \[ \sqrt{M} = \frac{p}{q}\sqrt{\frac{t}{u}},\quad \sqrt{N} = \frac{r}{s}\sqrt{\frac{t}{u}} \] となる。ここで \(p,q,r,s,t,u\) は全て整数である。 このとき</description>
+    </item>
+    
+    <item>
+      <title>§15 連続体</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_15/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_15/</guid>
+      <description>全ての実数 (有理数と無理数) の集まりを、算術的連続体 (arithmetical continuum) と呼ぶ。 § 2 の直線 \(\Lambda\) が算術的連続体に含まれる数に対応する点のみからなる1と考えると理解しやすい。線形連続体 (linear continuum) と呼ばれるこの直線上の点の集合は、算術的連続体の分かりやすいイメージとなる。 ここまではいくらかの時間をかけて、いくつかの実数のクラス、例えば有理数や二次の不尽根数が持つ重要な特徴を見てきた。ここでさらに例を示して、そういった非常に特別</description>
+    </item>
+    
+    <item>
+      <title>§16 連続な実数変数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_16/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_16/</guid>
+      <description>「実数」を捉える二つの視点がある。一つは実数を前節で定義した「算術的連続体」という集まりだと考えるもので、もう一つは実数を個別に考えるものである。実数を個別に考えるときは特定の指定された数 (例えば \(1,\ -\frac{1}{2},\ \sqrt{2},\ \pi\)) を念頭に置く場合もあれば、任意の数、不詳の数、とある数 \(x\) を念頭に置く場合もある。後者の考え方をするのは、私たちが「\(x\) は数だ」「\(x\) は長さの単位だ」「\(x\) は有理数でも無理数でもあ</description>
+    </item>
+    
+    <item>
+      <title>§17 実数の切断 (デデキントの定理)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_17/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_17/</guid>
+      <description>§ 4―§ 7 で有理数の「切断」、すなわち (正の) 有理数を二つのクラス \(L\) と \(R\) に分割する方法について考えた。\(L\) と \(R\) には次の性質がある: 考えている数全てが、二つのクラスのどちらか一方に属する。 両方のクラスが要素を持つ。 \(L\) に属する任意の数は \(R\) に属する任意の数より小さい。 もちろん、全ての実数の集まりにもこの考えを適用できる。この考え方が非常に重要なことが後の章で分かる。 \(P\) と \(Q\) を互いに矛盾する実数に関す</description>
+    </item>
+    
+    <item>
+      <title>§18 集積点</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_18/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_18/</guid>
+      <description>実数あるいは実数に対応する直線上の点を集めたもの (定義は問わない) を、数や点の集まり (aggregate) あるいは 集合 (set) と呼ぶ。例えば正の整数の集合や全ての有理点の集合が考えられる。 ここでは幾何学の言葉を使うのが都合が良い1。点集合 \(S\) が与えられたとして、任意の点 \(\xi\) 取る。\(\xi\) は \(S\) に属するかもしれないし属さないかもしれない。このとき二つの可能性がある。つまり (i) \([\xi - \delta, \xi + \delta]\) に \(S\) に属する点が \(\xi\) 以外にない2ように正数</description>
+    </item>
+    
+    <item>
+      <title>§19 ワイエルシュトラスの定理</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/section_19/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/section_19/</guid>
+      <description>点集合の一般理論は解析学のより高度な分野で非常に興味深く重要になるが、その多くは本書のような本に含めるには難しすぎる。しかしデデキントの定理から導かれる基礎的な定理が一つあり、これは後で必要になる: 集合 \(S\) が無限に多くの点からなり、\(S\) の全ての点が区間 \([\alpha, \beta]\) に含まれるなら、その区間の少なくとも一つの点は \(S\) の集積点である。 証明を示す。直線 \(\Lambda\) を次のようにして二つのクラス \(L\) と \(R\) に分ける: 点 \(P\) が \(L\) に属す</description>
+    </item>
+    
+    <item>
+      <title>第一章に関するその他の例</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_1/misc_examples_1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_1/misc_examples_1/</guid>
+      <description>\(ax + by + cz = 0\) が (1) 全ての \(x,\ y,\ z\) について、(2) \(\alpha x + \beta y + \gamma z=0\) を満たす全ての \(x,\ y,\ z\) について、(3) \(\alpha x + \beta y + \gamma z=0\) と \(Ax + By + Cz = 0\) の両方を満たす任意の \(x,\ y,\ z\) について、満たされるための条件は何か？ 任意の正の有理数は次の形をした表現をただ一つ持つ: \[ a_{1} + \frac{a_{2}}{1·2} + \dots + \frac{a_{k}}{1·2·3\dots k} \] ここで \(a_{1},\ a_{2},\ \dots,\ a_{k}\) は整数であり、次が成り立つ: \[ \begin{aligned} 0 &amp;\leq a_{1},\\ 0 &amp;\leq a_{2} \lt</description>
+    </item>
+    
+  </channel>
+</rss>

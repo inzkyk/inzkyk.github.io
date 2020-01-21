@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mozilla Hacks の翻訳 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/mozilla_hacks/</link>
+    <description>Recent content in Mozilla Hacks の翻訳 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/mozilla_hacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WASI の標準化: WebAssembly をウェブの外で使うためのシステムインターフェース (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/wasi/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/wasi/</guid>
+      <description>今日、私たちが新たな標準化の取り組みを開始したことをお伝えします。その名も WebAssembly system interface、略して WASI です。 Why: 開発者たちはブラウザという枠を超えた WebAssembly の利用を探り始めています。WebAssembly を使えば同じコードを全てのマシンで高速、スケーラブル、安全に実行できるからです。 しかし私たちにはこれを実現するための強固な地盤がありません。ブラウザの外で動くコードにはシステムと対話する仕組み、つまり</description>
+    </item>
+    
+    <item>
+      <title>Firefox のアドオンが利用不可能になった先日の事件の技術的詳細 (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/firefox_addon_outrage/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/firefox_addon_outrage/</guid>
+      <description>Firefox のほとんどのアドオンが動かなくなるという事件が先日起こりました。原因はアドオンの署名に使っていた証明書の有効期限切れであり、私たちのミスです。現在ではほとんどの人のアドオンが復活し問題が解決されたので、この記事では何が起こったのか、なぜ起こったのか、私たちがどのように修正したかについて詳細に説明します。 背景: アドオンと署名 Firefox をそのまま使っている人も大勢いますが、Firefox には &#34;アドオン&#34; と呼</description>
+    </item>
+    
+    <item>
+      <title>WebAssembly Interface Types で全てが連携する！ (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/webassembly_interface_types/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/webassembly_interface_types/</guid>
+      <description>ブラウザ外での WebAssembly の利用が盛り上がっています。 盛り上がりはスタンドアローンのランタイムを使った WebAssembly の実行だけではありません。Python, Ruby, Rust といった言語からの WebAssembly の実行にも注目が集まっています。 なぜそんなことが望まれるのでしょうか？ 理由はいくつかあります: 「ネイティブ」をもっと簡単に Node あるいは Python の CPython のようなランタイムでは、C++ などの低レベル言語でもモジュールを書ける場合があります。低レベル言語を使っ</description>
+    </item>
+    
+    <item>
+      <title>Bytecode Alliance のアナウンス: デフォルトでセキュア、合成可能な WebAssembly の未来を作る (翻訳)</title>
+      <link>https://inzkyk.xyz/mozilla_hacks/bytecode_alliance/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/mozilla_hacks/bytecode_alliance/</guid>
+      <description>本日、Bytecode Alliance が発足されたことをお伝えします。Bytecode Alliance は WebAssembly のブラウザ外における利用を推し進めるための産業パートナーシップであり、規格の実装や新しい規格の提案を行います。設立メンバーは Mozilla, Fastly, Intel, Red Hat で、さらなるメンバーを迎え入れるのを楽しみにしています。 私たちが思い描く WebAssembly エコシステムのビジョンは、デフォルトでセキュア (secure by default) なエコシステムが現在のソフトウェア基盤が持つ欠点を修正するとい</description>
+    </item>
+    
+  </channel>
+</rss>

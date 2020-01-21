@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>全組最短路 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/</link>
+    <description>Recent content in 全組最短路 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>導入</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/introduction/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/introduction/</guid>
+      <description>前章では単一の頂点 \(s\) から他の全ての頂点への最短路を \(s\) を根とした最短路木を作ることで見つけるアルゴリズムについて議論しました。最短路木はグラフの各頂点 \(v\) に対して二つの情報を割り当てます: \(s\) から \(v\) への最短路の長さを表す \(\mathit{dist}(v)\) \(s\) から \(v\) への最短路における最後から二つ目の頂点を表す \(\mathit{pred}(v)\) この章で扱うのは、もっと一般的な全組最短路問題 (all pairs shortest path problem, APSP) です。これは任意のソース頂点から任意の目標頂点への最短路を求める問題であ</description>
+    </item>
+    
+    <item>
+      <title>たくさんの単一ソース</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/lots_of_single_sources/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/lots_of_single_sources/</guid>
+      <description>全組最短路問題の明らかな解法は、単一ソース最短路問題を各頂点に対して一回ずつ、合計で \(V\) 回解くというものです。具体的に言うと、単一ソース最短路問題を解くたびに一次元の部分配列 \(\mathit{dist}[s, \cdot]\) が埋まります: \begin{algorithmic} \Procedure{ObviousAPSP}{$V, E, w$} \For{頂点 \(s\)} \State{\(\mathit{dist}[s, \cdot] \leftarrow \) \Call{SSSP}{\(V, E, w, s\)}} \EndFor \EndProcedure \end{algorithmic} このアルゴリズムの実行時間が用いる単一ソース最短路アルゴリズムに依存しているのも明らかです。単一ソースのときと同じように、グラフの構造と辺の重みに依存する四種類の選</description>
+    </item>
+    
+    <item>
+      <title>重みの変更</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/reweighting/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/reweighting/</guid>
+      <description>負の辺があると実行が非常に遅くなります: どうにかして削除できないでしょうか？ たくさんの人が思い浮かべる単純なアイデアは、全ての辺の重みを同じだけ増加させることで全ての辺の重みを正にして、Bellman-Ford の代わりに Dijkstra を使うというものです。残念ながら、この単純なアイデアは上手く行きません ――こうすると、多くの辺を持つ路の重みが少ない辺しか持たない路よりも多く増加してしまうからです。次の図に示す</description>
+    </item>
+    
+    <item>
+      <title>Johnson のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/johnsons_algorithm/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/johnsons_algorithm/</guid>
+      <description>Johnson (ジョンソン) の全組最短路アルゴリズムは全ての辺の重みが非負となるように各頂点に価値 \(\pi(v)\) を割り当て、その後 Dijkstra のアルゴリズムを使って新しい重みに対する最短路を計算します。 まずグラフの全ての頂点に到達できる頂点 \(s\) が存在すると仮定します。Johnson のアルゴリズムは最初 \(s\) から他の全ての頂点に対する最短路を (負辺があっても正しく動く) Bellman-Ford のアルゴリズムを使って計算し、それから価値関数を \(\pi(v) = \mathit{dist}(s, v)\) と定義します</description>
+    </item>
+    
+    <item>
+      <title>動的計画法</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/dynamic_programming/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/dynamic_programming/</guid>
+      <description>単一ソース最短路アルゴリズムの代わりに動的計画法を使っても全組最短路問題を解くことができます。\(E = \Theta(V^{2})\) であるような密なグラフに対しては、動的計画法を使ったアプローチの方が Johnson のアルゴリズムよりも単純で (少しだけ) 速いアルゴリズムとなります。 この章の残りの部分では、入力グラフに負閉路が無いことを仮定します。 まずは動的計画法のアルゴリズムに付き物の再帰方程式を考えます。単一ソースと同様に、“明らかな”</description>
+    </item>
+    
+    <item>
+      <title>分割統治</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/divide_and_conquer/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/divide_and_conquer/</guid>
+      <description>1971 年に Michael Fischer (マイケル・フィッシャー) と Albert Meyer (アルバート・マイヤー) によって提案された方法を使うと、さらに格段な高速化が可能です。Bellman の再帰方程式は最短路を少しだけ短い路と一つの辺に分けて考え、目標頂点の全ての前者を考えることで最短路を求めていました。こうする代わりに、最短路をその中間地点にある頂点で分けて二つの路にしてみましょう。こうすると、先ほど定義した \(\mathit{dist}(u, v, l)\) に対する異なる再帰方程式が</description>
+    </item>
+    
+    <item>
+      <title>おかしな行列積</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/funny_matrix_multiplication/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/funny_matrix_multiplication/</guid>
+      <description>有向グラフの最短路の計算と正方行列のべき乗の計算の間には密接な関係があります。この関係は Alfonso によって最初に発見され、後に Bellman も独立に発見しました。\(n \times n\) の行列の二乗を求めるアルゴリズムを次に示します。これを \(\textsc{FischerMeyerAPSP}\) の内側のループと比べてみてください (似ていることが分かりやすいように二つ目のアルゴリズムの記法を少し変えています)。 \begin{algorithmic} \Procedure{MatrixSquare}{$A$} \For{\(i \leftarrow 1\) \To \(n\)} \For{\(j \leftarrow 1\) \To \(n\)} \State{\(A^{\prime}[i, j] \leftarrow 0\)} \For{\(k \leftarrow 1\) \To \(n\)} \State{\(A^{\prime}[i, j] \leftarrow A^{\prime}[i, j] + A[i, k] \cdot A[k, j]\)} \EndFor \EndFor \EndFor \EndProcedure \end{algorithmic} \begin{algorithmic}</description>
+    </item>
+    
+    <item>
+      <title> (Kleene-Roy-) Floyd-Warshall (-Ingerman)</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/kleene-roy-floyd-warshall-ingerman/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/kleene-roy-floyd-warshall-ingerman/</guid>
+      <description>Johnson のアルゴリズムのフィボナッチヒープを使った実装と比べると、高速な方の動的計画法アルゴリズムでさえ最悪ケースの計算時間が \(O(\log V)\) 倍低速です。最短路問題の異なる定式化を使うとこの対数部分を改善できます。この定式化を使ったアルゴリズムは 1962 年に Robert Floyd (ピーター・フロイト) と Peter Ingerman (ピーター・インガーマン) によってぞれぞれ独立に発見され、両者とも同年の前半に Stephen Warshall (ステファン・ワーシャル) によって発表されたアルゴリ</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/exercises/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/all_pairs_shortest_paths/exercises/</guid>
+      <description>\(\textsc{LeyzorekAPSP}\) を改変して、最短路の長さの配列だけはなく前者へのポインタの配列も計算するようにしてください。実行時間は \(O(V^{3}\log V)\) のままであるようにしてください。 \(\textsc{FloydWarshall}\) を改変して、最短路の長さの配列だけはなく前者へのポインタの配列も計算するようにしてください。実行時間は \(O(V^{3})\) のままであるようにしてください。 この章で議論した全てのアルゴリズムは負閉路が含まれるグラフに対して正しい答えを計算できません。グラフに負閉路が含まれている</description>
+    </item>
+    
+  </channel>
+</rss>

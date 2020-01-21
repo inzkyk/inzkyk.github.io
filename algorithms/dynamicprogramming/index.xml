@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>動的計画法 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/dynamicprogramming/</link>
+    <description>Recent content in 動的計画法 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/dynamicprogramming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mātrāvṛtta</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/matravrtta/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/matravrtta/</guid>
+      <description>人類が再帰処理を使った一番古い例は、2000 年以上前のインドにおける詩の歩格と韻律に関する研究に見ることができます。古典サンスクリット語の詩では、音節 (akṣara) を軽い (laghu) 音節と重い (guru) 音節の二つに区別していました。mātrāvṛtta (マトラブラッタ)、 mātrāchandas (マトラチャンダス) などと呼ばれる歩格の詩では各行が同じ数の拍 (mātrā) を持ち、軽い音節は一拍、重い音節は二拍の長さ</description>
+    </item>
+    
+    <item>
+      <title>❤ 余談: さらに高速な Fibonacci 数</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/aside_even_faster_fibonacci_numbers/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/aside_even_faster_fibonacci_numbers/</guid>
+      <description>先ほど示したアルゴリズムは単純で魅力的でしたが、Fibonacci 数を計算する最速のアルゴリズムではありません。Fibbonacci 数を定義する再帰方程式を次のように行列の式として表すと、これまでより速いアルゴリズムが作れます: \[ \begin{bmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} y \\ x + y \end{bmatrix} \] この式を言い換えると、二次元ベクトルに行列 \(\begin{bmatrix} 0 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}\) を掛けることが \(\textsc{IterFibo2}\) の for ループを一回進めるのとちょうど同じ効果を持っ</description>
+    </item>
+    
+    <item>
+      <title>分かち書き (Interpunctio Verborum) 再訪</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/interpunctio_verborum_redux/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/interpunctio_verborum_redux/</guid>
+      <description>次に考える動的計画法の例は、前章で触れた文字列分割の問題です。この問題の入力は文字列が (何らかの意味で) 単語かどうかを判定するサブルーチン \(\textsc{IsWord}\) と検査する文字列 \(A[1..n]\) であり、出力は \(A\) を単語列に分割できるかどうかでした。 この問題を解いたときに使ったのは接尾部分 \(A[i..n]\) が分割できる場合に限って \(\textsc{True}\) を返す関数 \(\mathit{Splittable}(i)\) であり、\(\mathit{Splittable}(1)\) を計算することで問題を解きました。この関数は次の再</description>
+    </item>
+    
+    <item>
+      <title>パターン: 賢い再帰</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/the_pattern_smart_recursion/</link>
+      <pubDate>Wed, 23 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/the_pattern_smart_recursion/</guid>
+      <description>一言で行ってしまえば、動的計画法とは無駄のない再帰です。 たしかに動的計画法を使ったアルゴリズムは、途中で解く小問題の答えを配列や表などのデータ構造に保存します。しかしアルゴリズムを学ぶ生徒 (そして教師と教科書) は、この表を強調しすぎるという間違いを犯しています。表なら誰でも知っていて簡単に理解できるからそうするのでしょうが、こうするとはるかに重要な (そしてはるかに難しい) 問題である、正しい再帰方程</description>
+    </item>
+    
+    <item>
+      <title>警告: 貪欲は愚か</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/warning_greed_is_stupid/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/warning_greed_is_stupid/</guid>
+      <description>本当に運が良ければ、再帰方程式や表などを何も考えない貪欲な (greedy)アルゴリズムで問題が解けてしまうことがあります。貪欲なアルゴリズムはバックトラッキングを使ったアルゴリズムと同じように決断を積み重ねることで解を作りますが、再帰的な小問題を解くことなく愚直に一度だけ決断を行います。このアプローチはとても自然に見えるかもしれませんが、上手く行くことはまずありません。貪欲なアルゴリズムによって解</description>
+    </item>
+    
+    <item>
+      <title>最長増加部分列</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/longest_increasing_subsequence/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/longest_increasing_subsequence/</guid>
+      <description>前の章で考えた問題の中に、与えられた数値の配列 \(A[1..n]\) に含まれる一番長い増加部分列の長さを求めるという問題があり、この問題に対するバックトラッキングを使ったアルゴリズムを二つ説明しました。どちらも最悪ケースの実行時間が \(O(2^{n})\) でしたが、両方とも動的計画法を使うことで著しい高速化が可能です。 一つ目の再帰方程式: これは次？ 一つ目のバックトラッキングを使ったアルゴリズムが評価するのは、全ての要素が \(A[i]\) よりも大きい \(A[j..n]\) の</description>
+    </item>
+    
+    <item>
+      <title>編集距離</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/edit_distance/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/edit_distance/</guid>
+      <description>二つの文字列の間の編集距離 (edit distance)とは、一方の文字列をもう片方と同じ文字列に変形するために必要となる、文字の挿入、削除、置換の最小回数です。例えば \(\color{maroon}{\texttt{FOOD}}\) は次のように \(\color{maroon}{\texttt{MONEY}}\) に変形できるので、\(\color{maroon}{\texttt{FOOD}}\) と \(\color{maroon}{\texttt{MONEY}}\) の間の編集距離が最大でも \(4\) であることが分かります: \[ {\color{maroon}\texttt{FOOD}} \rightarrow {\color{maroon}\texttt{MOOD}} \rightarrow {\color{maroon}\texttt{MOND}} \rightarrow {\color{maroon}\texttt{MONED}} \rightarrow {\color{maroon}\texttt{MONEY}} \] この距離関数は暗号理論を研究していた Vladimir Levenshtein (ウラジミール・レーベンシ</description>
+    </item>
+    
+    <item>
+      <title>部分和問題</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/subset_sum/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/subset_sum/</guid>
+      <description>前章で触れた部分和問題とは、正の整数の配列 \(X[1..n]\) と整数 \(T\) を受け取って \(X\) の部分集合で和が \(T\) となるものがあるかどうかを答える問題です。前章ではこの問題に対する再帰的なアルゴリズムを次の真偽値関数 \(SS(i,t)\) を使って定式化しました。この式では入力 \(X[1..n]\) と \(T\) が固定されています: \[ SS(i, t) = \textsc{True} \Leftrightarrow X[i..n] \text{ の部分集合で和が }t \text{ になるものが存在する} \] 計算すべきは \(SS(1,T)\) です。この関数は次の再帰方程式を満たしました: \[ SS(i, t) = \begin{cases} \textsc{True} &amp; \text{if } t = 0 \\ \textsc{False}</description>
+    </item>
+    
+    <item>
+      <title>最適二分探索木</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/optimal_binary_search_trees/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/optimal_binary_search_trees/</guid>
+      <description>前章で最後に考えたのは最適二分探索木の問題でした。入力は探索のためのソートされた鍵 \(A[1..n]\) と頻度 \(f[1..n]\) であり、\(f[i]\) が \(A[i]\) に対する探索の回数を表します。出力は入力の鍵に対する二分探索木であって全ての探索の合計時間を最小にするものです。 頻度を表す配列 \(f\) を固定し、\(A[i..k]\) の最適探索時間を \(\mathit{OptCost}(i,k)\) とすると、次の再帰方程式が成り立つことを前章で見ました: \[ \mathit{OptCost}(i, k) = \begin{cases} 0 &amp; \text{if } i k \\ \displaystyle \sum_{j=i}^{k}f[j] + \min\limits_{i \leq r \leq k} \left \lbrace \begin{array}{l}</description>
+    </item>
+    
+    <item>
+      <title>木の上の動的計画法</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/dynamic_programming_on_trees/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/dynamic_programming_on_trees/</guid>
+      <description>今まで見てきた動的計画法の例はどれも、再帰的な小問題の答えを格納するのに多次元配列を使っていました。しかし次の例が示すように、配列が常に一番良いデータ構造であるとは限りません。 グラフの独立集合 (independent set) とは、頂点の部分集合であってどの頂点の間にも辺がないものを言います。任意のグラフの最大独立集合を見つけるのは極端に難しい問題であり、実際これは十二章で扱う NP 困難な問題の中でも有名なものです。しかしグラフが</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/dynamicprogramming/exercises/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/dynamicprogramming/exercises/</guid>
+      <description>ここにあげられた練習問題を解くときには ――さらに言えば動的計画法を使うアルゴリズムを新しく作るときにはどんなときでも――、 以前に示したステップを踏むことを強く勧めます。特に、準備が完了するまでは表や for ループについて考え始めないでください。ここで言う準備とは、実際に解くことになる再帰的な小問題の英語で書かれた明解な仕様と、それを使った元の問題に対する完全な解のことです1。 まず動くようにせよ。それから</description>
+    </item>
+    
+  </channel>
+</rss>

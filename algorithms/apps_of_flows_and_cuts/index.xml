@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>フローとカットの応用 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/</link>
+    <description>Recent content in フローとカットの応用 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>辺素路</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/edge_disjoint_paths/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/edge_disjoint_paths/</guid>
+      <description>一番最初に発見された最大フローの応用の一つは、有向グラフ \(G\) の特定の頂点 \(s\) と \(t\) を結ぶ辺素な路集合の大きさの最大値の計算です。ここで \(G\) の路の集合が辺素 (edge-disjoint) であるとは、その集合に含まれる路の中に \(G\) の任意の辺が最大でも一回しか現れないことを言います。同じ頂点は複数回通っていても構いません。 任意のグラフを考えたとき、辺の重みが全て \(1\) ならば、\(s\) から \(t\) への最大フローは各辺に \(0\) または \(1\) 単位のフローを流します</description>
+    </item>
+    
+    <item>
+      <title>頂点容量と頂点素路</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/vertex_capacities_and_vertex_disjoint_paths/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/vertex_capacities_and_vertex_disjoint_paths/</guid>
+      <description>入力グラフ \(G\) が辺だけではなく頂点にも容量を持つとします。この設定では関数 \(f: E \rightarrow \mathbb{R}_{\geq 0}\) がフローであるための条件に新しい制約が加わります。その制約とは、\(s, t\) 以外の全ての頂点 \(v\) について \(v\) に入るフローの和が非負の定数 \(c(v)\) 以下でなければならないというものです (保存条件からこの値は \(v\) から出るフローの和と等しくなります): \[ \sum_{u \rightarrow v} f(u \rightarrow v) \leq c(v) \] この新しい制約があったとしても最大フローを計算できるでしょうか？ Ford と</description>
+    </item>
+    
+    <item>
+      <title>二部マッチング</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/bipartite_matching/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/bipartite_matching/</guid>
+      <description>もう一つのよく知られた最大フローの応用は、二部グラフの最大マッチング (maximum matching) の計算です。グラフのマッチングとは全ての頂点の次数が最大でも \(1\) であるような部分グラフのことであり、同じ頂点を共有しない辺の集合としても定義できます。ここで考える問題はマッチングであって辺の数が最大のものを計算する問題です。 例えば何人かの医師が職を探していて、いくつかの病院が医師を探しているとしましょう。各医師は働きたい病院をい</description>
+    </item>
+    
+    <item>
+      <title>タプル選択</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/tuple_selection/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/tuple_selection/</guid>
+      <description>二部グラフの最大マッチングは私がタプル選択 (tuple selection)1 と呼ぶ問題クラスの一番簡単な例です。タプル選択問題の入力は要素に重複がない有限集合 \(X_{1}, X_{2}, \ldots, X_{d}\) であり、出力は容量に関する次の条件を満たす最大の \(d\)-タプルの集合です: 全ての添え字 \(i\) に対して、各 \(x \in X_{i}\) がタプルに現れていいのは \(c(x)\) 回まで。 全ての添え字 \(i\) に対して、各 \(x \in X_{i}\) と \(y \in X_{i+1}\) がタプルに現れていいのは \(c(x,y)\) 回まで。 上界 \(c(x)\) と \(c(x,y)\) は (通常は小さな) 非負整数あるいは \(\infty\)</description>
+    </item>
+    
+    <item>
+      <title>素路被覆</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/disjoint_path_covers/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/disjoint_path_covers/</guid>
+      <description>有向グラフ \(G\) の路被覆 (path cover) とは、\(G\) の有向路の集合であって \(G\) の全ての辺が少なくとも一つの路に含まれるものを言います。\(G\) の素路被覆 (disjoint-path cover) とは、\(G\) の路被覆であってどの頂点もちょうど一つの路に含まれるものを言います。 任意の有向グラフには長さがゼロの路だけからなる自明な素路被覆がありますが、これは面白くありません。そうではなくて、なるべく少ない路を使った素路被覆を見つける問題を考えましょ</description>
+    </item>
+    
+    <item>
+      <title>ペナントレースにおける敗退</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/baseball_elimination/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/baseball_elimination/</guid>
+      <description>毎年何百万人という野球ファンが熱心に試合を観戦し、贔屓チームがプレーオフそしてワールドシリーズに進むことを期待します。しかし非情なことに、シーズンが終わる数日前あるいは数週間前の時点で、ほとんどのチームはペナントレースから“数学的に”敗退します。通常はあるチームが敗退したかどうかを判断するのは簡単です ――現在地区トップのチームに追いつけるほど試合数が無ければ敗退です―― が、状況がもっと複雑になるこ</description>
+    </item>
+    
+    <item>
+      <title>プロジェクト選択</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/project_selection/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/project_selection/</guid>
+      <description>最後の例として、与えられた \(n\) 個のプロジェクトの中から実際に行うものを選択する問題を考えます。いくつかのプロジェクトは他のプロジェクトが終わるまで開始できず、その依存関係が有向非巡回グラフ \(G\) で表されているとします。 \(G\) の頂点はプロジェクトを表し、辺 \(u \rightarrow v\) はプロジェクト \(v\) が完了するまでプロジェクト \(u\) に取り掛かれないことを表します (6.4 節 で考えた依存グラフと同じ形式です)。そして各プロジェクトには完了したとき</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/exercises/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/apps_of_flows_and_cuts/exercises/</guid>
+      <description>\(G = (V,E)\) を有向グラフとし、各頂点の入次数と出次数が等しいとします。\(G\) が \(u\) から \(v\) への大きさ \(k\) の辺素路集合を含むとき、\(G\) は \(v\) から \(u\) への大きさ \(k\) の辺素路集合を含みますか？ 証明または反例とその説明を示してください。 無向グラフ \(G = (V,E)\) と三つの頂点 \(u,v,w\) が与えられたとします。\(u\) から \(w\) への \(v\) を通る路があるかどうかを判定するアルゴリズムを説明、解析してください。 [ヒント: \(G\) が有向グラフだとこの問題</description>
+    </item>
+    
+  </channel>
+</rss>

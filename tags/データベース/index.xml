@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>データベース on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</link>
+    <description>Recent content in データベース on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Berkeley DB</title>
+      <link>https://inzkyk.xyz/aosa/berkeley_db/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/berkeley_db/</guid>
+      <description>Conway の法則によると、システムの設計には作った組織の構造が表れるといいます。この考えを敷衍すれば、二人の人間によって設計・作成されたソフトウェアには、組織の構造だけではなくて、二人が持つバイアスと哲学が表れるのかもしれません。 私たちの一人 (Seltzer) はファイルシステムとデータベース管理システムの研究にキャリアを費やしてきました。彼女に言わせればこの二つは本質的に同じものであり、さらに言えばオペレーティングシステ</description>
+    </item>
+    
+    <item>
+      <title>The Hadoop Distributed File System (HDFS)</title>
+      <link>https://inzkyk.xyz/aosa/hdfs/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/hdfs/</guid>
+      <description>Hadoop 分散ファイルシステム (Hadoop Distributed File System, HDFS) は非常に大規模なデータを高い信頼性で保存し、そのデータセットをユーザーアプリケーションに広帯域でストリームできるように設計されています。数千台のサーバーが存在する大きなクラスターであっても、ダイレクトアタッチストレージの管理とユーザーアプリケーションのタスクの実行を同時に行うことが可能です。ストレージと計算を多数のサーバーに分散させることで、リソースを必要に応じて追</description>
+    </item>
+    
+    <item>
+      <title>NoSQL エコシステム</title>
+      <link>https://inzkyk.xyz/aosa/nosql/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/nosql/</guid>
+      <description>この本に出てくる他の多くのプロジェクトとは異なり、NoSQL は一つのツールの名前ではありません。NoSQL はエコシステムであり、互いに補い合いながらも競い合ういくつかのツールからなります。NoSQL と名の付くツールは SQL を使ったリレーショナルデータベースシステムの代替を提供します。NoSQL を理解するには、利用可能なツールを見渡し、それぞれのツールの設計がどのようにデータの保存という機能を捉えている</description>
+    </item>
+    
+    <item>
+      <title>Riak と Erlang/OTP</title>
+      <link>https://inzkyk.xyz/aosa/riak/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/riak/</guid>
+      <description>Riak は分散型で障害体制を備えたオープンソースのデータベースであり、Erlang/OTP を使った大規模システム構築の好例です。大規模でスケーラブルな分散システムに対する Erlang のサポートのおかげで、Riak は容量とスループットの両方に対する線形スケーラビリティや高可用性といったデータベースではあまり見られない特徴を持っています。 Erlang/OTP ではノード間通信、メッセージキュー、障害検出機構、クライアント-サーバーの抽象</description>
+    </item>
+    
+  </channel>
+</rss>

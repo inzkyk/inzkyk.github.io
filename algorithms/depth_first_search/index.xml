@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>深さ優先探索 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/depth_first_search/</link>
+    <description>Recent content in 深さ優先探索 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/depth_first_search/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>行きがけ順と帰りがけ順</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/preorder_and_postorder/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/preorder_and_postorder/</guid>
+      <description>根付き木に対する深さ優先探索によって行きがけ順 (preorder) および帰りがけ順 (postorder) が定義できることは知っているはずです。同じような走査順序は任意の (連結であるとは限らない) 有向グラフに対しても定義できます。次のようにカウンターを使います: \begin{algorithmic} \Procedure{DFSAll}{$G$} \State{\(\color{#2D2F91}{\mathit{clock} \leftarrow 0}\)} \For{頂点 \(v\)} \State{\(v\) の印を消す} \EndFor \For{頂点 \(v\)} \If{\(v\) に印が付いていない} \State{\(\mathit{clock} \leftarrow\) \Call{DFS}{\(v, \mathit{clock}\)}} \EndIf \EndFor \EndProcedure \end{algorithmic} \begin{algorithmic} \Procedure{DFS}{$v, \mathit{clock}$} \State{\(v\) に印を付ける} \State{\(\color{red}{\mathit{clock} \leftarrow \mathit{clock} + 1;\ \mathit{v.pre} \leftarrow \mathit{clock}}\)} \For{\(v \rightarrow w\) の形をした辺} \If{\(w\) に印が付いていない} \State{\(\mathit{parent}(w)</description>
+    </item>
+    
+    <item>
+      <title>閉路の検出</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/detecting_cycles/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/detecting_cycles/</guid>
+      <description>閉路を含まない有向グラフを有向非巡回グラフ (directed acyclic graph, DAG)と呼びます。ある頂点に向かう辺が無い場合、その頂点をソース (source) と言い、ある頂点から出る辺が無い場合、その頂点をシンク (sink) と言います。辺が一つも付いていない孤立した頂点はソースかつシンクです。任意の DAG には少なくとも一つのソースとシンクがありますが、複数あることもあります: 例えば辺が無いグラフでは全ての頂点がソースかつシンクです。 図 6.6 有向非巡回グラフ</description>
+    </item>
+    
+    <item>
+      <title>トポロジカルソート</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/topological_sort/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/topological_sort/</guid>
+      <description>有向グラフ \(G\) のトポロジカル順序とは、頂点の間の全順序 \(\prec\) であって全ての辺 \(u \rightarrow v\) に対して \(u \prec v\) が成り立つものを言います。くだけて言うと、トポロジカル順序とは全ての辺が右から左に行くように頂点を一列に並べたものです。\(G\) が有向閉路を持っている場合にはトポロジカル順序が存在しないのは定義から明らかです ――閉路に含まれる頂点のうち一番右にある頂点からは左に向かう辺が出てしまいます！ 有向グラフ \(G\) の任意の</description>
+    </item>
+    
+    <item>
+      <title>メモ化と動的計画法</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/memoization_and_dynamic_programming/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/memoization_and_dynamic_programming/</guid>
+      <description>トポロジカルソートを使うと多くの動的計画法のアルゴリズムを表現できます。ここでは例として依存グラフを考えます。以前触れた通り、再帰方程式の依存グラフ (dependency graph) とは、頂点が再帰的な小問題に対応する有向グラフであって、小問題同士を繋ぐ辺があるのは始点の問題を解くときに終点の問題の答えが必要になるときだけであるものです。依存グラフに閉路があるとナイーブな再帰的アルゴリズムが停止しなくなるので、依存グラフは必ず</description>
+    </item>
+    
+    <item>
+      <title>強連結性</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/strong_connectivity/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/strong_connectivity/</guid>
+      <description>有向グラフにおける連結性の正式な定義に戻りましょう。有向グラフ \(G\) の頂点 \(u\) が他の頂点 \(v\) に到達するとは、\(G\) に \(u\) から \(v\) への有向路があることを言い、\(\mathit{reach}(u)\) で \(u\) から到達できる頂点全体の集合を表しました。二つの頂点 \(u, v\) が強連結 (strongly connected) であるとは、\(u\) が \(v\) に到達し、かつ \(v\) が \(u\) に到達することを言います。有向グラフが強連結であるとは全ての頂点の組が強連結であることと同値</description>
+    </item>
+    
+    <item>
+      <title>線形時間で強連結成分を求める</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/strong_components_in_linear_time/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/strong_components_in_linear_time/</guid>
+      <description>有向グラフの強連結成分を \(O(V+E)\) 時間で計算するアルゴリズムはいくつかありますが、どれも突き詰めれば次の観察に基づいています: 命題 6.2 任意の有向グラフ \(G\) の深さ優先走査を一つ固定する。\(G\) の任意の強連結成分 \(C\) には \(C\) の中に親を含まない頂点がちょうど一つ含まれる (この頂点の親は他の強連結成分に含まれるか、そうでなければ親を持たない)。 証明 \(G\) の任意の強連結成分を \(C\) とする。適当な頂点 \(v \in C\) から \(w \in C\) への任意の路</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/depth_first_search/exercises/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/depth_first_search/exercises/</guid>
+      <description>深さ優先探索・トポロジカルソート・強連結成分 有向グラフ \(G\) の逆 \(\mathit{rev}(G)\) を \(O(V+E)\) 時間で計算するアルゴリズムを説明してください。 任意の有向グラフ \(G\) について、強連結成分グラフ \(\mathit{scc}(G)\) が非巡回であることを示してください。 任意の有向グラフ \(G\) について、\(\mathit{scc}(\mathit{rev}(G)) = \mathit{rev}(\mathit{scc}(G))\) を示してください。 有向グラフ \(G\) を固定します。\(G\) の任意の頂点 \(v\) について、\(S(v)\) で \(v\) を含む \(G\) の強連</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/post/</link>
+    <description>Recent content in Post on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 21 Apr 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>主要サイトの文字の大きさの調査</title>
+      <link>https://inzkyk.xyz/post/char_size/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/post/char_size/</guid>
+      <description>気になったので調べた。 計測環境 計測日時は項目ごとに異なる。 Windows 10、Chrome 最新版で計測。 Windows のディスプレイ拡大機能は使用しない (100% に設定)。 Chrome のフォント設定は「中」で、拡大機能は使用しない。 フル HD のデスクトップでブラウザを最大化した状態で計測。 計測したもの 本文の要素の font-size, line-height, width の値を計測し、さらにその指定方法 (絶対/相対) も調べた。 計測する値が javascript で動的に決まる場合もあるが、考えだすときりがないので気に</description>
+    </item>
+    
+    <item>
+      <title>このサイトについて</title>
+      <link>https://inzkyk.xyz/post/about/</link>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/post/about/</guid>
+      <description>作者: inzkyk プライバシーポリシー このサイトではアクセス解析に Google Analytics を、広告に Google Adsense を利用しています。あなたの行動は Cookie を使ってトラッキングされ、匿名化された情報が収集されます。無効化する方法など、詳しくは Google のプライバシーポリシー および GOOGLE のサービスを使用するサイトやアプリから収集した情報の GOOGLE による使用 を参照してください。 免責事項 このサイトの内容が正しいことを作者は保証しません。 このサイトの情報に基づいて行われ</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>オープンソースアプリケーションのアーキテクチャ (Amy Brown, Greg Wilson 編) on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/aosa/</link>
+    <description>Recent content in オープンソースアプリケーションのアーキテクチャ (Amy Brown, Greg Wilson 編) on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/aosa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>この本について</title>
+      <link>https://inzkyk.xyz/aosa/about/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/about/</guid>
+      <description>大工仕事には高い技術が必要であり、その技術の向上に生涯をかけることもできます。しかし大工仕事は建築 (architecture) ではありません。ピッチボードとマイタージョイントから目を離せば、誰かが建物全体を設計しなければなりません。その設計には手先の器用さや知識が必要なだけではなく、職人技が必要になります。 プログラミングにも高い技術が必要であり、その技術の向上に生涯をかけることもできます。しかし、プログラミングはソフトウェ</description>
+    </item>
+    
+    <item>
+      <title>Asterisk</title>
+      <link>https://inzkyk.xyz/aosa/asterisk/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/asterisk/</guid>
+      <description>Asterisk1 はオープンソースの電話通信アプリケーションであり、GPLv2 で配布されています。短くまとめてしまえば、Asterisk とは通話の発信、受信、およびその他のカスタムされた処理を行うためのアプリケーションです。 Asterisk プロジェクトは Mark Spencer によって 1999 年に開始されました。Mark は当時 Linux Support Services という会社を経営しており、ビジネスを管理するための電話システムが必要だったのです。他の会社からシステムを買うだけの大金を持</description>
+    </item>
+    
+    <item>
+      <title>Audacity</title>
+      <link>https://inzkyk.xyz/aosa/audacity/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/audacity/</guid>
+      <description>Audacity は多くのユーザーを持つサウンドレコーダ・エディタであり、機能は豊富でありながらも操作は簡単です。ユーザーの多くは Windows ですが、ソースコードは Linux と Mac でもコンパイル・実行できます。 Audacity のオリジナルのバージョンは当時カーネギーメロン大学の研究生だった Dominic Mazzoni によって 1999 年に書かれました。もともとは音声処理アルゴリズムを開発・デバッグするためのプラットフォームとして開発されましたが、現在の Audacity はそれ以外の様々な用途に</description>
+    </item>
+    
+    <item>
+      <title>The Bourne-Again Shell (bash)</title>
+      <link>https://inzkyk.xyz/aosa/bash/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/bash/</guid>
+      <description>導入 Unix シェルは、ユーザーとオペレーティングシステムとの間でコマンドによる対話を行うためのインターフェースを提供します。シェル自体も豊富な機能を持ったプログラミング言語であり、実行制御、変数の書き換え、ループ、条件文、基本的な数学演算、名前付き関数、文字列変数、シェルと起動したコマンドの間の双方向通信といった処理のための構文が用意されています。 シェルはターミナルや xterm のようなターミナルエミュレータを通</description>
+    </item>
+    
+    <item>
+      <title>Berkeley DB</title>
+      <link>https://inzkyk.xyz/aosa/berkeley_db/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/berkeley_db/</guid>
+      <description>Conway の法則によると、システムの設計には作った組織の構造が表れるといいます。この考えを敷衍すれば、二人の人間によって設計・作成されたソフトウェアには、組織の構造だけではなくて、二人が持つバイアスと哲学が表れるのかもしれません。 私たちの一人 (Seltzer) はファイルシステムとデータベース管理システムの研究にキャリアを費やしてきました。彼女に言わせればこの二つは本質的に同じものであり、さらに言えばオペレーティングシステ</description>
+    </item>
+    
+    <item>
+      <title>CMake</title>
+      <link>https://inzkyk.xyz/aosa/cmake/</link>
+      <pubDate>Wed, 17 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/cmake/</guid>
+      <description>1999 年、アメリカ国立医学図書館が Kitware という小さな会社と契約し、異なるプラットフォームにおいて複雑なソフトウェアを構成、ビルド、デプロイするためシステムの刷新を決定しました。これは Insight Segmentation and Registration Toolkit (ITK1) の一部であり、Kitware はこのプロジェクトにおいてエンジニアリングを指揮してました。Kitware に課されたのは ITK の研究者と開発者が使うためのビルドシステムの作成であり、簡単に使うことができて利用者がプログラミ</description>
+    </item>
+    
+    <item>
+      <title>Eclipse</title>
+      <link>https://inzkyk.xyz/aosa/eclipse/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/eclipse/</guid>
+      <description>ソフトウェアを上手くモジュール化して実装することの難しさは誰もが知っています。多様なコミュニティによって書かれた巨大なコードベースの相互運用の管理もまた困難です。Eclipse において、私たちはこの両方を成し遂げました。2010 年 6 月には Helios という名前のリリースが Eclipse Foundation によって公開されましたが、このリリースには 39 のプロジェクトが含まれ、40 以上の会社から 490 人のコミッターが同じアーキテクチャ基盤の上にプ</description>
+    </item>
+    
+    <item>
+      <title>Graphite</title>
+      <link>https://inzkyk.xyz/aosa/graphite/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/graphite/</guid>
+      <description>Graphite1 が行う処理は二つだけで、ごく単純です: 時間とともに変化する値を保存し、それをグラフにします。この処理を行うためのソフトウェアはこれまでにいくつも作成されてきましたが、その中でも Graphite が特別なのは、この処理をネットワークサービスとして使うことができ、しかもそれが簡単かつスケーラブルな点です。Graphite にデータを与えるのに使われるプロトコルは単純であり、数分もあれば自分で処理を書くことができるでし</description>
+    </item>
+    
+    <item>
+      <title>The Hadoop Distributed File System (HDFS)</title>
+      <link>https://inzkyk.xyz/aosa/hdfs/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/hdfs/</guid>
+      <description>Hadoop 分散ファイルシステム (Hadoop Distributed File System, HDFS) は非常に大規模なデータを高い信頼性で保存し、そのデータセットをユーザーアプリケーションに広帯域でストリームできるように設計されています。数千台のサーバーが存在する大きなクラスターであっても、ダイレクトアタッチストレージの管理とユーザーアプリケーションのタスクの実行を同時に行うことが可能です。ストレージと計算を多数のサーバーに分散させることで、リソースを必要に応じて追</description>
+    </item>
+    
+    <item>
+      <title>継続的インテグレーション</title>
+      <link>https://inzkyk.xyz/aosa/ci/</link>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/ci/</guid>
+      <description>継続的インテグレーション (continuous integration, CI) システムとは、ソフトウェアのビルドとテストを定期的に自動で行うシステムのことです。CI システムの一番のメリットはビルドとテストの間にある長い時間を無くせることですが、それだけではなく面倒なタスクを単純化および自動化できるというメリットもあります。例えばクロスプラットフォームのテスト、低速なテスト、大量のデータが必要なテスト、構成が難しいテスト、レガシープラットフォーム</description>
+    </item>
+    
+    <item>
+      <title>Jitsi</title>
+      <link>https://inzkyk.xyz/aosa/jitsi/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/jitsi/</guid>
+      <description>Jitsi はビデオ通話、ボイス通話、デスクトップの共有、ファイルやメッセージの交換を行うためのアプリケーションです。Jitsi にとってこういった機能よりも重要なのは、様々なプロトコルが利用できる点です。利用可能なプロトコルは XMPP (Extensible Messaging and Presence Protocol) や SIP (Session Initiation Protocol) といった標準化されているものから、Yahoo! Messenger や Windows Live Messenger (MSN) といったプロプライエタリなものまであります。Jitsi は Microsoft Windows、Apple Mac OS X、Linux、</description>
+    </item>
+    
+    <item>
+      <title>LLVM</title>
+      <link>https://inzkyk.xyz/aosa/llvm/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/llvm/</guid>
+      <description>この章では LLVM1 を形作った設計上の判断について議論します。LLVM は各要素が密接な結び付きを持つ低レベルツールチェイン (アセンブラ、コンパイラ、デバッガなど) の包括的プロジェクトであり、Unix システムでよく使われている既存のツールと互換性を保つように設計されています。“LLVM”という名前はかつては頭字語でしたが、現在ではプロジェクト全体を指すブランド名となっています。LLVM はユニークな機能を持ち</description>
+    </item>
+    
+    <item>
+      <title>Mercurial</title>
+      <link>https://inzkyk.xyz/aosa/mercurial/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/mercurial/</guid>
+      <description>Mercurial はモダンな分散型バージョン管理システム (VCS) であり、多くの部分が Python で、一部が高速化のために C で書かれています。この章では Mercurial のアルゴリズムとデータ構造を設計するうえで生じた判断を議論します。まずはバージョン管理システムの簡単な歴史を見ていきながら、これからの説明に必要なコンテキストを説明しましょう。 バージョン管理の簡単な歴史 この章では主に Mercurial のソフトウェアアーキテクチャについて説明しますが、登場する概念</description>
+    </item>
+    
+    <item>
+      <title>NoSQL エコシステム</title>
+      <link>https://inzkyk.xyz/aosa/nosql/</link>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/nosql/</guid>
+      <description>この本に出てくる他の多くのプロジェクトとは異なり、NoSQL は一つのツールの名前ではありません。NoSQL はエコシステムであり、互いに補い合いながらも競い合ういくつかのツールからなります。NoSQL と名の付くツールは SQL を使ったリレーショナルデータベースシステムの代替を提供します。NoSQL を理解するには、利用可能なツールを見渡し、それぞれのツールの設計がどのようにデータの保存という機能を捉えている</description>
+    </item>
+    
+    <item>
+      <title>Python のパッケージング</title>
+      <link>https://inzkyk.xyz/aosa/python_packaging/</link>
+      <pubDate>Sat, 17 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/python_packaging/</guid>
+      <description>はじめに アプリケーションのインストール方法には二つの流儀があります。一つ目の流儀は Windows と Mac OS X で一般的なもので、アプリケーションは必要なものを全て含むべきであり、インストールするときには何にも依存してはいけないという考え方です。この考え方ではアプリケーションの管理が単純になります: アプリケーションはスタンドアローンの“ツール”であり、インストールおよびアンインストールで OS の他の部分がめちゃくちゃにな</description>
+    </item>
+    
+    <item>
+      <title>Riak と Erlang/OTP</title>
+      <link>https://inzkyk.xyz/aosa/riak/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/riak/</guid>
+      <description>Riak は分散型で障害体制を備えたオープンソースのデータベースであり、Erlang/OTP を使った大規模システム構築の好例です。大規模でスケーラブルな分散システムに対する Erlang のサポートのおかげで、Riak は容量とスループットの両方に対する線形スケーラビリティや高可用性といったデータベースではあまり見られない特徴を持っています。 Erlang/OTP ではノード間通信、メッセージキュー、障害検出機構、クライアント-サーバーの抽象</description>
+    </item>
+    
+    <item>
+      <title>Selenium WebDriver</title>
+      <link>https://inzkyk.xyz/aosa/selenium/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/selenium/</guid>
+      <description>Selenium はブラウザ自動化ツールであり、ウェブアプリケーションの end-to-end テストによく使われます。ブラウザ自動化ツールはその名の通りのことを行います: ブラウザーの制御を自動化し、反復的なタスクを自動的に行います。単純な問題に見えるかもしれませんが、この章でこれから見る通り、裏で様々なことをしなければ上手く動きません。 Selenium のアーキテクチャを説明する前に、プロジェクトの各部分がどのように組み合わさっているかを見た方が分</description>
+    </item>
+    
+    <item>
+      <title>Sendmail</title>
+      <link>https://inzkyk.xyz/aosa/sendmail/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/sendmail/</guid>
+      <description>電子メールと聞いたときに多くの人が思い浮かべるのは、メールを読み書きするときにユーザーとの対話を行うプログラムです。これはメールクライアント、正確には Mail User Agent (MUA) と呼ばれます。しかし電子メールにはもう一つ重要な部分があります。それはメールを送信者から受信者へ実際に転送するソフトウェアであり、Mail Transfer Agent (MTA) と呼ばれます。インターネットを使う最初の MTA にして現在最もよく使われている MTA でもあるのが sendmail です。 sendmail が</description>
+    </item>
+    
+    <item>
+      <title>SnowFlock</title>
+      <link>https://inzkyk.xyz/aosa/snowflock/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/snowflock/</guid>
+      <description>クラウドコンピューティングは魅力的な価格で計算プラットフォームを提供します。ユーザーは物理サーバーの購入と設定にかかる時間・金銭的な初期投資なしに、何回かクリックするだけでクラウド上にある「サーバー」を一時間あたり 10 セントという価格で借りることができます。クラウドのプロバイダがコストを低く保てている鍵は物理的なコンピューターではなく仮想マシン (virtual machine, VM) を使っていることであり、ここでは仮想マシンモニタ (virtual</description>
+    </item>
+    
+    <item>
+      <title>SocialCalc</title>
+      <link>https://inzkyk.xyz/aosa/socialcalc/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/socialcalc/</guid>
+      <description>スプレッドシートは 30 年以上の歴史を持ちます。最初のスプレッドシートプログラム VisiCalc は Dan Bricklin によって 1978 年に構想され、1979 年に完成しました。根本的な考え方はとても単純です: 二次元に無限に広がる表があり、各マス (セル) にテキスト・数・式が入るというものです。式では基本的な算術演算やたくさんのビルトイン関数が利用でき、他のセル要素を値として参照できます。 スプレッドシートの考え方は単純ですが、応用は多岐にわた</description>
+    </item>
+    
+    <item>
+      <title>Telepathy</title>
+      <link>https://inzkyk.xyz/aosa/telepathy/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/telepathy/</guid>
+      <description>Telepathy1 は音声・動画・テキスト・ファイルなどを転送するためのリアルタイム通信フレームワークです。Telepathy がユニークなのは様々なインスタントメッセージプロトコルを抽象化する点ではなく、サービスとしての通信 (communications as a service) というアイデアを採用する点です。これは印刷がサービスであるのとちょうど同じで、様々な応用を可能にします。Telepathy は D-Bus メッセージングとモジュール化された設計を大いに利用してこれを</description>
+    </item>
+    
+    <item>
+      <title>Thousand Parsec</title>
+      <link>https://inzkyk.xyz/aosa/thousandparsec/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/thousandparsec/</guid>
+      <description>百の世界を支配し、千パーセクにも及ぶ広大な銀河帝国。銀河の他の部分とは違い、そこにいるのは柄の悪い輩ではない。文化的で学術的な伝統を持った知的な人々がそこには暮らしている。偉大な科学技術大学が次々に作られる彼らの輝かしい惑星は、現在の平和と繁栄の象徴である。宇宙域の遥か彼方から宇宙船がやってきては、一流の研究者を遠くから連れてくる。彼らは、衆生が試みた中で最も高い目標を持つプロジェクトに自身の技能</description>
+    </item>
+    
+    <item>
+      <title>Violet</title>
+      <link>https://inzkyk.xyz/aosa/violet/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/violet/</guid>
+      <description>2002 年、私はオブジェクト指向を使ったデザインとパターンに関する学部生向けの教科書 [Hor05] を執筆しました。多くの本と同様、この本を書いた理由は現在支配的なカリキュラムに不満があったからです。コンピューターサイエンスを学ぶ学生によくあるのは、最初のプログラミングの講義で単一クラスの設計方法を学んだら、その後は上級ソフトウェアエンジニアリングの講義までオブジェクト指向デザインの訓練を受けないという状況です。最初</description>
+    </item>
+    
+    <item>
+      <title>VisTrails</title>
+      <link>https://inzkyk.xyz/aosa/vistrails/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/vistrails/</guid>
+      <description>VisTrails1 はデータの探索と可視化をサポートするオープンソースシステムであり、科学ワークフローシステムと可視化システムが持つ便利な機能を大きく拡張した形で持ちます。Kepler や Taverna といった科学ワークフローシステムと同様、VisTrails を使った計算プロセスの記述が可能であり、このプロセスには既存のアプリケーション、互いに結び付いたリソース、あるいはライブラリを規則に沿って追加できます。AVS や ParaView といった可</description>
+    </item>
+    
+    <item>
+      <title>VTK</title>
+      <link>https://inzkyk.xyz/aosa/vtk/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/vtk/</guid>
+      <description>Visualization Tookit (VTK) は広く使われているソフトウェアシステムです。データの処理と可視化が可能であり、科学計算、医療画像解析、計算幾何学、レンダリング、画像処理、インフォマティクスといった分野で利用されています。この章では VTK を概観し、VTK を成功に導いた基本的なデザインパターンなどを説明します。 ソフトウェアシステムを本当に理解するには、そのシステムが解決する問題だけではなく、そのシステムが生まれた文化を理解すること</description>
+    </item>
+    
+    <item>
+      <title>Battle for Wesnoth</title>
+      <link>https://inzkyk.xyz/aosa/wesnoth/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/wesnoth/</guid>
+      <description>プログラミングは問題解決の手段だと単純に考えられがちです。開発者は自身が抱える要件の解決法をコードにするのだというこの考え方では、コードの素晴らしさは技術的実装の美しさや効率の良さによって判断されます: この本には優れた例がたくさんあるでしょう。しかし計算という直接的な機能を越えて、コードが人々の暮らしに大きく影響する場合もあります。つまりコードを見た人を、プロジェクトに参加して新しいコンテンツを制</description>
+    </item>
+    
+    <item>
+      <title>参考文献</title>
+      <link>https://inzkyk.xyz/aosa/bibliography/</link>
+      <pubDate>Sat, 23 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/aosa/bibliography/</guid>
+      <description>[AF94] Rick Adams and Donnalyn Frey: !%@:: A Directory of Electronic Mail Addressing &amp; Networks. O&#39;Reilly Media, Sebastopol, CA, fourth edition, 1994. [Ald02] Gaudenz Alder: The JGraph Swing Component. PhD thesis, ETH Zurich, 2002. [BCC+05] Louis Bavoil, Steve Callahan, Patricia Crossno, Juliana Freire, Carlos E. Scheidegger, Cláudio T. Silva, and Huy T. Vo: “VisTrails: Enabling Interactive Multiple-View Visualizations”. Proc. IEEE Visualization, pages 135–142, 2005. [Bro10] Frederick P. Brooks, Jr.: The Design of Design: Essays from a Computer Scientist. Pearson Education, 2010. [CDG+06] Fay Chang, Jeffrey Dean, Sanjary Ghemawat, Wilson C. Hsieh, Deborah A. Wallach, Mike Burrows, Tushar Chandra, Andrew Fikes, and Robert E. Gruber: “BigTable: a Distributed Storage System for Structured Data”. Proc. 7th USENIX Symposium on Operating Systems Design and Implementation (OSDI&#39;06). USENIX Association, 2006. [CIRT00] P. H. Carns, W. B. Ligon III, R. B. Ross, and R. Thakur: “PVFS: A Parallel</description>
+    </item>
+    
+  </channel>
+</rss>

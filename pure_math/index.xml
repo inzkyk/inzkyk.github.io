@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>純粋数学講義 (G. H. Hardy 著, 翻訳) on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/pure_math/</link>
+    <description>Recent content in 純粋数学講義 (G. H. Hardy 著, 翻訳) on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/pure_math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

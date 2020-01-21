@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第二章 実数関数 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/pure_math/chapter_2/</link>
+    <description>Recent content in 第二章 実数関数 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/pure_math/chapter_2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>§20 関数という考え方</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_20/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_20/</guid>
+      <description>連続実変数 \(x\) と \(y\)が \(A_{0}P = x\) および \(B_{0}Q = y\) として幾何学的に表されるとする。\(A_{0},\ B_{0}\) は固定されており、それぞれ直線 \(\Lambda,\ \Mu\) 上にある。ここで \(P\) と \(Q\) が好き勝手に動けるわけではなく、二つの点の間に何らかの関係性があって、それが \(x\) と \(y\) の間の関係として表せるとする。つまり \(P\) と \(x\) が分かっていれば \(Q\) と \(y\) も分かる関係、例えば \(y = x\) や \(y = 2x\)、あるいは \(y = \frac{1}{2}x\) や \(y = x^{2} + 1\) があるとする。このとき \(x\) の値が \(y\) の</description>
+    </item>
+    
+    <item>
+      <title>§21 関数の図示</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_21/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_21/</guid>
+      <description>変数 \(y\) が変数 \(x\) の関数だとする。この関数が表す \(x\) と \(y\) の関係を \(y\) の関数 \(x\) とみなすこともできるが、ここでは最初の視点に立って \(y\) を \(x\) の関数とみなして話を進める。このとき \(x\) を独立変数 (independent variable) と呼び、\(y\) を従属変数 (dependent variable) と呼ぶ。関数が表す関係が持つ形式が明らかでないときには、この事実を次のように表す: \[ y = f(x) \] \(f(x)\) ではなく \(F(x),\ \phi(x),\ \psi(x), \dots\) を使うこともある。 多くの場合で、関数の性質は次のように図示すると非常に分かりやすく</description>
+    </item>
+    
+    <item>
+      <title>§22 極座標</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_22/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_22/</guid>
+      <description>前節では \(P\) の位置をその座標の大きさ \(OM = x\) と \(MP = y\) で特定した。\(OP = r\) および \(\angle MOP = \theta\) として、\(\theta\) が (正の方向に測って) \(0\) から \(2\pi\) だとする。このとき \[ \begin{aligned} x &amp;= r\cos\theta, \\ y &amp;= r\sin\theta, \\ r &amp;= \sqrt{x^{2} + y^{2}}, \\ \cos\theta : \sin\theta : 1 &amp;= x : y : r \end{aligned} \] が成り立ち、\(r\) と \(\theta\) からも \(P\) の位置を決定できると分かる。加えて\(r\) は必ず \(0\) 以上となる1。 図 7 \(P\) がとある軌跡上を動くなら、\(r\) と \(\theta\) の間には関係が生まれる。これを \(r =</description>
+    </item>
+    
+    <item>
+      <title>§23 関数とその図示の例</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_23/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_23/</guid>
+      <description>これからの例を見れば、無限に存在する様々な種類の関数をよりよく理解できるだろう。 多項式: 次の形をした関数を \(x\) の多項式 (polynomial) と呼ぶ: \[ a_{0}x^{m} + a_{1}x^{m-1} + \dots + a_{m} \] ここで \(a_{0},\ a_{1},\ \dots,\ a_{m}\) は定数とする。もっとも単純な多項式は \(x\) のべき乗 \(y = x,\ x^{2},\ x^{3},\ \dots,\ x^{m}, \dots\) であり、\(x^{m}\) のグラフは \(m\) の偶奇によって二つに分かれる。 まず \(m = 2\) の場合を考える。このとき三つの点 \((0, 0),\ \) \((1, 1),\ \) \((-1, 1)\) はグラフ上にある。グラフ上のその他の点は \(x\) に特定の値を</description>
+    </item>
+    
+    <item>
+      <title>§24 有理関数 (その 1)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_24/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_24/</guid>
+      <description>単純で重要な関数のクラスとして多項式に続くのは有理関数 (rational function) である。有理関数は二つの多項式の商であり、一般的には多項式 \(P(x),\ Q(x)\) を使って次のように表せる: \[ R(x) = \frac{P(x)}{Q(x)} \] \(Q(x)\) が \(1\) あるいは定数 (\(x\) が関係しない式) となる特別なケースでは、\(R(x)\) が多項式となる。つまり有理関数は部分クラスとして多項式を含む。定義に関して注意すべき点をあげる: \(P(x)\) と \(Q(x)\) に共通因数 \(x + a\) あるいは \(x^{p} + ax^{p-1} + bx^{p-2} + \dots + k\) がないことを通常は仮定す</description>
+    </item>
+    
+    <item>
+      <title>§25 有理関数 (その 2)</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_25/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_25/</guid>
+      <description>有理関数のグラフを描くときには、多項式の場合よりもさらに増して微積分の方法が便利となる。そのためここでは例を少しだけ示す。 例 12 \(y = \dfrac{1}{x},\ \) \(y = \dfrac{1}{x^{2}},\ \) \(y = \dfrac{1}{x^{3}},\ \) \(\dots\) のグラフを描け。 [最初の二つの関数のグラフを次の図に示す。\(1/0,\ \) \(1/0^{2},\ \) \(\dots\) といった表現は意味をなさないので、これらの関数は \(x = 0\) で定義されないことに注意してほしい] 図 11 図 12 \(y = x + (1/x),\ \) \(x - (1/x),\ \) \(x^{2} + (1/x^{2}),\ \) \(x^{2} - (1/x^{2}),\ \) \(ax + (b/x)\) が通る点を調べよ。正の値、負</description>
+    </item>
+    
+    <item>
+      <title>§26 陽な代数関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_26/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_26/</guid>
+      <description>次に考える重要な関数のクラスは陽な代数関数 (explicit algebraical function) のクラスである。このクラスは、有理関数を作るのに使った操作に加えて根号を取る操作を \(x\) に対して有限回行って得られる関数から構成される。例えば \[ %[** TN: On two lines in the original] \frac{\sqrt{1 + x} - \sqrt[3]{1 - x}} {\sqrt{1 + x} + \sqrt[3]{1 - x}},\quad \sqrt{x} + \sqrt{x +\sqrt{x}},\quad \left(\frac{x^{2} + x + \sqrt{3}}{x\sqrt[3]{2} - \pi}\right)^{\frac{2}{3}} \] および整数 \(m,\ n\) に対する \(x^{m/n}\) (\(= \sqrt[n]{x^{m}}\)) はどれも陽な代数関数である。 \(y = \sqrt{x}\) といった関数の意味に曖昧さがあることを注意しておく。ここまでは \(\sqrt{2}\) で \(2\) の正の平方根を</description>
+    </item>
+    
+    <item>
+      <title>§27 陰な代数関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_27/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_27/</guid>
+      <description>もし \[ y = \frac{\sqrt{1 + x} - \sqrt[3]{1 - x}} {\sqrt{1 + x} + \sqrt[3]{1 - x}} \] なら、次の式が容易に分かる: \[ y = \sqrt{x} + \sqrt{x + \sqrt{x}} \] あるいはもし \[ y = \sqrt{x} + \sqrt{x + \sqrt{x}} \] なら、次が成り立つ: \[ y^{4} - (4y^{2} + 4y + 1)x = 0 \] この二つの方程式は、どれも次の形をしている; \[ y^{m} + R_{1}y^{m-1} + \dots + R_{m} = 0 \qquad \text{(1)} \] ここで \(R_{1},\ R_{2},\ \dots,\ R_{m}\) は \(x\) の有理関数である。\(y\) をこれまでの例で考えた関数とすれば、\(y\) がこの形の方程式を満たすことは簡単に分かる。さらに任意の陽な代数関数についても同</description>
+    </item>
+    
+    <item>
+      <title>§28 超越関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_28/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_28/</guid>
+      <description>有理関数でなく代数関数でさえない関数は全て超越関数 (transcendental function) と呼ばれる。否定的に定義されるこの関数のクラスには無限の種類の様々な関数が当然含まれ、その中には単純な関数もあれば重要な関数もある。そういった中で今の私たちが理解できる特に興味深い関数が二種類ある。 三角関数とその逆関数: これは初等三角法で使われるサイン関数とコサイン関数およびそれらの逆関数のことである。読者はこういった関数の基本的な性質を知って</description>
+    </item>
+    
+    <item>
+      <title>§29 その他の超越関数</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_29/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_29/</guid>
+      <description>三角関数に次いで重要なのが、指数関数と対数関数である。これらの関数は第九章と第十章で取り上げるが、今の私たちには手に余る。また性質が調べられているその他の超越関数、例えば楕円関数・ベッセル関数・ラグランジュ関数・ガンマ関数はどれもこの本の範囲を超える。しかし初等的な関数の中には、理論的な重要性が有理関数・代数関数・三角関数よりも劣るものの、グラフを描くことで関数的な関係の可能性をよりよく理解できる</description>
+    </item>
+    
+    <item>
+      <title>§30 一変数方程式の図を使った解法</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_30/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_30/</guid>
+      <description>多くの方程式は次の形で表せる: \[ f(x) = \phi(x) \qquad \text{(1)} \] ここで \(f(x)\) と \(\phi(x)\) はグラフを簡単に描ける関数する。そして \[ y = f(x),\quad y = \phi(x) \] という二つの曲線が点 \(P\) で交わりその横座標が \(\xi\) なら、\(\xi\) は方程式 \((1)\) の根となる。 例 17 二次方程式 \(\bm{ax^{2} + 2bx + c = 0}\): この方程式を視覚的に解く方法はいくつかある。例えばグラフ \[ y = ax + 2b,\quad y = -\frac{c}{x} \] に交点があれば、そこから根が分かる。あるいは次の曲線でも構わない: \[ y = x^{2},\quad y = -\frac{2bx + c}{a} \] しかし最も初等</description>
+    </item>
+    
+    <item>
+      <title>§31 二変数関数とその図示</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_31/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_31/</guid>
+      <description>§ 20 ではある関係で結ばれる二つの変数を考えた。同様に、ある関係で結ばれた三つの変数 (\(x, y, z\)) を考えることもできる。つまり \(x\) と \(y\) が両方分かれば \(z\) も分かるという関係である。このとき \(z\) を \(x\) と \(y\) の二変数関数と呼ぶ。\(x\) と \(y\) は独立変数 (independent variable) と呼ばれ、\(z\) は 従属変数 (dependent variable) と呼ばれる。そして \(z\) の値が \(x\) と \(y\) の値から決定することを次の式で表す: \[ z = f(x, y) \] § 20 の内容は必要な変更を加えればこの複雑なケースにも適用</description>
+    </item>
+    
+    <item>
+      <title>§32 平面内の曲線</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_32/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_32/</guid>
+      <description>ここまでは \[ y = f(x) \qquad \text{(1)} \] という表記で \(y\) の値が \(x\) から定まることを表現した。この表現が一番自然なのは、\(y\) が \(x\) の数式として明示的に書ける次のような場合である: \[ y = x^{2},\quad \sin x,\quad a\cos^{2}x + b\sin^{2}x \] しかしこの形で表せない関係、あるいは表せたとしても複雑すぎて手に負えない関係を表す関数を扱わなければならない状況が本当によくある。例えば \(y^{5} - y - x = 0\) や \(x^{5} + y^{5} - ay = 0\) では、\(y\) を \(x\) の陽な代数関数として表現できない。</description>
+    </item>
+    
+    <item>
+      <title>§33 空間内の軌跡</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/section_33/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/section_33/</guid>
+      <description>三つの次元を持つ空間では、本質的に異なる二つの軌跡が存在する。最も単純な例はそれぞれ直線と平面である。 直線上を移動する点は一次の自由度しか持たない。点の移動方向は固定され、その位置は固定点からの距離として一度の計測で完全に決定される。例えば直線として第一章で考えた基準直線 \(\Lambda\) を取れば、直線上の任意の点の位置は一つの座標 \(x\) で決定される。一方で平面上を動く点には二次の自由度があり、その位置の決定には二つ</description>
+    </item>
+    
+    <item>
+      <title>第二章に関するその他の例</title>
+      <link>https://inzkyk.xyz/pure_math/chapter_2/misc_examples/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/pure_math/chapter_2/misc_examples/</guid>
+      <description>\(y = f(x) = \dfrac{ax + b}{cx - a}\) なら \(x = f(y)\) だと示せ。 全ての \(x\) に対して \(f(x) = f(-x)\) なら、\(f(x)\) を偶関数 (even function) と呼ぶ。全ての \(x\) について \(f(x) = -f(x)\) なら、\(f(x)\) を奇関数 (odd function) と呼ぶ。全ての \(x\) に対して定義された任意の関数は \(x\) の奇関数と偶関数の和であることを示せ。 [等式 \(f(x) = \frac{1}{2}\{f(x) + f(-x)\} + \frac{1}{2}\{f(x) - f(-x)\}\) を使う] 次の関数のグラフを描け: \[ 3\sin x + 4\cos x,\quad \sin\left(\frac{\pi}{\sqrt{2}} \sin x\right) \] (Math. Trip. 1896.) 次の関数のグラフを描け: \[ \sin x(a\cos^{2} x + b\sin^{2} x), \] \[ \frac{\sin x}{x}(a\cos^{2} x + b\sin^{2} x), \] \[ \left(\frac{\sin x}{x}\right)^{2} \] 関数 \(x\left[\dfrac{1}{x}\right],\ \ \dfrac{[x]}{x}\)</description>
+    </item>
+    
+  </channel>
+</rss>

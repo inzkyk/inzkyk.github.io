@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/tags/</link>
+    <description>Recent content in Tags on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WebAssembly</title>
+      <link>https://inzkyk.xyz/tags/webassembly/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/tags/webassembly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>データベース</title>
+      <link>https://inzkyk.xyz/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLVM</title>
+      <link>https://inzkyk.xyz/tags/llvm/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/tags/llvm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>基本的なグラフアルゴリズム on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/</link>
+    <description>Recent content in 基本的なグラフアルゴリズム on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/basic_graph_algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>導入と歴史</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/introduction_and_history/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/introduction_and_history/</guid>
+      <description>グラフとは組 (pair) を集めたものです ――整数の組、人の組、都市の組、星の組、国の組、科学論文の組、ウェブページの組、ゲームの配置の組、再帰的な小問題の組、さらにグラフの組だって考えます。グラフを図示するときに一番よく使われる方法と対応して、組にされるオブジェクトは頂点 (vertex) あるいはノード (node) と呼ばれ、組そのものは辺 (edge) あるいは弧 (arc) と呼ばれます。しかしもちろん、オブジェクトと組はどんなものでも構いません。 人類が初</description>
+    </item>
+    
+    <item>
+      <title>基本的な定義</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/basic_definitions/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/basic_definitions/</guid>
+      <description>きちんと述べると、 (単純) グラフとは集合の組 \((V, E)\) であって、 \(V\) が任意の空でない有限の集合で、\(E\) が \(V\) の要素の組の集合であるものです。ここで \(V\) の要素は 頂点 (vertex)1 またはノード (node) と呼ばれ、\(E\) の要素は辺 (edge) と呼ばれます。無向グラフ (unordered graph) では辺は順序の無い組、つまり大きさ 2 の集合です。これからは頂点 \(u\) と \(v\) の間の無向辺を \(\lbrace u, v\rbrace\) ではなく \(uv\) と書きます。また \(u\) から \(v\) へ向かう有向辺は \((u, v)\) ではなく \(u \rightarrow v\) と書きます。</description>
+    </item>
+    
+    <item>
+      <title>グラフの表現と例</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/representations_and_examples/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/representations_and_examples/</guid>
+      <description>グラフを可視化する最も簡単な方法は描くことです。描いたグラフのことを、グラフの描画 (drawing) と呼びます。グラフの描画は各頂点を平面上の (普通小さい円などで表される) 点に、各辺を頂点間の直線 (または曲線) に対応させます。どの辺も交わらないようにグラフを描画できるとき、グラフは平面 (planar) であると言い、そのような描画を埋め込み (embedding) と呼びます1。同じグラフでも描画はいくつもあり得るので、特定の描画とグラフを混同しないよ</description>
+    </item>
+    
+    <item>
+      <title>データ構造</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/data_structure/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/data_structure/</guid>
+      <description>実際のプログラムでグラフを扱うときは、たいていは隣接リストと隣接行列という二つのよく知られたデータ構造のどちらかを使ってグラフを表現することになります。高いレベルで抽象的に言うと、どちらのデータ構造も頂点を添え字とした配列です。各頂点に \(1\) から \(V\) のユニークな整数を割り当てて、この整数と頂点を同一視します。 隣接リスト グラフの格納に使われる最も一般的なデータ構造は隣接リスト (adjacency list) です。隣接リストはリストの</description>
+    </item>
+    
+    <item>
+      <title>何か優先探索</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/whatever_first_search/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/whatever_first_search/</guid>
+      <description>ここまではグラフに対する局所的な操作のみを考えてきましたが、ここからはグラフ全体に関する操作や性質を考えます。グラフ全体に関係する最も基礎的な性質は到達可能性 (reachablity) です。到達可能性問題では、グラフ \(G\) と頂点 \(s\) が与えられたときにどの頂点が \(s\) から到達可能か、つまり \(s\) からの路が存在する頂点はどれかを考えます。まずは無向グラフを考え、有向グラフは節の終わりで軽く触れることにします。無向グラフでは、\(s\) から</description>
+    </item>
+    
+    <item>
+      <title>重要な変種</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/important_variants/</link>
+      <pubDate>Mon, 04 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/important_variants/</guid>
+      <description>スタック: 深さ優先 “袋”としてスタックを使って何か優先探索を実装した場合、以前に紹介した深さ優先探索となります。スタックでは挿入 (プッシュ) と削除 (ポップ) をそれぞれ \(O(1)\) 時間で行えることから、アルゴリズム全体の実行時間は \(\pmb{O(V + E)}\) です。親へ向かう辺を集めることで形成される全域木は深さ優先全域木 (depth-first spanning tree) と呼ばれます。この全域木の正確な形は探索を始める頂点と for ループにおいて辺を選ぶ順番に依存しますが、一般的に</description>
+    </item>
+    
+    <item>
+      <title>グラフへの帰着</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/graph_reductions/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/graph_reductions/</guid>
+      <description>塗りつぶし (Flood Fill) 何か優先探索の現代的な例のうち最も古いものの一つは、Edward Moore (エドガー・ムーア) によって 1950 年代中ごろに提案された、ピクセルマップに対する塗りつぶし (flood fill) 演算です。ピクセルマップ (pixel-map) とは各要素が色を表す二次元配列であり、配列の要素は picture elements (画素) を省略してピクセル (pixel) と呼ばれます1。ピクセルマップの連結領域 (connected region) とは同じ色を持つピクセルの連結な部分集合のことです。ここで二つのピクセルが連結</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/basic_graph_algorithms/exercises/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/basic_graph_algorithms/exercises/</guid>
+      <description>グラフ 次の定義が全て同値なことを示してください。 木とは連結な非巡回グラフである。 木とは一成分からなる森である (森は非巡回グラフ)。 木とは辺が \(V-1\) 個以下の連結グラフである。 木とは最小連結グラフである: 任意の辺を削除するとグラフが非連結となる。 木とは辺が \(V-1\) 個以上の非巡回グラフである。 木とは最大非巡回グラフである: 任意の二つの頂点の間に辺を追加すると閉路ができる。 \(n2\) 個の頂点を持つ任意の連結非巡回グラフには</description>
+    </item>
+    
+  </channel>
+</rss>

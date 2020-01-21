@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NP 困難性 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/np_hardness/</link>
+    <description>Recent content in NP 困難性 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/np_hardness/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>勝てないゲーム</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/a_game_you_cant_win/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/a_game_you_cant_win/</guid>
+      <description>赤いスーツに身を包んだ、Tom Waits よろしくいかつい顔をしたセールスマンが、\(n\) 個のスイッチと一つの電球の付いた黒い金属の箱をあなたに見せてきました。セールスマンによると、箱の中にはブール回路 ――たくさんの \(\textsc{And}\), \(\textsc{Or}\), \(\textsc{Not}\) を繋いだもの―― が入っており、その回路の入力が \(n\) 個のスイッチで、出力が電球であるとのことです。 そして彼は次の質問をしました: 「電球を灯らせる入力は存在するか？」もし質問に正しく答えること</description>
+    </item>
+    
+    <item>
+      <title>P 対 NP</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/p_versus_np/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/p_versus_np/</guid>
+      <description>アルゴリズムが“効率的である”ための最低条件は、実行時間が入力サイズの多項式で抑えられることです。つまり入力サイズを \(n\) としたときにある定数 \(c\) が存在して、実行時間が \(O(n^{c})\) となるということです1。研究者達は全ての問題が高速に解けるわけではないことに早くから気付いていましたが、どの問題が早く解けてどの問題がそうでないのかを見極めるのに苦労していました。NP 困難 (NP-hard) と呼ばれる問題は誰もが多項式時間で解けないと信</description>
+    </item>
+    
+    <item>
+      <title>NP 困難・NP 容易・NP 完全</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/np_hard_easy_complete/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/np_hard_easy_complete/</guid>
+      <description>問題 \(\Pi\) がNP 困難 (NP-hard) であるとは、\(\Pi\) に対する多項式時間合アルゴリズムが NP に属する全ての問題に対する多項式時間アルゴリズムを意味することを言います。言い換えると: \(\pmb{\Pi}\) が NP 困難 \(\iff\) \(\pmb{\Pi}\) が多項式時間で解けるなら P=NP 分かりやすく言うと、ある NP 困難な問題 \(\Pi\) が一つでも高速に解ければ、 \(\Pi\) を解くサブルーチンを使うことで、答えが簡単に検証できる種類の問題全てを高速に解くことができるということです。NP 困難な問題は少</description>
+    </item>
+    
+    <item>
+      <title>❤ きちんとした定義 (HC SVNT DRACONES)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/formal_definitions/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/formal_definitions/</guid>
+      <description>複雑性クラス P, NP, co-CP をきちんと定義するには、言語 (language) と Turing 機械を使った議論が必要です。言語とは有限アルファベット \(\Sigma\) 上の文字列の集合であり、\(\Sigma = \lbrace {\color{maroon}{0}}, {\color{maroon}{1}} \rbrace\) と仮定しても一般性は失われません。Turing 機械とは機能が極端に制限されたコンピューターであり、その詳細な定義は計算能力を考えるときには驚くほど重要ではありません。 P は決定性単一テープ Turing 機械を使って多項式時間 (polynomial time) で判定できる言語の集合として</description>
+    </item>
+    
+    <item>
+      <title>帰着と SAT</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/reductions_and_sat/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/reductions_and_sat/</guid>
+      <description>回路充足性問題以外の全ての問題に対する NP 困難性を証明するには、帰着を使った議論が必要になります。問題 A を別の問題 B に帰着させる (reduce problem A to anther problem B) とは、問題 B へのアルゴリズムがすでに手に入っているという仮定の下で問題 A を解くアルゴリズムを説明することを言います。帰着はこの本を読み始める前にも何度も行ってきたはずですが、そのときには帰着のことを「サブルーチンを書く」あるいは「ユーティリティ関数を書く」また</description>
+    </item>
+    
+    <item>
+      <title>3 SAT (CircuitSAT からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/3sat_from_sat/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/3sat_from_sat/</guid>
+      <description>様々な問題の NP 困難性を証明するのに特に便利な \(\textsc{SAT}\) の特殊ケースがあり、\(\textsc{3CNF-SAT}\) あるいは \(\textsc{3SAT}\) と呼ばれます。 ブール式が連言標準形 (conjunctive normal form, CNF) であるとは、式がいくつかの節 (clause) の連言 (disjunction, \(\textsc{Or}\)) であり、それぞれの節がリテラルの選言からなる (conjunction, \(\textsc{And}\)) ことを言います。ここでリテラルは一つの変数またはその否定です。例えば: \[ \overbrace{(a \lor b \lor c \lor d)}^{\text{節 (clause)}} \land (b \lor \overline{c} \lor \overline{d}) \land (\overline{a} \lor c \lor d) \land (a \lor \overline{b}) \] は CNF 式で</description>
+    </item>
+    
+    <item>
+      <title>最大独立集合 (3SAT からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/maximum_independent_set_from_3sat/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/maximum_independent_set_from_3sat/</guid>
+      <description>これから考えるいくつかの問題において、入力は単純重み無し無向グラフ、出力は何らかの構造的な特徴を持つ部分グラフのうち最大または最小のものです。 \(G\) を任意のグラフとします。\(G\) の独立集合 (independent set) とは、\(G\) の頂点の集合でどの頂点の組の間にも辺が無いものを言います。最大独立集合問題、略して \(\textsc{MaxIndSet}\) は与えられたグラフに含まれる最大の独立集合の大きさを求める問題です。これから \(\textsc{MaxIndSet}\) が NP 困難であることを \(\textsc{3SAT}\) からの帰</description>
+    </item>
+    
+    <item>
+      <title>共通するパターン</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/general_pattern/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/general_pattern/</guid>
+      <description>NP 困難性の証明、そして一般的には全ての多項式時間帰着には、共通するパターンがあります。問題 \(X\) から問題 \(Y\) への多項式時間帰着には次のステップが必要です: \(X\) の任意のインスタンス \(x\) を \(Y\) の特殊なインスタンス \(y\) に変換する多項式時間アルゴリズムを示す。 \(x\) が \(X\) の“良い”インスタンスならば \(y\) は \(Y\) の“良い”インスタンスであると示す。 \(y\) が \(Y\) の“良い”インスタンスならば \(x\) は \(X\) の“良い”インスタンスであると示す (通常最も難</description>
+    </item>
+    
+    <item>
+      <title>クリークと頂点被覆 (最大独立集合からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/clique_and_vertex_cover/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/clique_and_vertex_cover/</guid>
+      <description>クリーク (clique) とはグラフに含まれる完全グラフ、つまり任意の頂点の組の間に辺がある部分グラフのことであり、\(\textsc{MaxClique}\) 問題とはグラフに含まれる最大のクリークの大きさを求める問題です。頂点被覆 (vertex cover) とはグラフの全ての辺に触れるような頂点の集合であり、\(\textsc{MinVertexCover}\) 問題とはグラフに含まれる最小の頂点被覆の大きさを求める問題です。 \(\textsc{MaxClique}\) が NP 困難</description>
+    </item>
+    
+    <item>
+      <title>グラフの彩色 (3SAT からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/graph_coloring/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/graph_coloring/</guid>
+      <description>グラフ \(G = (V,E)\) の真の \(\pmb{k}\)-彩色 (proper \(\pmb{k}\)-coloring) とは、各頂点に \(k\) 個ある色のどれかを割り当てる関数 \(C: V \rightarrow \lbrace 1, 2, \ldots, k \rbrace\) であって辺でつながれた任意の頂点に違う色が割り当てられるものを言います (“色”は適当なラベルであり、ここでは整数とします。電磁スペクトル、CMYK ベクトル、Pantone の色番号などは使いません)。グラフ彩色問題とは与えられたグラフを彩色するのに必要となる色の数の最小値を計算する問題</description>
+    </item>
+    
+    <item>
+      <title>ハミルトン閉路</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/hamiltonian_cycle/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/hamiltonian_cycle/</guid>
+      <description>ハミルトン閉路 (Hamiltonian cycle) とはグラフの全ての頂点をちょうど一回ずつ訪れる閉路のことです (オイラー閉路 (Eulerian cycle) とは異なります。オイラー閉路は全ての辺をちょうど一回ずつ使う閉じた歩道であり、深さ優先探索を使って線形時間で簡単に見つけられます)。ここでは有向グラフに対するハミルトン閉路問題が NP 困難であることの証明を二つ示します。 頂点被覆からの帰着 ハミルトン閉路問題の NP 困難性の証明の一つ目は、判定バージョンの頂点被覆</description>
+    </item>
+    
+    <item>
+      <title>部分和 (最小頂点被覆からの帰着)</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/subset_sum/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/subset_sum/</guid>
+      <description>次に NP 困難性を示す問題は二章で登場した \(\textsc{SubsetSum}\) です。この問題では正の整数の集合 \(X\) と整数 \(T\) が与えられ、\(X\) の部分集合で要素の和が \(T\) となるものが存在するかどうかを判定します。 ここでも \(\textsc{VertexCover}\) からの帰着を作ります。つまり任意の無向グラフ \(G\) と整数 \(k\) から整数の集合 \(X\) と整数 \(T\) を構築し、\(G\) に大きさ \(k\) の頂点被覆が存在するときに限って和が \(T\) の \(X\) の部分集合があるようにするということです。ここで説明する帰着には二種類</description>
+    </item>
+    
+    <item>
+      <title>その他の便利な NP 困難問題</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/other_useful_np_hard_problems/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/other_useful_np_hard_problems/</guid>
+      <description>文字通り数千もの問題が NP 困難であると示されています。ここでは帰着を導くときに有用な NP 困難問題をいくつか紹介します。それぞれについて NP 困難性の証明の詳細を述べることはしませんが、ほとんどの問題に対する証明は Garey と Johnson による NP 完全性についての恐ろしい黒本1に載っています。ここまでに紹介した問題の全て、そしてこのリストにある問題のほとんどは、1972 年の Richard Karp (リチャード・カープ) による一つの画期的な論文で NP</description>
+    </item>
+    
+    <item>
+      <title>正しい問題を選ぶ</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/choosing_the_right_problem/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/choosing_the_right_problem/</guid>
+      <description>問題の NP 困難性を証明するうえで最も難しいステップの一つは、帰着元となるのに適した問題を選ぶ部分です。Cook-Levin の定理からは、ある NP 困難な問題から問題 \(X\) への帰着があるならば、任意の NP 困難な問題から問題 \(X\) への帰着が存在することが言えます。しかしそうは言っても帰着のしやすさは問題によって異なります。問題を選ぶ機械的な方法というのは存在しませんが、役に立つであろう経験則をいくつかあげます: 問題が</description>
+    </item>
+    
+    <item>
+      <title>ちょっとした現実世界の例</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/a_frivolous_real_world_example/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/a_frivolous_real_world_example/</guid>
+      <description>ドラフツ (draughts) は何千年にもわたって遊ばれているボードゲームです。ドラフツには様々なバージョンがありますが、アメリカ人の多くにとってはチェッカー (checker) あるいはイングリッシュドラフツ (English draughts) と呼ばれるものが一番身近でしょう。しかし世界で一番知られているバージョンは国際ドラフツ (international draughts) あるいはポーランドドラフツ (Polish draughts) と呼ばれるものであり、16 世紀のオランダに起源を持ちます。完全なルールについては Wikipedia に譲り、英米バージョンと</description>
+    </item>
+    
+    <item>
+      <title>❤ 縞模様を超えて</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/on_beyond_zebra/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/on_beyond_zebra/</guid>
+      <description>P と NP は複雑性クラスの巨大な階層における最初の二ステップでしかありません。この章 (そしてこの本) の締めくくりとして、興味深い複雑性クラスをいくつか紹介します。 多項式空間 PSPACE は多項式空間を使って解ける判定問題の集合です。NP に属する全ての問題 (したがって P に属する全ての問題) は PSPACE に属します。NP \(\neq\) PSPACE であることが広く信じられていますが、P \(\neq\) PSPACE さえ証明できた人はいません。 問題 \(\Pi\) がPSPACE 困難 (PSPACE-hard) であると</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/np_hardness/exercises/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/np_hardness/exercises/</guid>
+      <description>\(\textsc{Partition}\) を \(O(nM)\) 時間で解くアルゴリズムを説明、解析してください。ここで \(n\) は入力の集合の大きさ、\(M\) は入力の集合の要素の和を表します。 このアルゴリズムが P=NP を意味しないのはなぜですか？ \(\textsc{BoxDepth}\) と呼ばれる次の問題を考えます:「辺が \(x, y\) 軸に平行な \(n\) 個の長方形の集合が与えられる。共通する点が存在するようなこの集合の部分集合で最大のものの大きさはいくつか？」 \(\textsc{BoxDepth}\) から \(\textsc{MaxClique}\) への多項式時間帰着を説明してください。 \(\textsc{BoxDepth}\) に対する多項式</description>
+    </item>
+    
+  </channel>
+</rss>

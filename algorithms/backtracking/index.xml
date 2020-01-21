@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>バックトラッキング on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/backtracking/</link>
+    <description>Recent content in バックトラッキング on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/backtracking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>N クイーン</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/n_queens/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/n_queens/</guid>
+      <description>バックトラッキングを使うアルゴリズムとして分かりやすいのが、有名な \(\pmb n\) クイーン問題を解くアルゴリズムです。通常の 8 x 8 のチェス盤に対するこの問題はドイツ人チェス愛好家 Max Bezzel (マックス・ベッツェル) によって (“Schachfreund”という偽名で) 1848 年に発表され、1869 年には一般的な \(n \times n\) の盤に対する問題が François-Joseph Eustache Lionnet (フランソワ=ジョゼフ・ウスターシュ・ライオネット) によっ</description>
+    </item>
+    
+    <item>
+      <title>ゲーム木</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/game_tree/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/game_tree/</guid>
+      <description>正方形のマス目からなる \(n \times n\) の格子を使った次の単純な二人対戦ゲームを考えます1。このゲームは二人のプレイヤー Horace Fahlberg-Remsen (ホレース・ファールベルグ・レムセン) と Vera Rebaudi (ベラ・レバウディ)2が \(n\) 個の駒を盤の反対側に向かって移動させるゲームです。Horace の駒は左端の列に一列に並んだ状態でスタートし、水平方向に (horizontally) 右へ移動します。同じように Vera の駒は一番上の行に一列に並んだ状態からスタートし、一番下の列を目指して</description>
+    </item>
+    
+    <item>
+      <title>部分和</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/subset_sum/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/subset_sum/</guid>
+      <description>\(\textsc{SubsetSum}\) というもっと複雑な問題を考えましょう。正の整数の集合 \(X\) とターゲットとなる整数 \(T\) が与えられたときに、和が \(T\) となる \(X\) の部分集合を求める問題です。 条件を満たす部分集合が複数存在しても構わないことに注意してください。例えば \(X = \lbrace 8,6,7\) \(,5,3,10,\) \(9 \rbrace\) で \(T = 15\) のとき、答えは \(\textsc{True}\) であり、和が 15 になる部分集合は \(\lbrace 8, 7 \rbrace\), \(\lbrace 7,5,3 \rbrace\), \(\lbrace 6, 9 \rbrace\) の三つです。一方 \(X = \lbrace 11, 6, 5, 1, 7, 13, 12 \rbrace\) で \(T = 15\) のとき、答えは \(\textsc{False}\) です。 自明なケースが二つあります</description>
+    </item>
+    
+    <item>
+      <title>共通するパターン</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/the_general_pattern/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/the_general_pattern/</guid>
+      <description>バックトラッキングを使ったアルゴリズムはどれも、特定の制約を満たす再帰的に定義された構造の構築を目標として決断の列 (decision sequence) を作っていきます。目標となる構造そのものが求める決断の列であることもありますが、常にそうだというわけではありません。これまでの例でいうと: \(n\) クイーン問題では、目標は各列におけるクイーンの配置の列であり、どの二つのクイーンもお互いを攻撃できてはいけないという制約がありました。アルゴリ</description>
+    </item>
+    
+    <item>
+      <title>分かち書き (Interpunctio Verborum)</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/string_segmentation/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/string_segmentation/</guid>
+      <description>空白も句読点もない外国語の文章を単語ごとに区切りたいとします。例えば次の文章は、Lucius Licinius Murena (ルシウス・リキニウス・ムレナ) を弁護するために Cicero (キケロ) が紀元前 62 年に行った有名な演説を、古典ラテン語の標準的な記法 scriptio continua で表したものです1: PRIMVSDIGNITASINTAMTENVISCIENTIANONPOTESTESSERESENIMSVNTPARVAEPROPEINSINGVLISLITTERISATQVEINTERPVNCTIONIBUSVERBORVMOCCVPATAE ラテン語が流暢な読者は、この文字列を (現代的な正書法で) Primus dignitas in tam tenui scientia non potest esse; res enim sunt parvae, prope in singulis litteris atque interpunctionibus verborum occupatae とパースできるでしょう2。 このような文字列の分割のことを“分</description>
+    </item>
+    
+    <item>
+      <title>最長増加部分列</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence/</guid>
+      <description>任意の列 \(S\) に対して、\(S\) からゼロ個以上の要素を削除してできる列を部分列 (subsequence) と言います。このとき残った要素の順番は変更せず、部分列の要素は \(S\) で隣り合っている必要はありません。 例えば街の大通りを車で通って信号の列 \(S\) を通り過ぎるとき、あなたが車を停めるのは赤になっている信号からなる \(S\) の部分列です。運が良ければ信号で全く停まらずに済みますが、その場合に対応する空列も \(S\) の部分列です。また運が悪くて全ての</description>
+    </item>
+    
+    <item>
+      <title>最長増加部分列 テイク 2</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence_take_2/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/longest_increasing_subsequence_take_2/</guid>
+      <description>最長増加部分列を見つけるのに使えるバックトラッキングを使ったアルゴリズムはこれだけではありません。入力配列を一つずつ走査していくのではなくて、出力配列を一つずつ構築していくこともできます。つまり、「\(A[i]\) は出力配列に含まれるか？」ではなく「出力配列における次の要素は何か？ そもそも存在するか？」を直接考えるということです。 この戦略を処理している途中に放り込まれた場合、次のような図を目にする</description>
+    </item>
+    
+    <item>
+      <title>最適二分探索木</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/optimal_binary_search_trees/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/optimal_binary_search_trees/</guid>
+      <description>この章で最後に説明するのは、再帰的なバックトラッキングと分割統治法を組み合わせた例です。 二分探索木の探索が成功した場合、その実行時間は探索する頂点の祖先1の数に比例することを思い出してください。このため探索の最悪実行時間は木の深さに等しくなります。したがって探索処理の最悪計算時間を小さくするには、木の高さは最小であるべきであり、理想は完璧にバランスの取れた木です。 しかし二分探索木が使われる多くの場</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/backtracking/exercises/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/backtracking/exercises/</guid>
+      <description>\(\textsc{SubsetSum}\) を一般化した次の問題に対する再帰的なアルゴリズムを説明してください。 正の整数からなる配列 \(X[1..n]\) と整数 \(T\) が与えられたときに、和が \(T\) となる \(X\) の部分集合の数を求める。 正の整数からなる二つの配列 \(X[1..n]\) と \(W[1..n]\) と \(T\) が与えられ、\(W[i]\) が \(X[i]\) の重さ (weight) を表しているときに、和が \(T\) となる \(X\) の部分集合の中で重さが最大となるものの重さを求める。和が \(T\) となる \(X\) の部分集合がない場合には \(- \infty\) を返す。 次にあげる文字列分割問題の変種</description>
+    </item>
+    
+  </channel>
+</rss>

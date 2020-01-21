@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>最短路 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/shortest_path/</link>
+    <description>Recent content in 最短路 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/shortest_path/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>最短路木</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/shortest_path_trees/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/shortest_path_trees/</guid>
+      <description>ある頂点から別の頂点への最短路を計算するほとんど全てのアルゴリズムが実際に解いているのは、次に説明する単一ソース最短路 (single source shortest path, SSSP) 問題です。これは \(s\) からグラフに含まれる他の全ての頂点への最短路を求める問題であり、通常は \(s\) を根とする最短路木 (shortest path tree) を見つけることで解かれます。最短路木には求めるべき全ての最短路が含まれます。 各頂点への最短路がユニークならばそれらの最短路を合わせると木になるというのはすぐに</description>
+    </item>
+    
+    <item>
+      <title>唯一の SSSP アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/the_only_sssp_algorithm/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/the_only_sssp_algorithm/</guid>
+      <description>グラフの探索問題や最小全域木問題と同じように、多くの異なる SSSP アルゴリズムは次に示す一般的なアルゴリズムの特殊ケースとして表現できます。このアルゴリズムは Lester Ford (レスター・フォード) によって 1956 年に、そして Geroge Dantzig (ジョージ・ダンツィグ) によって 1957 年に、George Minty (ジョージ・ミンティ) によって 1958 年にそれぞれ独立に発見されました1。このアルゴリズムではグラフの各頂点 \(v\) が次の二つの値を保存し、これらの値によ</description>
+    </item>
+    
+    <item>
+      <title>重み無しグラフ: 幅優先探索</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/unweighted_graphs_bredadth_first_search/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/unweighted_graphs_bredadth_first_search/</guid>
+      <description>最も単純な最短路問題は全ての辺の重みが \(1\) で、路の長さが辺の数に等しい場合です。この特殊ケースではこれまでに説明したグラフ探索アルゴリズムの一つ幅優先探索 (breadth-first search, BFS) を使って答えを見つけられます。 幅優先探索は Edward Moore (エドワード・ムーア) によって発見されたとされることが多いです。実際彼は幅優先探索を (“Algorithm A”として) 1957 年に発表しており、これは初めて公表された迷路の最短路を見つけるための手続きで</description>
+    </item>
+    
+    <item>
+      <title>有向非巡回グラフ: 深さ優先探索</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/dag_depth_first_search/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/dag_depth_first_search/</guid>
+      <description>有向非巡回グラフの最小路を計算するのは簡単であり、辺に重みが付いていても、その重みが負であったとしても簡単です (負閉路を気にする必要ありません。定義により、閉路が無いのですから！)。実はこれは完全に標準的な動的計画法のアルゴリズムです。 \(G\) を辺に重みの付いた有向非巡回グラフ、\(s\) を固定された開始頂点とします。任意の頂点 \(v\) に対して、\(\mathit{dist}(v)\) で \(G\) における \(s\) から \(v\) への</description>
+    </item>
+    
+    <item>
+      <title>最良優先: Dijkstra のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/best_first_dijkstras_algorithm/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/best_first_dijkstras_algorithm/</guid>
+      <description>幅優先探索では FIFO を使っていましたが、この FIFO を頂点 \(v\) に対する鍵が暫定的な距離 \(\mathit{dist}(v)\) であるような優先度付きキューで置き換えると、別の最短路アルゴリズムが手に入ります。1957 年にこのアルゴリズムを初めて“出版”したのは Michael Leyzorek (マイケル・レイゾレク) を中心とするケース工科大学の研究者チームで、米陸軍電子機器性能証明実験場の戦闘開発部署に対する定期報告書でのことでした。同じアルゴリズムは Edsger Dijkstra (エドガー・ダイクス</description>
+    </item>
+    
+    <item>
+      <title>スベテの辺を緩和する: Bellman-Ford</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/relax_all_the_edges_bellman_ford/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/relax_all_the_edges_bellman_ford/</guid>
+      <description>Ford の一般的な最短路アルゴリズムの一番単純な実装のアイデアは、1954 年に Alfonso Shimbel (アルフォンソ・シンベル) によって提案され、1957 年に Edward Moore (エドワード・ムーア) によってより詳細に示されました。同じアルゴリズムは 1957 年には Max Woodbury (マックス・ウッドベリー) と George Dantzig (ジョージ・ダンツィグ) によって、1958 年には Richard Bellman (リチャード・ベルマン) によって、同じく 1958 年に Geroge Minty (ジョージ・ミンティ) によってそれぞれ独立に発</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/shortest_path/exercises/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/shortest_path/exercises/</guid>
+      <description>辺に任意の重みが付いた、負閉路が含まれないとは限らない有向グラフを \(G\) とし、\(s\) を \(G\) の適当な頂点とします。 全ての頂点 \(v\) が \(\mathit{dist}(v)\) を保持しているとします (前者へのポインタは保持していません)。このとき全ての \(v\) について \(\mathit{dist}(v)\) が \(s\) から \(v\) への最短路の長さかどうかを判定するアルゴリズムを説明、解析してください。 全ての頂点 \(v \neq s\) が \(G\) の他の頂点へのポインタ \(\mathit{pred}(v)\) を保持しているとします (距離は保持していまません)。このとき</description>
+    </item>
+    
+  </channel>
+</rss>

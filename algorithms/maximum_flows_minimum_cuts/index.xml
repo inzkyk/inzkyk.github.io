@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>最大フローと最小カット on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/</link>
+    <description>Recent content in 最大フローと最小カット on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>フロー</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/flow/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/flow/</guid>
+      <description>\(\pmb{(s, t)}\)-フロー (ソースとシンクが明らかな場合には単にフロー) とは、関数 \(f:E \rightarrow \mathbb{R}\) であって \(s,t\) 以外の全ての頂点 \(v\) において次の保存条件 (conservation constraint) が満たされるものを言います: \[ \sum_{u} f(u \rightarrow v) = \sum_{w} f(v \rightarrow w) \] 保存条件を言葉を使って言い換えれば、全ての頂点 \(v\) に対して \(v\) に入るフローと \(v\) から出るフローが等しいということです。記法を単純にするために、辺 \(u \rightarrow v\) が存在しない場合には \(f(u \rightarrow v) = 0\) と定義します。フロー \(f\) の値 (value) \(|f|\) とはソース頂</description>
+    </item>
+    
+    <item>
+      <title>カット</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/cut/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/cut/</guid>
+      <description>\(\pmb{(s, t)}\)-カット (ソースとシンクが明らかな場合は単にカット) とは、頂点集合の互いに素な二つの部分集合 \(S, T\) への分解であって \(s \in S\) かつ \(t \in T\) を満たすものを言います。\(S\) と \(T\) が互いに素とは \(S \cup T = V\) かつ \(S \cap V = \varnothing\) ということです。 容量関数 \(c:E \rightarrow \mathbb{R}_{\geq 0}\) が与えられたとき、カットの容量 (capacity) が \(S\) から \(T\) に向かう辺の容量の和として定義されます: \[ \| S, T \| = \sum_{s \in S} \sum_{t \in T} c(s \rightarrow t) \] (ここでも辺 \(v \rightarrow w\) が存在しない場合には</description>
+    </item>
+    
+    <item>
+      <title>最大フロー最小カット定理</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/the_maxflow_mincut_theorem/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/the_maxflow_mincut_theorem/</guid>
+      <description>意外なことに、任意のフローネットワークは \(|f| = \| S, T \|\) を満たす \((s,t)\)-フロー \(f\) と \((s,t)\)-カット \((S, T)\) を必ず持ちます。これが有名な最大フロー最小カット定理 (Maxflow-Mincut Theorem) です。この定理は Lester Ford (レスター・フォード、最短路アルゴリズムで知られる) と Delbert Fulkerson (デルバート・ファルカーソン) によって 1954 年に初めて証明され、1956 年には Peter Elias (ピーター・イライアス) と Amiel Feinstein (アミエイ・ファインスタイン) と Claude Shannon (</description>
+    </item>
+    
+    <item>
+      <title>Ford と Fulkerson の増加路アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/ford_and_fulkerson_algorithm/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/ford_and_fulkerson_algorithm/</guid>
+      <description>Ford と Fulkerson が示した最大フロー最小カット定理の証明から、最大フローを計算するアルゴリズムが直ちに手に入ります: 空のフローから始め、残余グラフにおける \(s\) から \(t\) への任意の増加路を使ってフローを増加させる処理を増加路が無くなるまで繰り返すというものです。 このアルゴリズムについての次の系は簡単に示せますが、重要です: 整数性定理 フローネットワークの辺の容量が全て整数ならば、全ての辺に流れるフローが整数の最大フロー</description>
+    </item>
+    
+    <item>
+      <title>フローの合成と分解</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/combining_and_decomposing_flows/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/combining_and_decomposing_flows/</guid>
+      <description>フローの定義は頂点における保存条件が満たされるグラフの辺を入力とする関数であるのが普通ですが、他の定式化もあります。この定式化の方がより自然で有用なこともあります。 任意のグラフ \(G\) とソース頂点 \(s\) とシンク頂点 \(t\) が与えられたとして、\(G\) の適当な \((s,t)\)-フロー \(f, g\) と実数 \(\alpha, \beta\) を取り、次の関数 \(h: E \rightarrow \mathbb{R}\) を考えます: \[ h(u \rightarrow v) := \alpha \cdot f(u \rightarrow v) + \beta \cdot g(u \rightarrow v) \] ここで \(u \rightarrow v\) は任意の辺です。この定義は単純に \(h</description>
+    </item>
+    
+    <item>
+      <title>Edmonds と Karp のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/edmonds_and_karps_algorithms/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/edmonds_and_karps_algorithms/</guid>
+      <description>Ford と Fulkerson のアルゴリズムは残余グラフのどの路を増加させるかを指定しません。このアルゴリズムの最悪計算時間がひどいのは、増加路の選び方をいくらでも悪くできるのが原因です。1970 年代前半、Jack Edmonds (ジャック・エドモンズ) と Richard Karp (リチャード・カープ) は増加路を選ぶための二つの自然な方法を解析し、どちらを使った場合でもより効率の良いアルゴリズムが得られることを示しました。 最幅増加路 Edmonds と Karp が解析した一つ目の</description>
+    </item>
+    
+    <item>
+      <title>さらなる進展</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/further_progress/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/further_progress/</guid>
+      <description>最大フローアルゴリズムの物語はこれで終わりでは決してありません。何十年にも渡る高速なアルゴリズムの研究の成果を次の表にまとめます1。ここにあるアルゴリズムは全て反復によって最大フローを計算するものであり、ほとんどのアルゴリズムには二つのバージョンがあります: 一つは各反復で総当たりを使う単純なバージョンで、もう一つは洗練されたデータ構造を使ってフローネットワークの全域木を管理することで反復と全域木の</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/exercises/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/maximum_flows_minimum_cuts/exercises/</guid>
+      <description>有向グラフ \(G = (V, E)\) と二つの頂点 \(s, t\) と容量関数 \(c: E \rightarrow \mathbb{R}^{+}\) と \(f: E \rightarrow \mathbb{R}\) が与えられたとします。\(f\) が \(G\) の最大 \((s,t)\)-フローであるかを判定するアルゴリズムを説明してください。 フローネットワーク \(G\) の実現可能な \((s,t)\)-フローを二つ取って \(f, f^{\prime}\) \((|f^{\prime}| |f|)\) とします。残余グラフ \(G_{f}\) に実現可能な \((s,t)\)-フローであって値が \(|f^{\prime}| - |f|\) であるものが存在することを示してください。 \(G\) を適当なフローネット</description>
+    </item>
+    
+  </channel>
+</rss>

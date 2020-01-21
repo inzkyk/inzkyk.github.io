@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>再帰 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/recursion/</link>
+    <description>Recent content in 再帰 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/recursion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>帰着</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/reductions/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/reductions/</guid>
+      <description>帰着 (reduction) はアルゴリズムを設計するときに最もよく使われるテクニックです。問題 \(X\) を問題 \(Y\) に帰着させると言った場合、それは \(Y\) を解くアルゴリズムをブラックボックス (サブルーチン) として使いながら \(X\) を解くことを意味します。帰着を考えるときに重要なのが、帰着の結果として出来上がる \(X\) を解くアルゴリズムの正しさを、ブラックボックスがどう問題 \(Y\) を解くかに依存させてはいけない点です。仮定してよいのは、ブラックボックスが</description>
+    </item>
+    
+    <item>
+      <title>単純にして任せる</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/simplify_and_delegate/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/simplify_and_delegate/</guid>
+      <description>再帰 (recursion) は特に強力な帰着です。大雑把に言うと、次のように説明できます: もし問題のインスタンスを直接解くことができるなら、直接解く。 そうでなければ、問題を同じ問題のよりシンプルなインスタンスに帰着させる。 自分自身を参照する部分が分かりにくいなら、他の帰着と同じように、小さいインスタンスを別の人が解いてくれると想像すると良いでしょう (この別の人のことを再帰の妖精 (Recursion Fairy)と呼ぶのが私のお気に入りです</description>
+    </item>
+    
+    <item>
+      <title>Hanoi の塔</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/tower_of_hanoi/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/tower_of_hanoi/</guid>
+      <description>Hanoi (ハノイ) の塔は 1883 年1にフランス人教師で娯楽数学者でもあった Éduoard Lucas (エドゥアール・リュカ) によって2最初に発表されました ――実際に遊べるパズルとして！ その次の年、Henri de Parville (アンリ・ド・パルヴィル) はこのパズルを次のストーリーと共に紹介しています3: Benares (ベナレス) にある大寺院4...世界の中心にあるドームには、三つのダイアモンドの棒が刺さった真鍮のプレートがある。棒の高さは 1 キュー</description>
+    </item>
+    
+    <item>
+      <title>マージソート</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/mergesort/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/mergesort/</guid>
+      <description>マージソート (mergesort) はプログラム内蔵式の汎用コンピューター用に作られた最も古いアルゴリズムの一つです。このアルゴリズムは John von Neumann (ジョン・フォン・ノイマン) によって 1945 年に開発され、 1947 年に Herman Goldstine (ハーマン・ゴールドスタイン) との共著で発表されました。このプログラムは EDVAC 用に作られた計算用途ではないプログラムのうち最初期のものでもあります1。マージソートは次のステップからなります: 入力の配列をほぼ同じ長さの二つの</description>
+    </item>
+    
+    <item>
+      <title>クイックソート</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/quicksort/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/quicksort/</guid>
+      <description>クイックソート (quicksort) もまた再帰的なソートアルゴリズムです。Tony Hoare (トニー・ホーア) によって 1959 年に発見され、1961 年に発表されました。このアルゴリズムの各ステップを次に示します。クイックソートにおいて本当の作業と呼べるのは再帰呼び出しの前に配列を小配列に振り分ける部分であり、この振り分けによって最後のマージ処理が必要なくなります。 配列からピボット (pivot) を選ぶ。 配列を三つの小配列に分ける。三つの配列には</description>
+    </item>
+    
+    <item>
+      <title>パターン</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/the_pattern/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/the_pattern/</guid>
+      <description>マージソートとクイックソートで見てきた三段階のパターンは分割統治 (devide-and-conquer)と呼ばれます: 与えられた問題のインスタンスを同じ問題の独立したより小さいインスタンスに分割する (devide)。 小さいインスタンスを再帰の妖精に任せる (delegate)。 小さいインスタンスの答えを元のインスタンスの答えになるよう組み合わせる (combine)。 インスタンスのサイズがある定数より</description>
+    </item>
+    
+    <item>
+      <title>再帰木</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/recursion_tree/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/recursion_tree/</guid>
+      <description>先ほどから何度も出てきている再帰木 (recursion tree) を説明しましょう。再帰木とは分割統治法で出てくる再帰方程式を解くためのツールであり、単純で、多くの問題に適用でき、視覚的に理解が簡単です。 再帰木では根につながっている頂点が再帰的な小問題を表します。頂点の値 (value) とは、その頂点が表す小問題を解くのにかかる時間から再帰呼び出しの分の時間を除いたものです。この定義から、アルゴリズムの実行時間は木に含まれる全ての頂点の値</description>
+    </item>
+    
+    <item>
+      <title>❤ 線形選択</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/linear_time_selection/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/linear_time_selection/</guid>
+      <description>クイックソートに関する議論の中で、ソートされていない配列から中央値を見つける処理が線形時間で行えると説明しました。この操作のためのアルゴリズムは 1970 年代に Manuel Blum (マヌエル・ブラム)、Bob Floyd (ボブ・フロイド)、Vaughan Pratt (ヴォーン・プラット)、Ron Rivest (ロン・リベスト)、Robert Tarjan (ロバート・タージャン) によって発見されました。彼らのアルゴリズムが扱ったのは \(n\) 要素の配列と整数 \(k\) を受け取って配</description>
+    </item>
+    
+    <item>
+      <title>高速乗算</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/fast_multiplication/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/fast_multiplication/</guid>
+      <description>前章では、\(n\) 桁の数の乗算を \(O(n^{2})\) で行う古くからあるアルゴリズムをいくつか紹介しました。小学校で習う格子アルゴリズムや、エジプト人農民の乗算アルゴリズムです。 桁ごとの数を収めた配列を分割して、さらに次の等式を使えばもっと効率の良いアルゴリズムが作れそうです: \[ (10^{m}a + b)(10^{m}c + d) = 10^{2m}ac + 10^{m}(bc + ad) + bd \] この再帰方程式から以下に示す分割統治法を使ったアルゴリズムが作れます。\(n\) 桁の整数 \(x\) と \(y\) の積を計算するア</description>
+    </item>
+    
+    <item>
+      <title>べき乗</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/exponentiation/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/exponentiation/</guid>
+      <description>与えられた実数 \(a\) と正の整数 \(n\) について、\(a^{n}\) を計算する問題を考えましょう。標準的でナイーブな実装は単純な for ループを使うものです。\(n - 1\) 回の \(a\) による乗算が行われます: \begin{algorithmic} \Procedure{SlowPower}{$ a,n $} \State{\( x \leftarrow a \)} \For{\( i \leftarrow 2 \) \To \( n \)} \State{\( x \leftarrow x \cdot a \)} \EndFor \Return{\(x\)} \EndProcedure \end{algorithmic} 入力パラメータ \(a\) は整数でも、有理数でも、浮動小数点数でも構いません。さらに言えば、乗算の方法さえ分かっていれば数でなくても構いません。例えば同じアルゴリズムを使っ</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/recursion/exercises/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/recursion/exercises/</guid>
+      <description>Hanoi の塔 以下に示す再帰的でないアルゴリズムがそれぞれ上述した再帰的なアルゴリズムと全く同じ操作を行うことを示してください。同じ円盤を、同じ杭から同じ杭に、同じ順番で動かすことを示してください。三つの杭を \(0\), \(1\), \(2\) で表し、\(n\) 個の円盤を \(0\) から \(2\) に移動させるとします (図 1.1 参照)。 \(n\) が偶数ならば、杭 \(1\) と \(2\) の名前を交換する。\(i\) 番目のステップにおいて、杭 \(i \text{ mod } 3\) を使わないで行える唯一の操作を行う。</description>
+    </item>
+    
+  </channel>
+</rss>

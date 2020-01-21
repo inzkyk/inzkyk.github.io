@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go ドキュメントの翻訳 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/go_doc/</link>
+    <description>Recent content in Go ドキュメントの翻訳 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/go_doc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go コードの書き方 (翻訳)</title>
+      <link>https://inzkyk.xyz/go_doc/how_to_write_go_code/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/go_doc/how_to_write_go_code/</guid>
+      <description>イントロダクション このドキュメントではシンプルな Go パッケージの開発を通して go ツールを紹介します。go ツールは Go パッケージやコマンドをフェッチ・ビルド・インストールするための標準的な方法です。 go ツールを使うには、コードを決められた方法で整理する必要があります。そのためこのドキュメントは注意深く読むようにしてください。Go インストールを使いこなすための一番単純な方法を説明しています。 このドキュメントと</description>
+    </item>
+    
+  </channel>
+</rss>

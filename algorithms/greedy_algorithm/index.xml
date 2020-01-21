@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>貪欲アルゴリズム on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/greedy_algorithm/</link>
+    <description>Recent content in 貪欲アルゴリズム on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/greedy_algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>テープへのファイルの保存</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/stroing_files_on_tape/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/stroing_files_on_tape/</guid>
+      <description>磁気テープ1に \(n\) 個のファイルを保存したいとします。テープに保存したファイルは後でユーザーが読み込みますが、テープからのファイルの読み込みはディスクからの読み込みのようにはいきません。磁気テープを読み込むときには、まず目的のファイルがあるところまでテープを送る必要があるからです。 \(L[1..n]\) でファイルの長さを表すことにして、\(i\) 番目のファイルの長さが \(L[i]\) だとします。ファイルが \(1\) から \(n\) という順番で保存されて</description>
+    </item>
+    
+    <item>
+      <title>講義のスケジューリング</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/scheduling_classes/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/scheduling_classes/</guid>
+      <description>次の例はもう少し複雑です。あなたは情報科学をドロップアウトして応用カオス理論を専攻することに決めたとします。応用カオス理論専攻では全ての講義が毎週同じ日に開校されており、この日は学生から「Soberday (素面日)」と呼ばれていました (興味深いことに、学部はこの名前を使いませんでした)。講義はそれぞれ異なった開始時刻と終了時刻を持ちます: 例えば AC 101 (トイレットペーパー景観設計“Toilet Paper Landscape Ar</description>
+    </item>
+    
+    <item>
+      <title>共通するパターン</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/general_pattern/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/general_pattern/</guid>
+      <description>講義のスケジューリングに対する貪欲アルゴリズムの正しさの証明は、テープをソートするアルゴリズムの正しさの証明と同じ構造を持っています。つまり、帰納法を使った交換の議論 (exchange argument) です: 貪欲な解と異なる最適な解の存在を仮定する。 二つの解の“最初の”違いを見つける。 最適な選択と貪欲な選択を交換しても解が悪くならないことを示す (良くならなくても構わない)。 この議論と帰納法を組み合わせると最適な解が貪欲な解を含む</description>
+    </item>
+    
+    <item>
+      <title>Huffman 符号</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/huffman_codes/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/huffman_codes/</guid>
+      <description>二進符号 (binary code) は \(0\) と \(1\) からなる文字列 (符号) をアルファベットに対応させます。任意の符号が他の符号の接頭語になっていないとき、その二進符号は接頭独立 (prefix-free) であると言います (紛らわしいのですが、接頭独立な符号は接頭符号 (prefix code) と呼ばれることが多いです)。例えば 7 ビット ASCII コードとユニコードの UTF-8 はどちらも接頭独立な二進符号です。一方モールス信号は \(\cdot\) と \(-\) から構成されるものの、\(\color{maroon}{\tex</description>
+    </item>
+    
+    <item>
+      <title>安定マッチング</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/stable_mathcing/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/stable_mathcing/</guid>
+      <description>毎年数千人の新米医師が合衆国中の病院のインターンとなります。 二十世紀の最初の 50 年の間に良い医師を求める病院同士の競争は激しさを増していき、医学学校にいる生徒へのインターンシップの勧誘はどんどん早くなっていきました。時には二年生の生徒にまで締め切りの短い勧誘が来ることがあったといいます。このような状況を受けて、1940 年代に全国の医学校は生徒が 4 年生の特定の日になるまではインターンの情報を解禁しない</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/greedy_algorithm/exercises/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/greedy_algorithm/exercises/</guid>
+      <description>読者への注意: 貪欲アルゴリズムを使って解けない問題が混じっています！ また貪欲アルゴリズムを説明、解析するときには正しさの証明を必ず付けてください。証明は通常交換の議論の形をしているはずです。普通の問題では正しさの証明を要求しない (私の担当しているような) 講義において、この証明は特に重要となります。 講義のスケジューリング問題に対する \(\textsc{GreedySchedule}\) アルゴリズムは、この問題に対する唯一の貪欲アルゴリズムであるという</description>
+    </item>
+    
+  </channel>
+</rss>

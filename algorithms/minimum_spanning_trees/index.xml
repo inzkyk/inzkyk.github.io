@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>最小全域木 on Yuki&#39;s Note</title>
+    <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/</link>
+    <description>Recent content in 最小全域木 on Yuki&#39;s Note</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 12 Feb 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://inzkyk.xyz/algorithms/minimum_spanning_trees/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>辺の重みが異なる場合</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/distinct_edge_weights/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/distinct_edge_weights/</guid>
+      <description>最小全域木問題が厄介なのは、グラフに重みが同じ最小全域木が複数存在することがあり得る点です。例えば \(G\) の全ての辺の重みが \(1\) の場合、\(G\) の全ての全域木が重み \(V-1\) の最小全域木です。最小全域木が複数あるとアルゴリズムの開発が複雑になるので、最小全域木が一つだけだと仮定できれば話が単純になります。 幸いにも、最小全域木が唯一であることを保証する簡単な条件があります。 命題 7.1 連結グラフ \(G\) の辺の重みが全て異なる</description>
+    </item>
+    
+    <item>
+      <title>唯一の全域最小木アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/the_only_minimum_spanning_tree_algorithm/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/the_only_minimum_spanning_tree_algorithm/</guid>
+      <description>最小全域木を計算するアルゴリズムはたくさんありますが、そのほとんどはこれから説明する一般的な戦略のインスタンスと言うことができます。これはグラフ探索アルゴリズムにおいて、たくさんの異なるアルゴリズムが何か優先探索という一般的なアルゴリズムの変種だったことに似ています。 一般的な最小全域木アルゴリズムは入力グラフ \(G\) の非巡回部分グラフ \(F\) を管理します。\(F\) は中間全域森 (intermediate spanning forest) と呼ばれ、アルゴリズムの各</description>
+    </item>
+    
+    <item>
+      <title>Borůvka のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/boruvka_algorithms/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/boruvka_algorithms/</guid>
+      <description>最も古くそしておそらくは最も単純な最小全域木アルゴリズムは、チェコ人数学者 Otakar Borůvka (オタカール・ブルーフカ) によって 1926 年に発見されました。彼がこのアルゴリズムを発見したのは、いくつかの都市を最小の電線で繋ぐ電気ネットワークを作るにはどうすればよいかと Jindřich Saxel という人物に尋ねられてから約一年後のことでした1。このアルゴリズムは Gustav Choquet (グスタフ・ショケ) によって 1938 年に、Józef Łuk</description>
+    </item>
+    
+    <item>
+      <title>Jarník の (Prim の) アルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/jarkins_prims_algorithm/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/jarkins_prims_algorithm/</guid>
+      <description>次に古い最小全域木アルゴリズムはチェコ人数学者 Vojtěch Jarník (ヴォイチェフ・ヤルニク) によって 1925 年に、Borůvka に送った手紙の中で初めて示されました。Jarník は翌年にこの発見を公表しています。同じアルゴリズムは Joseph Kruskal (ジョゼフ・クラスカル) によって 1956 年に、(おそらくは) Robert Prim (ロバート・プリム) によって 1957 年に、Harry Lobermand (ハリー・ロバ―マンド) と Arnold Weinberger (アーノルド・ワインバーガー)</description>
+    </item>
+    
+    <item>
+      <title>Kruskal のアルゴリズム</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/kruskals_algorithms/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/kruskals_algorithms/</guid>
+      <description>最後に紹介する最小全域木アルゴリズムは Joseph Kruskal (ジョセフ・クラスカル) によって 1956 年に、彼が Jarník のアルゴリズムを再発見したのと同じ論文で発表されました。Kruskal がこの論文を書いた動機は、プリンストンの数学部門中を“飛び回って”いた“起源が曖昧な” Borůvka の原著論文の、“タイプライターを使った翻訳”を作ることでした。Kruskal は Borůvka のアルゴリズムを“不必要に難解”だと思っ</description>
+    </item>
+    
+    <item>
+      <title>練習問題</title>
+      <link>https://inzkyk.xyz/algorithms/minimum_spanning_trees/exercises/</link>
+      <pubDate>Wed, 13 Feb 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://inzkyk.xyz/algorithms/minimum_spanning_trees/exercises/</guid>
+      <description>\(G = (V, E)\) を辺に重みの付いた任意の接続グラフとします。 \(G\) の任意の閉路に対して、\(G\) の最小全域木がその閉路で最大の重みを持つ辺を含まないことを示してください。 証明または反証してください:「\(G\) の任意の閉路に対して、\(G\) の最小全域木にはその閉路で最小の重みを持つ辺が含まれる」 この章では入力グラフの辺が同じ重みを持たないと仮定し、これによって最小全域木の唯一性を保証してきました。実は、よ</description>
+    </item>
+    
+  </channel>
+</rss>
